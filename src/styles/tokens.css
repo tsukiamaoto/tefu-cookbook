@@ -1,0 +1,72 @@
+:root {
+  /* Editorial Warm Rice-Paper Surface Palette */
+  --bg-paper: #FAF7F1;
+  --bg-subtle: #F2ECE1;
+  --bg-card: #FFFFFF;
+  --border-default: #DDD5C7;
+  --border-strong: #C2B6A3;
+
+  /* High-Contrast Ink Typography (WCAG AAA >= 7:1) */
+  --text-primary: #1D1B18;
+  --text-secondary: #4E4840;
+  --text-inverse: #FFFFFF;
+
+  /* CY625870 Panel Left: Unpressurized / Open or Unlocked */
+  --left-fg: #A83E1D;
+  --left-bg: #FFF3E8;
+  --left-border: #E8B594;
+  --left-solid: #B84A27;
+
+  /* CY625870 Panel Right: Pressure / Clockwise Locked */
+  --right-fg: #184275;
+  --right-bg: #EDF4FC;
+  --right-border: #A4C4E6;
+  --right-solid: #1D4E89;
+
+  /* Veteran Stove Difference & Pitfall Warning */
+  --amber-fg: #6E3F00;
+  --amber-bg: #FFF8DC;
+  --amber-border: #E2C25E;
+
+  /* Danger / Critical Pitfall */
+  --danger-fg: #8C2119;
+  --danger-bg: #FDEDEC;
+  --danger-border: #E6A9A4;
+
+  /* Active / Done / Screen Awake */
+  --green-fg: #1F5B3A;
+  --green-bg: #EAF5EE;
+  --green-border: #A3D1B6;
+
+  /* Primary Interactive Accent */
+  --accent-primary: #1D1B18;
+  --accent-warm: #B84A27;
+
+  /* Typography — Fixed Large Scale for 60yo on 8.3" iPad mini 6 */
+  --font-sans: 'PingFang TC', 'Noto Sans TC', 'Hiragino Sans CNS', 'Microsoft JhengHei', -apple-system, BlinkMacSystemFont, sans-serif;
+  --fs-h1: 1.875rem;         /* 30px */
+  --fs-card-title: 1.5rem;   /* 24px */
+  --fs-pot-mode: 1.4375rem;  /* 23px */
+  --fs-step: 1.375rem;       /* 22px */
+  --fs-ingredient: 1.25rem;  /* 20px */
+  --fs-ui: 1.125rem;         /* 18px */
+  --fs-meta: 1.0625rem;      /* 17px */
+
+  /* Spacing Scale (0.25rem increments) */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+
+  /* Radius Hierarchy */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-pill: 999px;
+
+  /* Touch Target Minimum */
+  --touch-min: 52px;
+}
