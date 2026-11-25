@@ -13,7 +13,7 @@ export const TAIWANESE_RECIPES: Recipe[] = [
     innerPot: '球釜不沾內鍋',
     releaseSummary: '自然自動洩壓（免手動碰閥）',
     stoveDifference:
-      '壓力鍋密封不蒸發，米酒與醬油比平常用炒鍋少約 1/3；九層塔與辣椒別一起加壓，等開蓋切「收汁/醬燒」再拌才翠綠飄香。',
+      '壓力鍋密封不蒸發，米酒與醬油比平常用炒鍋少約 1/3；九層塔與辣椒別一起加壓，等開蓋切「收汁／醬燒」再拌才翠綠飄香。',
     avoidPitfall: '醬油膏糖分高，爆炒拌勻即可鎖蓋，開蓋收汁時要稍作翻炒防底部焦黏。',
     youtubeQuery: '特福鮮呼吸萬用鍋 三杯雞 CY625870',
     ingredients: [
@@ -48,10 +48,10 @@ export const TAIWANESE_RECIPES: Recipe[] = [
         stepNumber: 2,
         title: '鎖蓋高壓快速入味',
         instruction:
-          '蓋上鍋蓋並順時鐘鎖緊，按右側「雞/鴨/豬」設 15 分鐘（會先升壓約 10 分才開始倒數）。結束自動洩壓，待安全閥落下後將鍋蓋朝外傾斜打開防熱水滴落。',
+          '蓋上鍋蓋並順時鐘鎖緊，按右側「雞／鴨／豬」設 15 分鐘（會先升壓約 10 分才開始倒數）。結束自動洩壓，待安全閥落下後將鍋蓋朝外傾斜打開防熱水滴落。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
           durationText: '15 分鐘',
           releaseMode: 'natural_auto',
@@ -62,10 +62,10 @@ export const TAIWANESE_RECIPES: Recipe[] = [
         stepNumber: 3,
         title: '開蓋收汁拌入九層塔',
         instruction:
-          '開蓋按左側「收汁/醬燒」滾 3–5 分鐘至醬汁巴附雞肉，起鍋前丟入九層塔與辣椒拌兩下即可盛盤。',
+          '開蓋按左側「收汁／醬燒」滾 3–5 分鐘至醬汁巴附雞肉，起鍋前丟入九層塔與辣椒拌兩下即可盛盤。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '3–5 分鐘',
           shortAction: '收濃拌九層塔',
@@ -116,10 +116,10 @@ export const TAIWANESE_RECIPES: Recipe[] = [
         stepNumber: 2,
         title: '加滷汁鎖蓋燉軟',
         instruction:
-          '倒入醬油、米酒、養樂多（或冰糖）與溫水，放進蛋或油豆腐，順時鐘鎖緊上蓋按右側「雞/鴨/豬」設 15–20 分鐘（喜歡極爛設 20 分）。結束自動洩壓再開蓋。',
+          '倒入醬油、米酒、養樂多（或冰糖）與溫水，放進蛋或油豆腐，順時鐘鎖緊上蓋按右側「雞／鴨／豬」設 15–20 分鐘（喜歡極爛設 20 分）。結束自動洩壓再開蓋。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
           durationText: '15–20 分鐘',
           releaseMode: 'natural_auto',
@@ -130,10 +130,10 @@ export const TAIWANESE_RECIPES: Recipe[] = [
         stepNumber: 3,
         title: '開蓋收汁讓皮油亮',
         instruction:
-          '開蓋按左側「收汁/醬燒」5–8 分鐘，輕輕舀湯汁淋在肉皮上，收至滷汁濃郁發亮即完成。',
+          '開蓋按左側「收汁／醬燒」5–8 分鐘，輕輕舀湯汁淋在肉皮上，收至滷汁濃郁發亮即完成。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '5–8 分鐘',
           shortAction: '收濃油亮上色',
@@ -186,12 +186,12 @@ export const TAIWANESE_RECIPES: Recipe[] = [
         stepNumber: 2,
         title: '下調味料與配料鎖蓋滷透',
         instruction:
-          '加入醬油、醬油膏、米酒、冰糖、五香粉、溫水與配料拌勻，順時鐘鎖緊上蓋按右側「雞/鴨/豬」設 25–30 分鐘，等自動洩壓完成。',
+          '加入醬油、醬油膏、米酒、冰糖、五香粉、溫水與配料拌勻，順時鐘鎖緊上蓋按右側「雞／鴨／豬」設 25–29 分鐘（偏好極軟爛可改選「牛／羊」設 30 分鐘），等自動洩壓完成。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
-          durationText: '25–30 分鐘',
+          durationText: '25–29 分鐘',
           releaseMode: 'natural_auto',
           shortAction: '釋放膠質滷透',
         },
@@ -200,10 +200,10 @@ export const TAIWANESE_RECIPES: Recipe[] = [
         stepNumber: 3,
         title: '視湯汁濃稠度微收汁',
         instruction:
-          '開蓋看濃稠度，若希望拌飯更黏口，按左側「收汁/醬燒」開蓋收 3–5 分鐘即可。',
+          '開蓋看濃稠度，若希望拌飯更黏口，按左側「收汁／醬燒」開蓋收 3–5 分鐘即可。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '3–5 分鐘（選用）',
           shortAction: '依喜好微收稠',
@@ -257,10 +257,10 @@ export const TAIWANESE_RECIPES: Recipe[] = [
         stepNumber: 2,
         title: '牛肉回鍋高壓燉透',
         instruction:
-          '牛肉、紅白蘿蔔、滷包、醬油、米酒、冰糖與溫水入鍋拌勻（液體勿超最高水位線），順時鐘鎖緊上蓋按右側「牛/羊肉」設 35–45 分鐘（牙口喜歡極軟設 45–50 分），自然自動洩壓。',
+          '牛肉、紅白蘿蔔、滷包、醬油、米酒、冰糖與溫水入鍋拌勻（液體勿超最高水位線），順時鐘鎖緊上蓋按右側「牛／羊」設 35–45 分鐘（牙口喜歡極軟設 45–50 分），自然自動洩壓。',
         potAction: {
           side: 'right',
-          modeName: '牛 / 羊肉',
+          modeName: '牛／羊',
           lid: 'locked',
           durationText: '35–45 分鐘',
           releaseMode: 'natural_auto',
@@ -273,7 +273,7 @@ export const TAIWANESE_RECIPES: Recipe[] = [
   {
     id: 'tw-braised-pork-trotters',
     title: '滷豬腳／花生豬腳',
-    subtitle: '皮 Q 軟爛膠質滿滿，豆類蹄筋模式 30–40 分鐘搞定',
+    subtitle: '皮 Q 軟爛膠質滿滿，牛／羊模式 30–40 分鐘搞定',
     category: 'braise',
     cuisine: '台式',
     settingMinutes: 45,
@@ -313,10 +313,10 @@ export const TAIWANESE_RECIPES: Recipe[] = [
         stepNumber: 2,
         title: '加花生與滷汁高壓燉透',
         instruction:
-          '放入花生、醬油、米酒與溫水（勿超 最高水位線），順時鐘鎖緊上蓋按右側「豆類/蹄筋」設 30–40 分鐘，結束等自然自動洩壓。',
+          '放入花生、醬油、米酒與溫水（勿超最高水位線），順時鐘鎖緊上蓋按右側「牛／羊」設 30–40 分鐘（預設 60 千帕），結束等自然自動洩壓。',
         potAction: {
           side: 'right',
-          modeName: '豆類 / 蹄筋',
+          modeName: '牛／羊',
           lid: 'locked',
           durationText: '30–40 分鐘',
           releaseMode: 'natural_auto',
@@ -327,10 +327,10 @@ export const TAIWANESE_RECIPES: Recipe[] = [
         stepNumber: 3,
         title: '開蓋收亮膠質醬色',
         instruction:
-          '開蓋切左側「收汁/醬燒」收 5 分鐘，讓醬汁與膠質均勻裹住豬腳表面即起鍋。',
+          '開蓋切左側「收汁／醬燒」收 5 分鐘，讓醬汁與膠質均勻裹住豬腳表面即起鍋。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '5 分鐘',
           shortAction: '收濃裹附膠質',
@@ -379,16 +379,16 @@ export const TAIWANESE_RECIPES: Recipe[] = [
         stepNumber: 2,
         title: '倒米酒與水鎖蓋壓透',
         instruction:
-          '倒入米酒與溫水（勿超 最高水位線），順時鐘鎖緊上蓋按右側「雞/鴨/豬」設 10–15 分鐘，等自然自動洩壓。',
+          '倒入米酒與溫水（勿超最高水位線），順時鐘鎖緊上蓋按右側「雞／鴨／豬」設 12–15 分鐘，等自然自動洩壓。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
-          durationText: '10–15 分鐘',
+          durationText: '12–15 分鐘',
           releaseMode: 'natural_auto',
           shortAction: '高壓燉出薑酒香',
         },
-        tip: '開蓋後若想酒氣淡一點，按左側「收汁/醬燒」開蓋滾 2 分鐘再加鹽調味。',
+        tip: '開蓋後若想酒氣淡一點，按左側「收汁／醬燒」開蓋滾 2 分鐘再加鹽調味。',
       },
     ],
   },
@@ -422,12 +422,12 @@ export const TAIWANESE_RECIPES: Recipe[] = [
         stepNumber: 1,
         title: '蔥薑墊底、肉皮朝下入鍋壓軟',
         instruction:
-          '內鍋底鋪滿蔥段與薑片防沾，五花肉「皮朝下」排入，加入八角、醬油、老抽、紹興酒、冰糖與溫水。順時鐘鎖緊上蓋，按右側「雞/鴨/豬」設 25–30 分鐘，自動洩壓。',
+          '內鍋底鋪滿蔥段與薑片防沾，五花肉「皮朝下」排入，加入八角、醬油、老抽、紹興酒、冰糖與溫水。順時鐘鎖緊上蓋，按右側「雞／鴨／豬」設 25–29 分鐘（或選「牛／羊」設 30 分鐘），自動洩壓。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
-          durationText: '25–30 分鐘',
+          durationText: '25–29 分鐘',
           releaseMode: 'natural_auto',
           shortAction: '皮朝下高壓煨軟',
         },
@@ -436,10 +436,10 @@ export const TAIWANESE_RECIPES: Recipe[] = [
         stepNumber: 2,
         title: '翻面皮朝上開蓋收濃亮汁',
         instruction:
-          '開蓋小心地將肉塊翻成「皮朝上」，按左側「收汁/醬燒」5–8 分鐘，邊收邊舀湯汁淋在肉皮上至晶亮紅潤即可盛盤。',
+          '開蓋小心地將肉塊翻成「皮朝上」，按左側「收汁／醬燒」5–8 分鐘，邊收邊舀湯汁淋在肉皮上至晶亮紅潤即可盛盤。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '5–8 分鐘',
           shortAction: '翻面澆汁收晶亮',
@@ -491,10 +491,10 @@ export const TAIWANESE_RECIPES: Recipe[] = [
         stepNumber: 2,
         title: '放梅子與醬料鎖蓋燉軟',
         instruction:
-          '鴨肉、梅子、所有調味料與溫水拌勻入鍋，順時鐘鎖緊上蓋按右側「雞/鴨/豬」設 20–25 分鐘，結束等自然自動洩壓。',
+          '鴨肉、梅子、所有調味料與溫水拌勻入鍋，順時鐘鎖緊上蓋按右側「雞／鴨／豬」設 20–25 分鐘，結束等自然自動洩壓。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
           durationText: '20–25 分鐘',
           releaseMode: 'natural_auto',
@@ -505,10 +505,10 @@ export const TAIWANESE_RECIPES: Recipe[] = [
         stepNumber: 3,
         title: '開蓋收濃梅子醬汁',
         instruction:
-          '開蓋按左側「收汁/醬燒」5 分鐘，讓酸甜梅汁收濃巴附在鴨肉上即可起鍋。',
+          '開蓋按左側「收汁／醬燒」5 分鐘，讓酸甜梅汁收濃巴附在鴨肉上即可起鍋。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '5 分鐘',
           shortAction: '收濃酸甜梅汁',
@@ -544,10 +544,10 @@ export const TAIWANESE_RECIPES: Recipe[] = [
         stepNumber: 1,
         title: '雞肉香菇與辣椒醬汁入鍋壓湯',
         instruction:
-          '內鍋放入汆燙好的雞腿、泡軟香菇、薑片、剝皮辣椒「醬汁」、米酒與溫水（勿超 最高水位線）。順時鐘鎖緊上蓋，按右側「湯品」或「雞/鴨/豬」設 15–20 分鐘，等自動洩壓。',
+          '內鍋放入汆燙好的雞腿、泡軟香菇、薑片、剝皮辣椒「醬汁」、米酒與溫水（勿超最高水位線）。順時鐘鎖緊上蓋，按右側「雞／鴨／豬」設 15–20 分鐘（或「煮／燉湯品」設 20 分鐘），等自動洩壓。',
         potAction: {
           side: 'right',
-          modeName: '湯品 / 雞鴨豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
           durationText: '15–20 分鐘',
           releaseMode: 'natural_auto',
@@ -558,10 +558,10 @@ export const TAIWANESE_RECIPES: Recipe[] = [
         stepNumber: 2,
         title: '開蓋放剝皮辣椒滾 1 分鐘',
         instruction:
-          '安全閥落下後鍋蓋朝外傾斜打開，投入剝皮辣椒本體，用餘溫泡熱（或開「收汁/醬燒」滾 1 分鐘），試鹹度補鹽即完成。',
+          '安全閥落下後鍋蓋朝外傾斜打開，投入剝皮辣椒本體，用餘溫泡熱（或開「收汁／醬燒」滾 1 分鐘），試鹹度補鹽即完成。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '1–2 分鐘（選用）',
           shortAction: '下辣椒滾一下',
@@ -597,10 +597,10 @@ export const TAIWANESE_RECIPES: Recipe[] = [
         stepNumber: 1,
         title: '可選微煎蒜頭後全部入鍋壓湯',
         instruction:
-          '雞腿塊、蒜頭、薑片、米酒與溫水全數入鍋（若喜歡金蒜香，可先用左側「爆炒煎烤」微煎一半蒜頭 2 分鐘）。順時鐘鎖緊上蓋，按右側「湯品」設 15–20 分鐘，等自動洩壓。',
+          '雞腿塊、蒜頭、薑片、米酒與溫水全數入鍋（若喜歡金蒜香，可先用左側「爆炒煎烤」微煎一半蒜頭 2 分鐘）。順時鐘鎖緊上蓋，按右側「雞／鴨／豬」設 15–20 分鐘（或「煮／燉湯品」設 20 分鐘），等自動洩壓。',
         potAction: {
           side: 'right',
-          modeName: '湯品 / 煲湯',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
           durationText: '15–20 分鐘',
           releaseMode: 'natural_auto',
@@ -638,10 +638,10 @@ export const TAIWANESE_RECIPES: Recipe[] = [
         stepNumber: 1,
         title: '全部材料入鍋高壓燉煮',
         instruction:
-          '洗淨的四神藥材、汆燙好的排骨（或豬肚）、當歸、米酒 1 大匙與溫水入鍋，順時鐘鎖緊上蓋按右側「湯品」設 20–25 分鐘（豬肚可設 25–30 分），靜待自然自動洩壓。',
+          '洗淨的四神藥材、汆燙好的排骨（或豬肚）、當歸、米酒 1 大匙與溫水入鍋，順時鐘鎖緊上蓋按右側「煮／燉湯品」設 20–25 分鐘（豬肚可設 25–30 分），靜待自然自動洩壓。',
         potAction: {
           side: 'right',
-          modeName: '湯品 / 煲湯',
+          modeName: '煮／燉湯品',
           lid: 'locked',
           durationText: '20–25 分鐘',
           releaseMode: 'natural_auto',
@@ -694,10 +694,10 @@ export const TAIWANESE_RECIPES: Recipe[] = [
         stepNumber: 2,
         title: '全雞與海味下鍋鎖蓋燉 20 分',
         instruction:
-          '放入汆燙好的小土雞、乾干貝、鮑魚、花膠、鹽與 1500ml 清水。順時鐘鎖緊上蓋，按右側「湯品」設 20 分鐘，結束自動洩壓即可上桌。',
+          '放入汆燙好的小土雞、乾干貝、鮑魚、花膠、鹽與 1500ml 清水。順時鐘鎖緊上蓋，按右側「煮／燉湯品」設 20 分鐘，結束自動洩壓即可上桌。',
         potAction: {
           side: 'right',
-          modeName: '湯品 / 煲湯',
+          modeName: '煮／燉湯品',
           lid: 'locked',
           durationText: '20 分鐘',
           releaseMode: 'natural_auto',
@@ -750,10 +750,10 @@ export const TAIWANESE_RECIPES: Recipe[] = [
         stepNumber: 2,
         title: '加芋頭與海味高壓熬鮮湯',
         instruction:
-          '倒入 1500ml 水，加入海參、魚皮、花枝丸、芋頭塊與鹽、白胡椒，順時鐘鎖緊上蓋按右側「湯品」設 12–15 分鐘，洩壓開蓋。',
+          '倒入 1500ml 水，加入海參、魚皮、花枝丸、芋頭塊與鹽、白胡椒，順時鐘鎖緊上蓋按右側「雞／鴨／豬」設 12–15 分鐘，洩壓開蓋。',
         potAction: {
           side: 'right',
-          modeName: '湯品 / 煲湯',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
           durationText: '12–15 分鐘',
           releaseMode: 'natural_auto',
@@ -778,8 +778,8 @@ export const TAIWANESE_RECIPES: Recipe[] = [
   {
     id: 'tw-redbean-purple-rice',
     title: '紅豆紫米粥',
-    subtitle: '紅豆與紫米洗淨直接下鍋「免泡水」，豆類模式 30 分綿密開花',
-    category: 'rice',
+    subtitle: '紅豆與紫米洗淨直接下鍋「免泡水」，牛／羊模式 30 分綿密開花',
+    category: 'dessert',
     cuisine: '台式',
     settingMinutes: 30,
     realTotalMinutes: 65,
@@ -788,7 +788,7 @@ export const TAIWANESE_RECIPES: Recipe[] = [
     releaseSummary: '務必自然自動洩壓（防澱粉噴漿！）',
     stoveDifference:
       '不用前一天泡紅豆！洗乾淨直接壓 30 分鐘就會鬆綿；糖一定要等壓完開蓋再放，糖早放會讓豆皮變硬煮不爛。',
-    avoidPitfall: '豆類與紫米起泡多，食材加清水絕不超過內鍋 2/3，且嚴禁手動快速排氣，避免滾燙澱粉噴漿！',
+    avoidPitfall: '紅豆與紫米起泡多，食材加清水絕不超過內鍋 2/3，且嚴禁手動快速排氣，避免滾燙澱粉噴漿！',
     youtubeQuery: '特福鮮呼吸萬用鍋 紅豆紫米粥 免泡水',
     ingredients: [
       { name: '紅豆（洗淨免泡水）', amount: 1, unit: '米杯', group: 'main' },
@@ -801,10 +801,10 @@ export const TAIWANESE_RECIPES: Recipe[] = [
         stepNumber: 1,
         title: '免泡水直接下鍋壓 30 分鐘',
         instruction:
-          '紅豆與紫米淘洗乾淨，連同 5.5–6 米杯清水入鍋（確認不超過內鍋 2/3）。順時鐘鎖緊上蓋，按右側「豆類/蹄筋」設 30 分鐘。',
+          '紅豆與紫米淘洗乾淨，連同 5.5–6 米杯清水入鍋（確認不超過內鍋 2/3）。順時鐘鎖緊上蓋，按右側「牛／羊」設 30 分鐘（預設 60 千帕）。',
         potAction: {
           side: 'right',
-          modeName: '豆類 / 蹄筋',
+          modeName: '牛／羊',
           lid: 'locked',
           durationText: '30 分鐘',
           releaseMode: 'natural_auto',
@@ -826,8 +826,8 @@ export const TAIWANESE_RECIPES: Recipe[] = [
     subtitle: '長糯米免蒸籠免顧水，原鍋爆香配料再走快煮米飯一次熟透',
     category: 'rice',
     cuisine: '台式',
-    settingMinutes: 16,
-    realTotalMinutes: 40,
+    settingMinutes: 18,
+    realTotalMinutes: 42,
     baseServings: 4,
     innerPot: '球釜不沾內鍋',
     releaseSummary: '自然自動洩壓（多悶 5 分更 Q 彈）',
@@ -864,12 +864,12 @@ export const TAIWANESE_RECIPES: Recipe[] = [
         stepNumber: 2,
         title: '倒香菇水鋪栗子鎖蓋煮飯',
         instruction:
-          '緩緩倒入 1.5 米杯香菇水並鋪上栗子，把鍋邊米粒撥平。順時鐘鎖緊上蓋，按右側「快煮米飯」行程，結束自然洩壓悶 5 分鐘開蓋翻鬆。',
+          '緩緩倒入 1.5 米杯香菇水並鋪上栗子，把鍋邊米粒撥平。順時鐘鎖緊上蓋，按右側「快煮米飯」（固定 14 分鐘），結束自然洩壓悶 5 分鐘開蓋翻鬆。',
         potAction: {
           side: 'right',
           modeName: '快煮米飯',
           lid: 'locked',
-          durationText: '約 10–12 分鐘',
+          durationText: '14 分鐘',
           releaseMode: 'natural_auto',
           shortAction: '一鍵壓出 Q 彈油飯',
         },
@@ -904,12 +904,12 @@ export const TAIWANESE_RECIPES: Recipe[] = [
         stepNumber: 1,
         title: '白米鋪上臘腸鎖蓋煮熟',
         instruction:
-          '內鍋放入白米、1.8 米杯水，上方平鋪臘腸、香菇與醃肉片。順時鐘鎖緊上蓋，按右側「煲仔飯」或「快煮米飯」行程，結束自然洩壓。',
+          '內鍋放入白米、1.8 米杯水，上方平鋪臘腸、香菇與醃肉片。順時鐘鎖緊上蓋，按右側「煮粥／煲仔飯」設 15–20 分鐘（或按「快煮米飯」14 分鐘），結束自然洩壓。',
         potAction: {
           side: 'right',
-          modeName: '快煮米飯 / 煲仔飯',
+          modeName: '煮粥／煲仔飯',
           lid: 'locked',
-          durationText: '約 10–12 分鐘',
+          durationText: '15–20 分鐘',
           releaseMode: 'natural_auto',
           shortAction: '壓熟米飯滲入臘香',
         },
@@ -918,7 +918,7 @@ export const TAIWANESE_RECIPES: Recipe[] = [
         stepNumber: 2,
         title: '沿鍋邊淋香油開蓋燒出金黃鍋巴',
         instruction:
-          '開蓋沿內鍋邊緣淋一圈香油與煲仔飯醬油，按左側「爆炒煎烤」或「收汁/醬燒」加熱 2–3 分鐘，聽見鍋底滋滋焦香聲立刻關機，擺上燙青江菜即可。',
+          '開蓋沿內鍋邊緣淋一圈香油與煲仔飯醬油，按左側「爆炒煎烤」或「收汁／醬燒」加熱 2–3 分鐘，聽見鍋底滋滋焦香聲立刻關機，擺上燙青江菜即可。',
         potAction: {
           side: 'left',
           modeName: '爆炒煎烤',
@@ -958,10 +958,10 @@ export const TAIWANESE_RECIPES: Recipe[] = [
         stepNumber: 1,
         title: '厚鋪蔥薑墊底，不加水壓 15 分',
         instruction:
-          '球釜內鍋底鋪滿厚厚一層蔥段與薑片，放上醃好的雞肉（皮朝上），淋入 2 大匙米酒（不加水）。順時鐘鎖緊上蓋，按右側「雞/鴨/豬」設 15 分鐘，等自然自動洩壓。',
+          '球釜內鍋底鋪滿厚厚一層蔥段與薑片，放上醃好的雞肉（皮朝上），淋入 2 大匙米酒（不加水）。順時鐘鎖緊上蓋，按右側「雞／鴨／豬」設 15 分鐘，等自然自動洩壓。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
           durationText: '15 分鐘',
           releaseMode: 'natural_auto',
@@ -983,7 +983,7 @@ export const TAIWANESE_RECIPES: Recipe[] = [
     innerPot: '304不鏽鋼內鍋優先',
     releaseSummary: '自然自動洩壓（靠降壓真空把雞精吸進碗裡！）',
     stoveDifference:
-      '傳統蒸滴雞精要顧電鍋補水 3 小時，萬用鍋一次鎖蓋壓 40–60 分就滴乾精華！記住「千萬別手動急洩」，自然降壓時倒扣的碗才會把精華全吸進去。',
+      '傳統蒸滴雞精要顧電鍋補水 3 小時，萬用鍋一次鎖蓋壓 40–59 分就滴乾精華！記住「千萬別手動急洩」，自然降壓時倒扣的碗才會把精華全吸進去。',
     avoidPitfall: '務必挑耐熱無裂痕的厚瓷碗倒扣在正中央，且全程不加一滴水。',
     youtubeQuery: '特福鮮呼吸萬用鍋 滴雞精 倒扣碗',
     ingredients: [
@@ -995,12 +995,12 @@ export const TAIWANESE_RECIPES: Recipe[] = [
         stepNumber: 1,
         title: '中央倒扣瓷碗、周圍鋪雞塊無水加壓',
         instruction:
-          '內鍋正中央倒扣一隻耐熱空瓷碗，將擦乾的土雞塊（與薑片）鋪在倒扣碗周圍與上方，完全不加水。順時鐘鎖緊上蓋，按右側「湯品」或「豆類/蹄筋」設 40–60 分鐘。',
+          '內鍋正中央倒扣一隻耐熱空瓷碗，將擦乾的土雞塊（與薑片）鋪在倒扣碗周圍與上方，完全不加水。順時鐘鎖緊上蓋，按右側「煮／燉湯品」（或「牛／羊」）設 40–59 分鐘。',
         potAction: {
           side: 'right',
-          modeName: '湯品 / 豆類',
+          modeName: '煮／燉湯品',
           lid: 'locked',
-          durationText: '40–60 分鐘',
+          durationText: '40–59 分鐘',
           releaseMode: 'natural_auto',
           shortAction: '無水高壓萃取精華',
         },
@@ -1042,10 +1042,10 @@ export const TAIWANESE_RECIPES: Recipe[] = [
         stepNumber: 1,
         title: '下放蒸蛋碗、上架蒸盤放鮮蝦，快蒸 8 分鐘',
         instruction:
-          '內鍋底倒 1 米杯溫水，放入調勻過篩且「覆蓋耐熱盤或鋁箔紙」的蒸蛋碗；上方架上原廠蒸盤鋪烘焙紙，擺上開背蝦、時蔬、奶油、蒜末、少許鹽與米酒。順時鐘鎖緊上蓋，按右側「蒸/一鍋兩菜」設 8 分鐘。',
+          '內鍋底倒 1 米杯溫水，放入調勻過篩且「覆蓋耐熱盤或鋁箔紙」的蒸蛋碗；上方架上原廠蒸盤鋪烘焙紙，擺上開背蝦、時蔬、奶油、蒜末、少許鹽與米酒。順時鐘鎖緊上蓋，按右側「蒸／一鍋兩菜」設 8 分鐘。',
         potAction: {
           side: 'right',
-          modeName: '蒸 / 一鍋兩菜',
+          modeName: '蒸／一鍋兩菜',
           lid: 'locked',
           durationText: '8 分鐘',
           releaseMode: 'quick_manual',
@@ -1083,10 +1083,10 @@ export const TAIWANESE_RECIPES: Recipe[] = [
         stepNumber: 1,
         title: '擺盤淋蒜蓉醬，鎖蓋快蒸 5–7 分鐘',
         instruction:
-          '內鍋倒 1 米杯溫水放蒸架；耐熱盤鋪豆腐或泡軟寬粉，排上鮮蝦並淋調勻的蒜蓉醬汁。順時鐘鎖緊上蓋，按右側「蒸/一鍋兩菜」設 5–7 分鐘（小蝦 5 分、大草蝦 7 分）。',
+          '內鍋倒 1 米杯溫水放蒸架；耐熱盤鋪豆腐或泡軟寬粉，排上鮮蝦並淋調勻的蒜蓉醬汁。順時鐘鎖緊上蓋，按右側「蒸／一鍋兩菜」設 5–7 分鐘（小蝦 5 分、大草蝦 7 分）。',
         potAction: {
           side: 'right',
-          modeName: '蒸 / 一鍋兩菜',
+          modeName: '蒸／一鍋兩菜',
           lid: 'locked',
           durationText: '5–7 分鐘',
           releaseMode: 'quick_manual',
@@ -1167,31 +1167,23 @@ export const TAIWANESE_RECIPES: Recipe[] = [
     steps: [
       {
         stepNumber: 1,
-        title: '雞皮朝下入鍋，無壓烘烤前半段 25 分',
+        title: '雞皮朝下入鍋，啟動「烘烤」45–50 分鐘',
         instruction:
           '球釜內鍋底鋪烘焙紙或洋蔥片，醃好的半雞「皮朝下」平放。蓋上鍋蓋「不鎖定」，按左側「烘烤」設 45–50 分鐘按下開始。',
         potAction: {
           side: 'left',
           modeName: '烘烤',
           lid: 'closed_unlocked',
-          durationText: '25 分鐘（前半）',
+          durationText: '45–50 分鐘（第 25 分翻面）',
           temperature: '120–150°C',
-          shortAction: '皮朝下先烤上色',
+          shortAction: '皮朝下烤至中途翻面',
         },
       },
       {
         stepNumber: 2,
         title: '第 25 分鐘開蓋翻面續烤至熟透',
         instruction:
-          '因為是無壓模式，中途直接開蓋將半雞翻面（皮朝上），蓋回續烤完剩餘 20–25 分鐘；用筷子戳雞腿最厚處無血水流出即完成。',
-        potAction: {
-          side: 'left',
-          modeName: '烘烤',
-          lid: 'closed_unlocked',
-          durationText: '20–25 分鐘（後半）',
-          temperature: '120–150°C',
-          shortAction: '翻面續烤至全熟',
-        },
+          '因為是無壓模式，行程進行到第 25 分鐘直接開蓋將半雞翻面（皮朝上），蓋回續烤完剩餘 20–25 分鐘；用筷子戳雞腿最厚處無血水流出即完成。',
       },
     ],
   },
@@ -1220,7 +1212,7 @@ export const TAIWANESE_RECIPES: Recipe[] = [
     steps: [
       {
         stepNumber: 1,
-        title: '麵糊入球釜鋪紙，無壓烘烤 45 分鐘',
+        title: '麵糊入球釜鋪紙，啟動「烘烤」45 分鐘',
         instruction:
           '球釜內鍋抹少許奶油並鋪圓形烘焙紙（留左右紙耳方便拉起），倒入打發拌勻的蛋糕糊輕震兩下消氣泡。蓋上鍋蓋「不鎖定」，按左側「烘烤」設 45 分鐘（厚磅蛋糕可設 55–59 分）。',
         potAction: {
@@ -1231,7 +1223,7 @@ export const TAIWANESE_RECIPES: Recipe[] = [
           temperature: '120–150°C',
           shortAction: '無壓濕潤烤蛋糕',
         },
-        tip: '時間到插竹籤測試中心不沾黏即熟；若微濕可再補烤 5 分鐘。',
+        tip: '時間到插竹籤測試中心不沾黏即熟；若微濕可改用左側「自訂行程」130°C 補烤 5 分鐘。',
       },
     ],
   },

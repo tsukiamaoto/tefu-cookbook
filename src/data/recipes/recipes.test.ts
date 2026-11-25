@@ -26,9 +26,9 @@ describe('CY625870 recipe dataset integrity', () => {
     expect(dishes.slice(0, 5).map(recipe => recipe.id)).toEqual([
       'spec-official-tw-22-waterless-roast-chicken',
       'tw-thirteen-spice-roast-chicken',
-      'spec-ytower-tefal-16-tomato-scrambled-eggs',
-      'spec-ytower-tefal-17-stir-fried-water-spinach',
+      'spec-taiwan-home-01-mung-bean-soup',
       'spec-ytower-tefal-15-egg-and-shrimp-fried-rice',
+      'tw-minced-pork-sauce',
     ]);
   });
 
@@ -118,7 +118,7 @@ describe('CY625870 recipe dataset integrity', () => {
 
     expect(
       filterRecipes(ALL_RECIPES, { query: '楊桃', category: 'all', cuisine: '全部' }).length
-    ).toBeGreaterThanOrEqual(30);
+    ).toBeGreaterThanOrEqual(27);
   });
 
   it('covers every non-all category and every Asian cuisine option', () => {
@@ -159,6 +159,21 @@ describe('CY625870 recipe dataset integrity', () => {
     ).toBeGreaterThanOrEqual(5);
 
     expect(
+      filterRecipes(ALL_RECIPES, { query: '', category: 'dessert', cuisine: '全部' })
+        .map((r) => r.id)
+    ).toEqual(expect.arrayContaining([
+      'spec-taiwan-home-01-mung-bean-soup',
+      'tw-redbean-purple-rice',
+    ]));
+
+    const mungBean = ALL_RECIPES.find((r) => r.id === 'spec-taiwan-home-01-mung-bean-soup');
+    expect(mungBean && !('loadBody' in mungBean)).toBe(true);
+    if (mungBean && !('loadBody' in mungBean)) {
+      const sheet = renderToStaticMarkup(createElement(RecipeSheetView, { recipe: mungBean, onBack() {} }));
+      expect(sheet).toContain('參考家常食譜');
+    }
+
+    expect(
       filterRecipes(ALL_RECIPES, { query: '烤雞', category: 'all', cuisine: '全部' })
         .map((r) => r.id)
     ).toEqual([
@@ -178,11 +193,14 @@ describe('CY625870 recipe dataset integrity', () => {
     }
     const byId = new Map(ALL_RECIPES.map((r) => [r.id, r]));
     expect(byId.has('spec-ytower-tefal-03-sous-vide-pork-ribs')).toBe(false);
+    expect(byId.has('spec-ytower-tefal-05-thick-preserved-radish-omelette')).toBe(false);
+    expect(byId.has('spec-ytower-tefal-16-tomato-scrambled-eggs')).toBe(false);
+    expect(byId.has('spec-ytower-tefal-17-stir-fried-water-spinach')).toBe(false);
+    expect(byId.has('spec-ytower-tefal-25-green-pepper-shredded-pork')).toBe(false);
     expect(byId.get('spec-ytower-tefal-04-sous-vide-drunken-chicken')?.cuisine).toBe('台式');
     expect(byId.get('spec-ytower-tefal-14-mushroom-cured-meat-claypot-rice')?.cuisine).toBe('港式');
     expect(byId.get('spec-ytower-tefal-28-huadiao-chicken')?.cuisine).toBe('港式');
     expect(byId.get('spec-ytower-tefal-35-spicy-braised-beef-tendon')?.cuisine).toBe('台式');
-    expect(byId.get('spec-ytower-tefal-05-thick-preserved-radish-omelette')?.category).toBe('bake');
     expect(byId.get('spec-ytower-tefal-06-thick-shrimp-omelette')?.category).toBe('bake');
     expect(byId.get('spec-ytower-tefal-09-one-pot-rice-pork-belly-sausage')?.category).toBe('steam');
     expect(byId.get('spec-ytower-tefal-13-steamed-black-bean-ribs-with-rice')?.category).toBe('steam');
@@ -238,6 +256,113 @@ describe('CY625870 recipe dataset integrity', () => {
           .map((m) => m[0])
           .filter((w) => w.length >= 2 && !allowedCode.test(w));
         expect(strayLatin, `${recipe.id}: ${formatted}`).toEqual([]);
+      }
+    }
+  });
+
+  it('syncs every recipe page and category filter to exact Taiwan CY625870 panel buttons and valid ranges', () => {
+    const TAIWAN_PANEL_SPECS: Record<
+      string,
+      { side: 'left' | 'right'; minMin: number; maxMin: number; tempMin?: number; tempMax?: number }
+    > = {
+      低溫慢燉: { side: 'left', minMin: 120, maxMin: 720, tempMin: 70, tempMax: 70 },
+      高溫慢燉: { side: 'left', minMin: 120, maxMin: 720, tempMin: 90, tempMax: 90 },
+      爆炒煎烤: { side: 'left', minMin: 1, maxMin: 59, tempMin: 150, tempMax: 150 },
+      舒肥料理: { side: 'left', minMin: 10, maxMin: 1200, tempMin: 58, tempMax: 90 },
+      烘烤: { side: 'left', minMin: 40, maxMin: 59, tempMin: 120, tempMax: 150 },
+      '收汁／醬燒': { side: 'left', minMin: 1, maxMin: 15, tempMin: 110, tempMax: 110 },
+      自訂行程: { side: 'left', minMin: 5, maxMin: 240, tempMin: 60, tempMax: 150 },
+      快煮米飯: { side: 'right', minMin: 14, maxMin: 14 },
+      '煮粥／煲仔飯': { side: 'right', minMin: 15, maxMin: 30 },
+      '牛／羊': { side: 'right', minMin: 30, maxMin: 59 },
+      '雞／鴨／豬': { side: 'right', minMin: 12, maxMin: 29 },
+      '煮／燉湯品': { side: 'right', minMin: 20, maxMin: 59 },
+      '蒸／一鍋兩菜': { side: 'right', minMin: 3, maxMin: 20 },
+      燉鮑魚: { side: 'right', minMin: 325, maxMin: 595 },
+    };
+
+    const nonTaiwanButtonPattern =
+      /豆類[／/]蹄筋|豆類模式|蹄筋模式|牛\s*[／/]\s*羊肉|牛肉\s*[／/]\s*羊肉|豬\s*[／/]\s*雞\s*[／/]\s*鴨|雞鴨豬|無壓烘烤|湯品\s*[／/]\s*(?:煲湯|雞鴨豬|牛羊肉|豆類)|燉煮湯品|煮粥\s*[／/]\s*稀飯|「(?:湯品|煲湯|白米|糙米|煲仔飯)」|(?:雞|牛|收汁|煮|蒸|煮粥)\s*\/\s*(?:鴨|羊|醬燒|燉湯品|一鍋兩菜|煲仔飯)|(?:雞|牛|收汁|煮|蒸|煮粥)\s+／\s+/;
+
+    for (const cat of CATEGORY_OPTIONS) {
+      expect(cat.label).not.toMatch(nonTaiwanButtonPattern);
+    }
+
+    const parseMinRange = (text: string): [number, number] | null => {
+      const hourMin = text.match(/(\d+)\s*小時\s*(\d+)\s*分/);
+      if (hourMin) {
+        const total = Number(hourMin[1]) * 60 + Number(hourMin[2]);
+        return [total, total];
+      }
+      const hours = text.match(/(\d+(?:\.\d+)?)(?:\s*[–～~-]\s*(\d+(?:\.\d+)?))?\s*小時/);
+      if (hours) {
+        const lo = Number(hours[1]) * 60;
+        const hi = Number(hours[2] ?? hours[1]) * 60;
+        return [lo, hi];
+      }
+      const mins = text.match(/(\d+)(?:\s*[–～~-]\s*(\d+))?\s*分鐘/);
+      if (mins) {
+        return [Number(mins[1]), Number(mins[2] ?? mins[1])];
+      }
+      return null;
+    };
+
+    for (const recipe of ALL_RECIPES) {
+      if ('loadBody' in recipe) continue;
+
+      const visibleTexts = [
+        recipe.title,
+        recipe.subtitle,
+        recipe.stoveDifference,
+        recipe.avoidPitfall ?? '',
+        ...recipe.steps.flatMap((s) => [
+          s.title,
+          s.instruction,
+          s.tip ?? '',
+          s.potAction?.modeName ?? '',
+          s.potAction?.durationText ?? '',
+          s.potAction?.shortAction ?? '',
+        ]),
+      ];
+
+      for (const text of visibleTexts) {
+        expect(text, `${recipe.id}: ${text}`).not.toMatch(nonTaiwanButtonPattern);
+      }
+
+      for (const step of recipe.steps) {
+        const action = step.potAction;
+        if (!action) continue;
+
+        const spec = TAIWAN_PANEL_SPECS[action.modeName];
+        expect(spec, `${recipe.id} step ${step.stepNumber}: unknown mode "${action.modeName}"`).toBeDefined();
+        expect(action.side, `${recipe.id} step ${step.stepNumber}`).toBe(spec.side);
+
+        if (spec.side === 'right') {
+          expect(action.lid, `${recipe.id} step ${step.stepNumber}`).toBe('locked');
+          expect(action.temperature, `${recipe.id} step ${step.stepNumber}`).toBeUndefined();
+        } else if (['低溫慢燉', '高溫慢燉', '舒肥料理', '烘烤'].includes(action.modeName)) {
+          expect(action.lid, `${recipe.id} step ${step.stepNumber}`).toBe('closed_unlocked');
+        } else if (['爆炒煎烤', '收汁／醬燒'].includes(action.modeName)) {
+          expect(action.lid, `${recipe.id} step ${step.stepNumber}`).not.toBe('locked');
+        }
+
+        if (action.temperature && spec.tempMin !== undefined && spec.tempMax !== undefined) {
+          const temps = [...action.temperature.matchAll(/(\d+)/g)].map((m) => Number(m[1]));
+          for (const t of temps) {
+            expect(t, `${recipe.id} step ${step.stepNumber} temp ${action.temperature}`).toBeGreaterThanOrEqual(spec.tempMin);
+            expect(t, `${recipe.id} step ${step.stepNumber} temp ${action.temperature}`).toBeLessThanOrEqual(spec.tempMax);
+          }
+        }
+
+        const isMidAddResume = /中途加料/.test(action.durationText) && /續/.test(action.durationText);
+        if (!isMidAddResume) {
+          const range = parseMinRange(action.durationText);
+          if (range) {
+            const [lo, hi] = range;
+            expect(lo, `${recipe.id} step ${step.stepNumber}: ${action.modeName} ${action.durationText}`).toBeGreaterThanOrEqual(spec.minMin);
+            expect(hi, `${recipe.id} step ${step.stepNumber}: ${action.modeName} ${action.durationText}`).toBeLessThanOrEqual(spec.maxMin);
+          }
+        }
       }
     }
   });

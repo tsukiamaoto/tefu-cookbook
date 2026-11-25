@@ -51,6 +51,7 @@ function cuisineFor(region) {
 
 function categoryFor(shortTitle, fullTitle, mode) {
   if (/舒肥|低溫調理|真空低溫慢煮/.test(fullTitle)) return 'sousvide';
+  if (/綠豆湯|紅豆湯|薏仁湯|花生湯|銀耳蓮子湯|地瓜薑湯|紅豆紫米|甜湯/.test(fullTitle)) return 'dessert';
   if (/蒸布丁|蒸巧克力|清蒸|蒸鮮魚|一飯兩菜|上蒸下煮|紙包魚|甜薯蓉|地瓜泥/.test(shortTitle)) return 'steam';
   if (/蛋糕|烤雞|無水燒雞|烘蛋/.test(shortTitle)) return 'bake';
   if (/湯飯|粥|飯|冬粉|米粉|牛肉粉|肉粽|一鍋奶油培根義大利麵/.test(shortTitle)) return 'rice';

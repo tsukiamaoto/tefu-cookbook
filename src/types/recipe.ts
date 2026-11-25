@@ -1,4 +1,4 @@
-export type RecipeCategory = 'braise' | 'soup' | 'rice' | 'steam' | 'sousvide' | 'bake';
+export type RecipeCategory = 'braise' | 'soup' | 'rice' | 'dessert' | 'steam' | 'sousvide' | 'bake';
 
 export type CuisineType = '台式' | '日式' | '韓式' | '南洋' | '港式' | '中亞' | '印度';
 

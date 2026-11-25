@@ -96,7 +96,11 @@ export function RecipeSheetView({ recipe, onBack }: RecipeSheetViewProps) {
               className="utility-btn utility-btn--youtube"
             >
               <PlayIcon size={20} />
-              {!recipe.sourceUrl || recipe.sourceUrl.includes('youtube.com') ? '觀看實作影片' : '查看官方食譜'}
+              {!recipe.sourceUrl || recipe.sourceUrl.includes('youtube.com')
+                ? '觀看實作影片'
+                : /tefal|t-fal/i.test(recipe.sourceUrl)
+                  ? '查看官方食譜'
+                  : '參考家常食譜'}
             </a>}
           </div>
           {'referenceHtml' in recipe && <details className="recipe-document"><summary>完整來源與補充說明</summary><div dangerouslySetInnerHTML={{ __html: recipe.referenceHtml }} /></details>}

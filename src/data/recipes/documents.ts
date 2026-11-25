@@ -35,7 +35,7 @@ const summaries = import.meta.glob<DocumentInfo>([
   '!**/official/{01,05,09,14,15,22}-*.md',
   '!**/japan/05-*.md',
   '!**/korea/0[78]-*.md',
-  '!**/ytower-tefal/0[23]-*.md',
+  '!**/ytower-tefal/{02,03,05,16,17,25}-*.md',
 ], {
   query: '?recipe-info', import: 'default', eager: true,
 });
@@ -48,7 +48,7 @@ const bodies = import.meta.glob<DocumentBody>([
   '!**/official/{01,05,09,14,15,22}-*.md',
   '!**/japan/05-*.md',
   '!**/korea/0[78]-*.md',
-  '!**/ytower-tefal/0[23]-*.md',
+  '!**/ytower-tefal/{02,03,05,16,17,25}-*.md',
 ], {
   query: '?recipe-body', import: 'default',
 });

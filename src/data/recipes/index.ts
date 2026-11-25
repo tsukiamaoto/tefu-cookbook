@@ -7,6 +7,7 @@ import { SPEC_YTOWER_B_RECIPES } from './spec-ytower-b';
 import { SPEC_OFFICIAL_TW_RECIPES } from './spec-official-tw';
 import { SPEC_OFFICIAL_OVERSEAS_RECIPES } from './spec-official-overseas';
 import { SPEC_TAIWAN_JAPAN_RECIPES } from './spec-taiwan-japan';
+import { SPEC_TAIWAN_HOME_RECIPES } from './spec-taiwan-home';
 import { SPEC_KOREA_SEA_RECIPES } from './spec-korea-sea';
 
 import { DOCUMENT_RECIPES, type DocumentRecipe } from './documents';
@@ -21,6 +22,7 @@ export const ORIGINAL_RECIPES: Recipe[] = [
 ];
 
 export const CURATED_SPEC_RECIPES: Recipe[] = [
+  ...SPEC_TAIWAN_HOME_RECIPES,
   ...SPEC_YTOWER_A_RECIPES,
   ...SPEC_YTOWER_B_RECIPES,
   ...SPEC_OFFICIAL_TW_RECIPES,
@@ -57,12 +59,9 @@ const featuredRank = new Map(featuredOrder.map((id, rank) => [id, rank]));
 
 // Editorial order for Taiwanese dishes, from everyday meals to special occasions.
 const taiwaneseHomeCookingOrder = [
-  'spec-ytower-tefal-16-tomato-scrambled-eggs',
-  'spec-ytower-tefal-17-stir-fried-water-spinach',
+  'spec-taiwan-home-01-mung-bean-soup',
   'spec-ytower-tefal-15-egg-and-shrimp-fried-rice',
-  'spec-ytower-tefal-25-green-pepper-shredded-pork',
   'tw-minced-pork-sauce',
-  'spec-ytower-tefal-05-thick-preserved-radish-omelette',
   'tw-two-dishes-egg-shrimp',
   'spec-ytower-tefal-18-mapo-tofu',
   'spec-ytower-tefal-29-three-cup-chicken',
@@ -145,10 +144,11 @@ export const CATEGORY_OPTIONS: CategoryOption[] = [
   { id: 'all', label: '全部' },
   { id: 'braise', label: '燉滷・主菜' },
   { id: 'soup', label: '煲湯・進補' },
-  { id: 'rice', label: '飯・麵・粥・甜湯' },
+  { id: 'rice', label: '飯・麵・粥' },
+  { id: 'dessert', label: '甜湯・點心' },
   { id: 'steam', label: '蒸煮・兩菜' },
-  { id: 'sousvide', label: '低溫舒肥' },
-  { id: 'bake', label: '無壓烘烤' },
+  { id: 'sousvide', label: '舒肥料理' },
+  { id: 'bake', label: '烘烤' },
 ];
 
 const CATEGORY_LABELS = new Map(
