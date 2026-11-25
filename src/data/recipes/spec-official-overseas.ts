@@ -72,10 +72,10 @@ export const SPEC_OFFICIAL_OVERSEAS_RECIPES: Recipe[] = [
         stepNumber: 5,
         title: '取消煎炒、鎖蓋加壓 29 分鐘',
         instruction:
-          '按下「取消」停止爆炒模式，蓋上鍋蓋並順時鐘鎖緊；按右側「雞/鴨/豬」將時間調至 29 分鐘並啟動，行程結束靜待自動安全洩壓。',
+          '按下「取消」停止爆炒模式，蓋上鍋蓋並順時鐘鎖緊；按右側「雞／鴨／豬」將時間調至 29 分鐘並啟動，行程結束靜待自動安全洩壓。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
           durationText: '29 分鐘',
           releaseMode: 'natural_auto',
@@ -87,10 +87,10 @@ export const SPEC_OFFICIAL_OVERSEAS_RECIPES: Recipe[] = [
         stepNumber: 6,
         title: '洩壓開蓋、視需要收汁與調味',
         instruction:
-          '確認安全浮閥落下再解鎖開蓋檢查濃稠度；若希望更濃郁，保持開蓋選左側「收汁/醬燒」蒸發收濃約 5 分鐘（醬汁放涼後還會自然變濃）。最後關機拌入 1 大匙魚露、新鮮香菜與泰式羅勒葉，試味補鹽與黑胡椒，配白飯與萊姆角享用。',
+          '確認安全浮閥落下再解鎖開蓋檢查濃稠度；若希望更濃郁，保持開蓋選左側「收汁／醬燒」蒸發收濃約 5 分鐘（醬汁放涼後還會自然變濃）。最後關機拌入 1 大匙魚露、新鮮香菜與泰式羅勒葉，試味補鹽與黑胡椒，配白飯與萊姆角享用。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '5 分鐘（選配）',
           shortAction: '收濃拌魚露香草',
@@ -139,12 +139,12 @@ export const SPEC_OFFICIAL_OVERSEAS_RECIPES: Recipe[] = [
       },
       {
         stepNumber: 3,
-        title: '選擇「煮/燉湯品」設定 30 分鐘',
+        title: '選擇「煮／燉湯品」設定 30 分鐘',
         instruction:
-          '按面板右側切換至「煮/燉湯品」，按「+」鍵將時間調增至 30 分鐘後按下開始啟動；本機自動執行鮮呼吸動態變壓，不需另外手動設定壓力值。',
+          '按面板右側切換至「煮／燉湯品」，按「+」鍵將時間調增至 30 分鐘後按下開始啟動；本機自動執行鮮呼吸動態變壓，不需另外手動設定壓力值。',
         potAction: {
           side: 'right',
-          modeName: '煮 / 燉湯品',
+          modeName: '煮／燉湯品',
           lid: 'locked',
           durationText: '30 分鐘',
           releaseMode: 'natural_auto',
@@ -228,14 +228,14 @@ export const SPEC_OFFICIAL_OVERSEAS_RECIPES: Recipe[] = [
       },
       {
         stepNumber: 4,
-        title: '鮮呼吸壓力燜煮 25–30 分鐘',
+        title: '鮮呼吸壓力燜煮 25–29 分鐘',
         instruction:
-          '按右側選擇「雞/鴨/豬」，設定 25–30 分鐘啟動（若為較老的紅面番鴨或愛極脫骨可設 35 分鐘），透過鮮呼吸動態變壓讓梅子酸香與腐乳濃汁滲透鴨肉，行程結束待自動安全洩壓。',
+          '按右側選擇「雞／鴨／豬」，設定 25–29 分鐘啟動（若為較老的紅面番鴨或愛極脫骨可改選「牛／羊」設 30–35 分鐘），透過鮮呼吸動態變壓讓梅子酸香與腐乳濃汁滲透鴨肉，行程結束待自動安全洩壓。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
-          durationText: '25–30 分鐘',
+          durationText: '25–29 分鐘',
           releaseMode: 'natural_auto',
           shortAction: '鮮呼吸燜透入骨',
         },
@@ -244,10 +244,10 @@ export const SPEC_OFFICIAL_OVERSEAS_RECIPES: Recipe[] = [
         stepNumber: 5,
         title: '開蓋收汁與切件擺盤',
         instruction:
-          '洩壓開蓋後檢查醬汁濃稠度，若偏稀則保持開蓋選左側「收汁/醬燒」蒸發收濃約 5 分鐘至琥珀醬汁油亮掛皮，關機前淋少許麻油提香；大鴨塊略放涼斬適口件擺盤，連同綿軟整顆燜蒜與酸梅澆汁撒新鮮蔥絲，配白飯享用。',
+          '洩壓開蓋後檢查醬汁濃稠度，若偏稀則保持開蓋選左側「收汁／醬燒」蒸發收濃約 5 分鐘至琥珀醬汁油亮掛皮，關機前淋少許麻油提香；大鴨塊略放涼斬適口件擺盤，連同綿軟整顆燜蒜與酸梅澆汁撒新鮮蔥絲，配白飯享用。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '5 分鐘',
           shortAction: '收濃淋油擺盤',
@@ -296,12 +296,12 @@ export const SPEC_OFFICIAL_OVERSEAS_RECIPES: Recipe[] = [
       },
       {
         stepNumber: 2,
-        title: '鎖蓋啟動「煮粥/煲仔飯」預設 20 分鐘',
+        title: '鎖蓋啟動「煮粥／煲仔飯」預設 20 分鐘',
         instruction:
-          '蓋上鍋蓋並順時鐘轉到底鎖緊，按右側選擇「煮粥/煲仔飯」，直接沿用預設 20 分鐘按下開始啟動。',
+          '蓋上鍋蓋並順時鐘轉到底鎖緊，按右側選擇「煮粥／煲仔飯」，直接沿用預設 20 分鐘按下開始啟動。',
         potAction: {
           side: 'right',
-          modeName: '煮粥 / 煲仔飯',
+          modeName: '煮粥／煲仔飯',
           lid: 'locked',
           durationText: '20 分鐘',
           releaseMode: 'natural_auto',
@@ -459,10 +459,10 @@ export const SPEC_OFFICIAL_OVERSEAS_RECIPES: Recipe[] = [
         stepNumber: 4,
         title: '入萬用鍋鎖蓋高壓 45 分鐘',
         instruction:
-          '將風乾上色的五花肉捲放入內鍋，務必確認提把棉線全數塞進鍋內側不夾膠條，旁塞大蔥段、2 片薑與帶皮蒜頭（滷汁約達內鍋 1/2 刻度屬正常）。順時鐘鎖緊上蓋，按右側「牛/羊肉」將時間調至 45 分鐘啟動，結束靜待自動安全洩壓。',
+          '將風乾上色的五花肉捲放入內鍋，務必確認提把棉線全數塞進鍋內側不夾膠條，旁塞大蔥段、2 片薑與帶皮蒜頭（滷汁約達內鍋 1/2 刻度屬正常）。順時鐘鎖緊上蓋，按右側「牛／羊」將時間調至 45 分鐘啟動，結束靜待自動安全洩壓。',
         potAction: {
           side: 'right',
-          modeName: '牛 / 羊肉',
+          modeName: '牛／羊',
           lid: 'locked',
           durationText: '45 分鐘',
           releaseMode: 'natural_auto',
@@ -534,10 +534,10 @@ export const SPEC_OFFICIAL_OVERSEAS_RECIPES: Recipe[] = [
         stepNumber: 3,
         title: '內鍋加水並架蒸盤壓力清蒸 8 分鐘',
         instruction:
-          '洗淨內鍋倒入約 1/4 鍋高清水（約 250–350 ml，水面低於蒸盤底）；鋁箔紙折成開口船形托盤盛放抹鹽與黑胡椒、鋪薑絲蔥段的半尾鱸魚，擺進原廠白色蒸盤入鍋。順時鐘鎖緊上蓋，按右側「蒸/一鍋兩菜」設 8 分鐘啟動（薄魚菲力可縮至 6 分、整尾厚魚 10 分）。',
+          '洗淨內鍋倒入約 1/4 鍋高清水（約 250–350 ml，水面低於蒸盤底）；鋁箔紙折成開口船形托盤盛放抹鹽與黑胡椒、鋪薑絲蔥段的半尾鱸魚，擺進原廠白色蒸盤入鍋。順時鐘鎖緊上蓋，按右側「蒸／一鍋兩菜」設 8 分鐘啟動（薄魚菲力可縮至 6 分、整尾厚魚 10 分）。',
         potAction: {
           side: 'right',
-          modeName: '蒸 / 一鍋兩菜',
+          modeName: '蒸／一鍋兩菜',
           lid: 'locked',
           durationText: '8 分鐘',
           releaseMode: 'quick_manual',
@@ -589,10 +589,10 @@ export const SPEC_OFFICIAL_OVERSEAS_RECIPES: Recipe[] = [
         stepNumber: 1,
         title: '第一階段：高壓 45 分鐘嫩化牛腱熬純高湯',
         instruction:
-          '將約 1 公斤厚切帶骨牛腱放入內鍋，倒入 2 公升清水並放數片老薑（先不加酸味與蔬菜）；蓋上鍋蓋確認頂端限壓閥自然微鬆勿壓死，順時鐘鎖緊後按右側「牛/羊肉」設 45 分鐘啟動。',
+          '將約 1 公斤厚切帶骨牛腱放入內鍋，倒入 2 公升清水並放數片老薑（先不加酸味與蔬菜）；蓋上鍋蓋確認頂端限壓閥自然微鬆勿壓死，順時鐘鎖緊後按右側「牛／羊」設 45 分鐘啟動。',
         potAction: {
           side: 'right',
-          modeName: '牛 / 羊肉',
+          modeName: '牛／羊',
           lid: 'locked',
           durationText: '45 分鐘',
           releaseMode: 'natural_auto',
@@ -609,10 +609,10 @@ export const SPEC_OFFICIAL_OVERSEAS_RECIPES: Recipe[] = [
         stepNumber: 3,
         title: '第二階段：下酸湯蔬菜、金桔魚露煮透並燙葉菜',
         instruction:
-          '清空內鍋依序放入芋頭丁、白蘿蔔薄片、拍裂香茅、剖開綠辣椒與番茄塊，倒回適量金黃牛高湯與嫩牛腱，加 2 大匙魚露、一半現擠金桔汁與黑胡椒試味；鎖蓋按右側「煮/燉湯品」設 8–10 分鐘至芋頭鬆綿、白蘿蔔透味（亦可不鎖蓋改開蓋「爆炒煎烤」滾 10–12 分）。開蓋投入空心菜拌燙 30 秒至翠綠軟化，補入剩餘現擠金桔汁並試鹹度即可盛碗。',
+          '清空內鍋依序放入芋頭丁、白蘿蔔薄片、拍裂香茅、剖開綠辣椒與番茄塊，倒回適量金黃牛高湯與嫩牛腱，加 2 大匙魚露、一半現擠金桔汁與黑胡椒試味；鎖蓋按右側「蒸／一鍋兩菜」設 8–10 分鐘至芋頭鬆綿、白蘿蔔透味（亦可不鎖蓋改開蓋「爆炒煎烤」滾 10–12 分）。開蓋投入空心菜拌燙 30 秒至翠綠軟化，補入剩餘現擠金桔汁並試鹹度即可盛碗。',
         potAction: {
           side: 'right',
-          modeName: '煮 / 燉湯品',
+          modeName: '蒸／一鍋兩菜',
           lid: 'locked',
           durationText: '8–10 分鐘',
           releaseMode: 'natural_auto',
@@ -665,12 +665,12 @@ export const SPEC_OFFICIAL_OVERSEAS_RECIPES: Recipe[] = [
       },
       {
         stepNumber: 3,
-        title: '鎖蓋選「牛/羊肉」高壓 30 分鐘',
+        title: '鎖蓋選「牛／羊」高壓 30 分鐘',
         instruction:
-          '蓋上鍋蓋並順時鐘轉到底鎖緊，按右側選擇「牛/羊肉」，將時間設為 30 分鐘按下開始啟動（喜愛筷子一撥脫骨口感或蹄膀超過 1.2 公斤可拉長至 40–45 分鐘），行程結束靜待自動安全洩壓。',
+          '蓋上鍋蓋並順時鐘轉到底鎖緊，按右側選擇「牛／羊」，將時間設為 30 分鐘按下開始啟動（喜愛筷子一撥脫骨口感或蹄膀超過 1.2 公斤可拉長至 40–45 分鐘），行程結束靜待自動安全洩壓。',
         potAction: {
           side: 'right',
-          modeName: '牛 / 羊肉',
+          modeName: '牛／羊',
           lid: 'locked',
           durationText: '30 分鐘',
           releaseMode: 'natural_auto',
@@ -681,10 +681,10 @@ export const SPEC_OFFICIAL_OVERSEAS_RECIPES: Recipe[] = [
         stepNumber: 4,
         title: '開蓋整塊夾出配刈包享用（選配收汁）',
         instruction:
-          '洩壓開蓋後，用耐熱矽膠大食物夾小心夾起焦糖紅棕、晶亮彈軟的整支豬腳與香菇盛入深碗，淋上甘甜滷汁配熱刈包即可上桌；想要濃稠焦亮光澤，可先撇除表層浮油，開蓋按左側「收汁/醬燒」收濃 5–8 分鐘（可勾極薄太白粉芡）再澆回蹄膀表面。',
+          '洩壓開蓋後，用耐熱矽膠大食物夾小心夾起焦糖紅棕、晶亮彈軟的整支豬腳與香菇盛入深碗，淋上甘甜滷汁配熱刈包即可上桌；想要濃稠焦亮光澤，可先撇除表層浮油，開蓋按左側「收汁／醬燒」收濃 5–8 分鐘（可勾極薄太白粉芡）再澆回蹄膀表面。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '5–8 分鐘（選配）',
           shortAction: '收濃焦亮澆頭汁',
@@ -695,16 +695,16 @@ export const SPEC_OFFICIAL_OVERSEAS_RECIPES: Recipe[] = [
   {
     id: 'spec-official-18-tfal-jp-chikuzenni',
     title: '和風筑前煮',
-    subtitle: '免顧火落蓋熬煮，根莖雞腿一鍋直壓 5 分鐘脆軟適中超下飯',
+    subtitle: '免顧火落蓋熬煮，根莖雞腿一鍋直壓 5–8 分鐘脆軟適中超下飯',
     category: 'braise',
     cuisine: '日式',
-    settingMinutes: 5,
-    realTotalMinutes: 25,
+    settingMinutes: 8,
+    realTotalMinutes: 26,
     baseServings: 4,
     innerPot: '球釜不沾內鍋',
     releaseSummary: '即時排氣洩壓（防紅蘿蔔牛蒡過爛）',
     stoveDifference:
-      '傳統瓦斯爐煮筑前煮得先炒再蓋落蓋慢熬 30 分，萬用鍋全下壓 5 分即透心；在 5L 寬底鍋中滷汁顯低屬正常，放涼靜置最能吸進柴魚甘香。',
+      '傳統瓦斯爐煮筑前煮得先炒再蓋落蓋慢熬 30 分，萬用鍋全下按「蒸／一鍋兩菜」微壓 5–8 分即透心；在 5L 寬底鍋中滷汁顯低屬正常，放涼靜置最能吸進柴魚甘香。',
     avoidPitfall:
       '總稀液體（高湯加醬酒）務必超過 150 ml 且先拌融砂糖防焦底；行程結束即時洩壓才不會悶爛紅蘿蔔。',
     youtubeQuery: 'T-fal 電壓力鍋 筑前煮 鮮呼吸萬用鍋',
@@ -734,32 +734,32 @@ export const SPEC_OFFICIAL_OVERSEAS_RECIPES: Recipe[] = [
       },
       {
         stepNumber: 2,
-        title: '鎖蓋啟動 5 分鐘高壓烹調',
+        title: '鎖蓋啟動「蒸／一鍋兩菜」5–8 分鐘',
         instruction:
-          '確認內鍋外壁乾燥，蓋上鍋蓋並順時鐘鎖緊；按右側選擇「雞/鴨/豬」將時間調整為 5 分鐘啟動，經約 10–12 分鐘升壓後開始倒數。',
+          '確認內鍋外壁乾燥，蓋上鍋蓋並順時鐘鎖緊；按右側選擇「蒸／一鍋兩菜」將時間調整為 5–8 分鐘啟動（愛爽脆設 5–6 分，愛軟透設 8 分），經約 10 分鐘升壓後開始倒數。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '蒸／一鍋兩菜',
           lid: 'locked',
-          durationText: '5 分鐘',
+          durationText: '5–8 分鐘',
           releaseMode: 'quick_manual',
-          shortAction: '5分鐘壓透根莖',
+          shortAction: '微壓快煮透根莖',
         },
       },
       {
         stepNumber: 3,
         title: '即時洩壓開蓋檢視防根莖過爛',
         instruction:
-          '5 分鐘行程結束響起提示音後，立即執行安全即時洩壓（手臉遠離排氣孔，避免保溫悶久使紅蘿蔔軟爛），確認浮閥降下後將鍋蓋朝外傾斜打開防燙水滴落。',
+          '行程結束響起提示音後，立即執行安全即時洩壓（手臉遠離排氣孔，避免保溫悶久使紅蘿蔔軟爛），確認浮閥降下後將鍋蓋朝外傾斜打開防燙水滴落。',
       },
       {
         stepNumber: 4,
         title: '拌勻收亮或靜置入味盛盤',
         instruction:
-          '開蓋以矽膠鏟由下往上溫柔翻拌讓食材裹勻醬汁；若偏愛乾爽油亮的便當常備菜口感，不鎖蓋切左側「收汁/醬燒」滾煮 2–3 分鐘至鍋底僅剩薄亮醬汁即起鍋。靜置降溫 15–30 分鐘最會吸味，盛盤點綴燙熟四季豆段。',
+          '開蓋以矽膠鏟由下往上溫柔翻拌讓食材裹勻醬汁；若偏愛乾爽油亮的便當常備菜口感，不鎖蓋切左側「收汁／醬燒」滾煮 2–3 分鐘至鍋底僅剩薄亮醬汁即起鍋。靜置降溫 15–30 分鐘最會吸味，盛盤點綴燙熟四季豆段。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '2–3 分鐘（選配）',
           shortAction: '收濃掛上味醂光',
@@ -888,10 +888,10 @@ export const SPEC_OFFICIAL_OVERSEAS_RECIPES: Recipe[] = [
         stepNumber: 3,
         title: '鎖蓋鮮呼吸高壓 20 分鐘',
         instruction:
-          '蓋上鍋蓋順時鐘轉到底鎖緊，按右側選擇「雞/鴨/豬」設 20 分鐘啟動（若切 3.5–4 公分超大厚塊或家中長輩偏好極致綿爛，可調至 25–30 分鐘）。',
+          '蓋上鍋蓋順時鐘轉到底鎖緊，按右側選擇「雞／鴨／豬」設 20 分鐘啟動（若切 3.5–4 公分超大厚塊或家中長輩偏好極致綿爛，可調至 25–29 分鐘，或改選「牛／羊」設 30 分鐘）。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
           durationText: '20 分鐘',
           releaseMode: 'natural_auto',
@@ -908,10 +908,10 @@ export const SPEC_OFFICIAL_OVERSEAS_RECIPES: Recipe[] = [
         stepNumber: 5,
         title: '（選配）開蓋收汁上色與擺盤享用',
         instruction:
-          '開蓋夾除蔥薑並撇去表層浮油即可盛盤；若想呈現居酒屋濃厚琥珀光澤，保持開蓋切左側「收汁/醬燒」滾煮 3–5 分鐘並不斷舀濃汁澆淋肉面，見鍋底餘約 0.5 公分微稠立即關機起鍋，佐日式黃芥末與白蔥絲解膩。',
+          '開蓋夾除蔥薑並撇去表層浮油即可盛盤；若想呈現居酒屋濃厚琥珀光澤，保持開蓋切左側「收汁／醬燒」滾煮 3–5 分鐘並不斷舀濃汁澆淋肉面，見鍋底餘約 0.5 公分微稠立即關機起鍋，佐日式黃芥末與白蔥絲解膩。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '3–5 分鐘（選配）',
           shortAction: '澆汁收亮焦糖色',
@@ -922,11 +922,11 @@ export const SPEC_OFFICIAL_OVERSEAS_RECIPES: Recipe[] = [
   {
     id: 'spec-official-21-tfal-jp-waterless-chicken-curry',
     title: '無水番茄雞肉咖哩',
-    subtitle: '一滴水不加改用純咖哩粉直壓 8–10 分，洋蔥番茄融出清爽濃醬',
+    subtitle: '一滴水不加改用純咖哩粉直壓 12 分，洋蔥番茄融出清爽濃醬',
     category: 'braise',
     cuisine: '日式',
-    settingMinutes: 10,
-    realTotalMinutes: 38,
+    settingMinutes: 12,
+    realTotalMinutes: 40,
     baseServings: 4,
     innerPot: '球釜不沾內鍋',
     releaseSummary: '自然自動洩壓（免手動碰閥）',
@@ -956,14 +956,14 @@ export const SPEC_OFFICIAL_OVERSEAS_RECIPES: Recipe[] = [
       },
       {
         stepNumber: 2,
-        title: '鎖蓋啟動無水高壓 8–10 分鐘',
+        title: '鎖蓋啟動無水高壓 12 分鐘',
         instruction:
-          '蓋上鍋蓋並順時鐘轉到底鎖緊，按右側選擇「雞/鴨/豬」設 8–10 分鐘啟動（愛雞肉彈嫩、洋蔥保微粒設 8 分；愛洋蔥完全化泥呈濃醬設 10 分）。',
+          '蓋上鍋蓋並順時鐘轉到底鎖緊，按右側選擇「雞／鴨／豬」設 12 分鐘啟動（預設 40 千帕能讓洋蔥完全化泥成濃醬；若愛洋蔥保留微粒可按「壓力調節」降至 30 千帕）。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
-          durationText: '8–10 分鐘',
+          durationText: '12 分鐘',
           releaseMode: 'natural_auto',
           shortAction: '無水壓融洋蔥番茄',
         },
@@ -979,10 +979,10 @@ export const SPEC_OFFICIAL_OVERSEAS_RECIPES: Recipe[] = [
         stepNumber: 4,
         title: '試味並視濃稠度決定是否收汁',
         instruction:
-          '試味調整鹹酸（覺偏酸可補少許蜂蜜或趁餘溫拌入 15 克奶油與鮮奶油變身奶油咖哩）；若醬汁偏稀，不鎖蓋切左側「收汁/醬燒」邊拌邊小滾 3–5 分鐘至濃郁閃亮，盛盤配白飯或烤餅享用。',
+          '試味調整鹹酸（覺偏酸可補少許蜂蜜或趁餘溫拌入 15 克奶油與鮮奶油變身奶油咖哩）；若醬汁偏稀，不鎖蓋切左側「收汁／醬燒」邊拌邊小滾 3–5 分鐘至濃郁閃亮，盛盤配白飯或烤餅享用。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '3–5 分鐘（選配）',
           shortAction: '邊拌邊收濃茄醬',
@@ -1002,9 +1002,9 @@ export const SPEC_OFFICIAL_OVERSEAS_RECIPES: Recipe[] = [
     innerPot: '雙內鍋皆可',
     releaseSummary: '務必自然自動洩壓＋悶 10–15 分（嚴禁快洩）',
     stoveDifference:
-      '蛋奶超過 90°C 沸騰就會起氣孔，靠 300 ml 常溫水升壓、極短加壓 1 分立刻停火靠自然洩壓餘熱柔和凝結；若蒸模式最低限 5 分，可倒數滿 1 分提早取消或改舒肥 85°C 水浴。',
+      '蛋奶超過 90°C 沸騰就會起氣孔，靠 300 ml 常溫水升壓、極短加壓 1 分立刻按取消停火，再靠自然洩壓餘熱柔和凝結；也可用「舒肥料理」85°C 水浴零失敗。',
     avoidPitfall:
-      '蛋與鮮奶必退室溫且鍋底只用常溫水；若蒸模式最低限 5 分切勿蒸滿，倒數滿 1 分立刻按取消靠餘熱悶 10–15 分。',
+      '蛋與鮮奶必退室溫且鍋底只用常溫水；「蒸／一鍋兩菜」最短設 3 分鐘，切勿蒸滿，倒數滿 1 分（螢幕顯示剩 2 分）立刻按「取消」靠餘熱悶 10–15 分。',
     youtubeQuery: 'T-fal 電壓力鍋 1分鐘蒸布丁 鮮呼吸萬用鍋 布丁',
     sourceUrl: 'https://www.t-fal.co.jp/',
     sourceTag: '日本 T-fal 官方食譜',
@@ -1040,12 +1040,12 @@ export const SPEC_OFFICIAL_OVERSEAS_RECIPES: Recipe[] = [
         stepNumber: 4,
         title: '300 ml 常溫水架蒸盤極短加壓 1 分鐘',
         instruction:
-          '內鍋倒入 300 ml 室溫清水並架上原廠蒸盤（水面低於蒸盤不泡杯底），平排 4 個封箔布丁杯後順時鐘鎖緊上蓋；按右側「蒸/一鍋兩菜」設 1 分鐘啟動。若手中面板該模式最短僅能設 5 分鐘，待升壓完成螢幕開始倒數並過了 1 分鐘（顯示剩 4 分）立刻按下「取消」停止加熱！',
+          '內鍋倒入 300 ml 室溫清水並架上原廠蒸盤（水面低於蒸盤不泡杯底），平排 4 個封箔布丁杯後順時鐘鎖緊上蓋；按右側「蒸／一鍋兩菜」調至最短 3 分鐘啟動，待升壓完成螢幕開始倒數並過了 1 分鐘（顯示剩 2 分）立刻按下「取消」停止加熱！',
         potAction: {
           side: 'right',
-          modeName: '蒸 / 一鍋兩菜',
+          modeName: '蒸／一鍋兩菜',
           lid: 'locked',
-          durationText: '1 分鐘（限5分者剩4分即取消）',
+          durationText: '3 分鐘（倒數 1 分按取消）',
           releaseMode: 'natural_auto',
           shortAction: '極短加壓1分定型',
         },

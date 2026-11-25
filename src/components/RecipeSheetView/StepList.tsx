@@ -60,7 +60,7 @@ export function StepList({ steps }: StepListProps) {
                     }}
                   >
                     <ClockIcon size={18} />
-                    {action.durationText}
+                    {formatMeasurements(action.durationText)}
                   </span>
                   {action.temperature && <span>{formatMeasurements(action.temperature)}</span>}
                   {releaseLabel && (

@@ -4,7 +4,7 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
   {
     id: 'spec-korea-01-so-galbijjim',
     title: '韓式燉牛小排',
-    subtitle: '先泡冷水再原鍋汆燙去血水，高壓 25–30 分燉出琥珀焦香軟嫩排骨',
+    subtitle: '先泡冷水再原鍋汆燙去血水，高壓 30 分燉出琥珀焦香軟嫩排骨',
     category: 'braise',
     cuisine: '韓式',
     settingMinutes: 35,
@@ -13,7 +13,7 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
     innerPot: '304不鏽鋼內鍋優先',
     releaseSummary: '自然自動洩壓（鎖住牛排肉汁不柴口）',
     stoveDifference:
-      '先冷水泡 2 小時再原鍋汆燙倒除濁水，高壓 25–30 分鐘就能取代傳統顧火慢燉，省時又能趁空檔拌小菜。',
+      '先冷水泡 2 小時再原鍋汆燙倒除濁水，高壓 30 分鐘就能取代傳統顧火慢燉，省時又能趁空檔拌小菜。',
     avoidPitfall:
       '韓式燉醬含糖易焦，加壓前務必確認稀液體達 250–300ml，且總量勿超最高水位線。',
     youtubeQuery: '特福鮮呼吸萬用鍋 韓式燉牛小排 소갈비찜',
@@ -81,12 +81,12 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
         stepNumber: 5,
         title: '鎖蓋高壓燉煮至軟嫩',
         instruction:
-          '將上蓋手把順時鐘轉到底鎖定，按右側「牛 / 羊肉」設 25–30 分鐘啟動烹調，期間免看火可安心同步拌製其他配菜。',
+          '將上蓋手把順時鐘轉到底鎖定，按右側「牛／羊」設 30 分鐘啟動烹調，期間免看火可安心同步拌製其他配菜。',
         potAction: {
           side: 'right',
-          modeName: '牛 / 羊肉',
+          modeName: '牛／羊',
           lid: 'locked',
-          durationText: '25–30 分鐘',
+          durationText: '30 分鐘',
           releaseMode: 'natural_auto',
           shortAction: '鮮呼吸燉透入味',
         },
@@ -96,10 +96,10 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
         stepNumber: 6,
         title: '自動洩壓開蓋與選配收汁',
         instruction:
-          '等待自動安全洩壓完成、浮閥下降後再朝遠離身體方向傾斜開蓋；此時牛小排呈深琥珀焦糖亮色、紅蘿蔔軟透完整。若希望醬汁更濃稠裹肉，可開蓋按左側「收汁 / 醬燒」續滾 5–8 分鐘後盛入深砂鍋上桌。',
+          '等待自動安全洩壓完成、浮閥下降後再朝遠離身體方向傾斜開蓋；此時牛小排呈深琥珀焦糖亮色、紅蘿蔔軟透完整。若希望醬汁更濃稠裹肉，可開蓋按左側「收汁／醬燒」續滾 5–8 分鐘後盛入深砂鍋上桌。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '5–8 分鐘',
           shortAction: '收濃焦糖醬汁',
@@ -186,16 +186,16 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
       },
       {
         stepNumber: 4,
-        title: '鎖蓋高壓快煮 3–5 分鐘',
+        title: '鎖蓋微壓快煮 3–5 分鐘',
         instruction:
-          '將上蓋手把順時鐘轉到底鎖定，按右側「雞 / 鴨 / 豬」調至最短可設時間（約 3–5 分鐘）啟動壓力快煮。',
+          '將上蓋手把順時鐘轉到底鎖定，按右側「蒸／一鍋兩菜」設 3–5 分鐘啟動短時微壓快煮。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '蒸／一鍋兩菜',
           lid: 'locked',
           durationText: '3–5 分鐘',
           releaseMode: 'quick_manual',
-          shortAction: '短時快壓免坨爛',
+          shortAction: '短時微壓免坨爛',
         },
         tip: '改用溫熱水可加快升壓，避免久悶造成冬粉過爛。',
       },
@@ -210,11 +210,11 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
   {
     id: 'spec-korea-03-cheese-dakgalbi',
     title: '韓式起司辣炒雞',
-    subtitle: '三段下菜高壓 10 分出濃郁紅醬，蓋蓋餘溫燜融牽絲起司還能原鍋炒飯',
+    subtitle: '三段下菜高壓 12 分出濃郁紅醬，蓋蓋餘溫燜融牽絲起司還能原鍋炒飯',
     category: 'braise',
     cuisine: '韓式',
-    settingMinutes: 20,
-    realTotalMinutes: 45,
+    settingMinutes: 22,
+    realTotalMinutes: 47,
     baseServings: 2,
     innerPot: '球釜不沾內鍋',
     releaseSummary: '自然自動洩壓後開蓋拌蔥葉並餘溫燜起司',
@@ -305,14 +305,14 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
       },
       {
         stepNumber: 3,
-        title: '加入高麗菜並鎖蓋高壓 10 分鐘',
+        title: '加入高麗菜並鎖蓋高壓 12 分鐘',
         instruction:
-          '按取消停止爆炒，鋪入大片高麗菜，若鍋底偏乾順鍋邊補約 50–80ml 清水拌勻鍋底防濃醬焦底。順時鐘鎖緊上蓋，按右側「雞 / 鴨 / 豬」設 10 分鐘，結束等自然自動洩壓。',
+          '按取消停止爆炒，鋪入大片高麗菜，若鍋底偏乾順鍋邊補約 50–80ml 清水拌勻鍋底防濃醬焦底。順時鐘鎖緊上蓋，按右側「雞／鴨／豬」設 12 分鐘，結束等自然自動洩壓。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
-          durationText: '10 分鐘',
+          durationText: '12 分鐘',
           releaseMode: 'natural_auto',
           shortAction: '高壓燉透免焦底',
         },
@@ -321,10 +321,10 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
         stepNumber: 4,
         title: '開蓋下青蔥與芝麻葉略炒',
         instruction:
-          '自動洩壓後朝外傾斜開蓋，切換左側「收汁 / 醬燒」（開蓋），放入青蔥段與切粗條的韓國芝麻葉快速拌炒出清香（若醬汁偏稀可順勢略收濃）。',
+          '自動洩壓後朝外傾斜開蓋，切換左側「收汁／醬燒」（開蓋），放入青蔥段與切粗條的韓國芝麻葉快速拌炒出清香（若醬汁偏稀可順勢略收濃）。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '約 2 分鐘',
           shortAction: '拌炒青蔥芝麻葉',
@@ -356,16 +356,16 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
   {
     id: 'spec-korea-04-dakbokkeumtang',
     title: '韓式辣燉雞',
-    subtitle: '免爆炒一鍋到底！肉下菜上鎖蓋快壓 5–10 分，馬鈴薯壓碎拌飯超下飯',
+    subtitle: '免爆炒一鍋到底！肉下菜上鎖蓋快壓 12 分，馬鈴薯壓碎拌飯超下飯',
     category: 'braise',
     cuisine: '韓式',
-    settingMinutes: 8,
-    realTotalMinutes: 35,
+    settingMinutes: 12,
+    realTotalMinutes: 38,
     baseServings: 4,
     innerPot: '304不鏽鋼內鍋優先',
     releaseSummary: '自然自動洩壓（餘溫續悶讓馬鈴薯鬆透）',
     stoveDifference:
-      '右側壓力模式的 5 分鐘是升壓到位後才倒數，加上自然洩壓就能把肉雞與大塊馬鈴薯燉鬆；若用台灣帶骨土雞建議調至 8–12 分鐘。',
+      '右側壓力模式的 12 分鐘是升壓到位後才倒數，加上自然洩壓就能把帶骨雞肉與大塊馬鈴薯一次燉鬆；若用嫩肉雞怕馬鈴薯太軟，可按「壓力調節」降至 30 千帕或改選「蒸／一鍋兩菜」設 8–10 分鐘。',
     avoidPitfall:
       '切勿誤用自訂行程短壓（不等升壓就倒數），且辣醬與砂糖須先和水拌散防焦底。',
     youtubeQuery: '特福鮮呼吸萬用鍋 韓式辣燉雞 닭볶음탕',
@@ -420,14 +420,14 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
       },
       {
         stepNumber: 3,
-        title: '鎖蓋高壓快燉 5–10 分鐘',
+        title: '鎖蓋高壓快燉 12 分鐘',
         instruction:
-          '將上蓋手把順時鐘轉到底鎖定，按右側「雞 / 鴨 / 豬」設定 5 分鐘按下開始（若用帶厚骨放山土雞或大雞腿切塊，可視肉種調長至 8–10 分鐘）。',
+          '將上蓋手把順時鐘轉到底鎖定，按右側「雞／鴨／豬」設定 12 分鐘按下開始（若用嫩肉雞怕馬鈴薯過軟，可按「壓力調節」降至 30 千帕，或改選「蒸／一鍋兩菜」設 8–10 分鐘）。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
-          durationText: '5–10 分鐘',
+          durationText: '12 分鐘',
           releaseMode: 'natural_auto',
           shortAction: '免炒一鍋壓透辣雞',
         },
@@ -437,10 +437,10 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
         stepNumber: 4,
         title: '自動洩壓完成，選配收汁並壓碎馬鈴薯拌飯',
         instruction:
-          '自動洩壓完畢後朝外傾斜開蓋，此時已呈油亮橘紅微濃辣湯，大塊馬鈴薯與紅蘿蔔完整且鬆綿；若想再濃稠些可開蓋按左側「收汁 / 醬燒」續滾 3–5 分鐘。盛白飯把燉軟的紅蘿蔔與馬鈴薯壓碎拌辣湯享用最道地。',
+          '自動洩壓完畢後朝外傾斜開蓋，此時已呈油亮橘紅微濃辣湯，大塊馬鈴薯與紅蘿蔔完整且鬆綿；若想再濃稠些可開蓋按左側「收汁／醬燒」續滾 3–5 分鐘。盛白飯把燉軟的紅蘿蔔與馬鈴薯壓碎拌辣湯享用最道地。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '3–5 分鐘',
           shortAction: '選配收濃拌飯辣湯',
@@ -451,16 +451,16 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
   {
     id: 'spec-korea-05-sogogi-muguk',
     title: '韓式牛肉白蘿蔔湯',
-    subtitle: '香油微爆蒜末大火炒牛肉 2 分，加昆布蘿蔔鎖蓋 15 分熬出清甜鮮湯',
+    subtitle: '香油微爆蒜末大火炒牛肉 2 分，加昆布蘿蔔鎖蓋 20 分熬出清甜鮮湯',
     category: 'soup',
     cuisine: '韓式',
-    settingMinutes: 17,
-    realTotalMinutes: 45,
+    settingMinutes: 22,
+    realTotalMinutes: 50,
     baseServings: 4,
     innerPot: '雙內鍋皆可',
     releaseSummary: '自然自動洩壓（高水位湯品切勿手動快洩）',
     stoveDifference:
-      '靈魂在於先用香油微爆蒜末再把牛胸腹薄片大火炒 2 分鐘鎖出油脂肉香，再加水與昆布壓 15 分鐘，湯頭比生肉下水更有深度。',
+      '靈魂在於先用香油微爆蒜末再把牛胸腹薄片大火炒 2 分鐘鎖出油脂肉香，再加水與昆布壓 20 分鐘，湯頭比生肉下水更有深度。',
     avoidPitfall:
       '煮 6 人份（1.8L 水）逼近 5L 鍋高水位，務必低於最高水位線且等自然洩壓防噴湯。',
     youtubeQuery: '特福鮮呼吸萬用鍋 韓式牛肉白蘿蔔湯 소고기무국',
@@ -572,14 +572,14 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
       },
       {
         stepNumber: 4,
-        title: '鎖蓋高壓煲湯 15 分鐘',
+        title: '鎖蓋高壓煲湯 20 分鐘',
         instruction:
-          '將上蓋手把順時鐘轉到底鎖定，按右側「煮 / 燉湯品」（或「牛 / 羊肉」）設定 15 分鐘按下開始。',
+          '將上蓋手把順時鐘轉到底鎖定，按右側「煮／燉湯品」（預設 20 分鐘）按下開始；若想縮短至 15 分鐘亦可改選「雞／鴨／豬」設 15 分鐘並按「壓力調節」降至 30 千帕。',
         potAction: {
           side: 'right',
-          modeName: '煮 / 燉湯品',
+          modeName: '煮／燉湯品',
           lid: 'locked',
-          durationText: '15 分鐘',
+          durationText: '20 分鐘',
           releaseMode: 'natural_auto',
           shortAction: '高壓熬出清甜湯',
         },
@@ -641,16 +641,16 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
       },
       {
         stepNumber: 2,
-        title: '鎖蓋高壓快燉 3–5 分鐘',
+        title: '鎖蓋微壓快燉 3–5 分鐘',
         instruction:
-          '將上蓋手把順時鐘轉到底鎖定，按右側「雞 / 鴨 / 豬」調至最短可設時間（約 3–5 分鐘）啟動快速加壓。',
+          '將上蓋手把順時鐘轉到底鎖定，按右側「蒸／一鍋兩菜」設 3–5 分鐘啟動微壓快燉。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '蒸／一鍋兩菜',
           lid: 'locked',
           durationText: '3–5 分鐘',
           releaseMode: 'quick_manual',
-          shortAction: '淺醬快壓嫩鯖魚',
+          shortAction: '淺醬微壓嫩鯖魚',
         },
         tip: '鯖魚肉質細嫩，行程結束請勿長時間保溫悶蓋，盡快洩壓取出最完整。',
       },
@@ -658,10 +658,10 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
         stepNumber: 3,
         title: '洩壓開蓋盛出完整魚塊，選配單獨收濃味噌醬',
         instruction:
-          '洩壓後朝外傾斜開蓋，可見魚皮青銀完整、魚肉熟白細嫩，用平口矽膠鏟小心盛盤；若想讓味噌醬汁更濃稠掛味，可單獨按左側「收汁 / 醬燒」將鍋底醬湯收濃 2–3 分鐘再淋回魚身。',
+          '洩壓後朝外傾斜開蓋，可見魚皮青銀完整、魚肉熟白細嫩，用平口矽膠鏟小心盛盤；若想讓味噌醬汁更濃稠掛味，可單獨按左側「收汁／醬燒」將鍋底醬湯收濃 2–3 分鐘再淋回魚身。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '2–3 分鐘',
           shortAction: '收濃味噌淋醬',
@@ -786,10 +786,10 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
         stepNumber: 4,
         title: '鎖蓋高壓燉煮 59 分鐘',
         instruction:
-          '蓋上鍋蓋並順時鐘轉到底鎖定，按右側「牛 / 羊肉」將時間調滿至 59 分鐘按下開始，安心免顧火等待升壓與保壓倒數。',
+          '蓋上鍋蓋並順時鐘轉到底鎖定，按右側「牛／羊」將時間調滿至 59 分鐘按下開始，安心免顧火等待升壓與保壓倒數。',
         potAction: {
           side: 'right',
-          modeName: '牛 / 羊肉',
+          modeName: '牛／羊',
           lid: 'locked',
           durationText: '59 分鐘',
           releaseMode: 'natural_auto',
@@ -806,7 +806,7 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
         stepNumber: 6,
         title: '開蓋 140°C 回滾，分三段下香草蔬菜與油蔥酥',
         instruction:
-          '按取消退出保溫，改選左側「自訂行程」設 140°C（或用「收汁 / 醬燒」）開蓋讓大鍋迅速回滾約 5 分鐘。加鹽與鮮味粉，先下西洋芹梗薄片煮 1–2 分鐘釋甜，再拌入南洋芹菜葉與青蔥碎滾出翠綠清香，試味後撒入一大把油蔥酥即可取消盛碗。',
+          '按取消退出保溫，改選左側「自訂行程」設 140°C（或用「收汁／醬燒」）開蓋讓大鍋迅速回滾約 5 分鐘。加鹽與鮮味粉，先下西洋芹梗薄片煮 1–2 分鐘釋甜，再拌入南洋芹菜葉與青蔥碎滾出翠綠清香，試味後撒入一大把油蔥酥即可取消盛碗。',
         potAction: {
           side: 'left',
           modeName: '自訂行程',
@@ -822,7 +822,7 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
   {
     id: 'spec-malaysia-singapore-02-ayam-panggang',
     title: '馬來香料烤雞',
-    subtitle: '免加水無壓烘烤 40 分翻面，再 150°C 補烤 5 分雙面金黃焦香',
+    subtitle: '免加水烘烤 40 分翻面，再 150°C 補烤 5 分雙面金黃焦香',
     category: 'bake',
     cuisine: '南洋',
     settingMinutes: 45,
@@ -858,10 +858,10 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
         stepNumber: 1,
         title: '單層平鋪雞塊，130°C 一段低溫烘烤 40 分鐘',
         instruction:
-          '將醃好並瀝乾多餘醃汁的帶皮雞塊單層平鋪於黑色球釜內鍋底部（先讓雞皮較多面朝下貼鍋底，完全不墊烘焙紙、不加水）。蓋上鍋蓋保持手把留在解鎖不鎖定位置，按左側「無壓烘烤」調為 130°C、40 分鐘啟動。',
+          '將醃好並瀝乾多餘醃汁的帶皮雞塊單層平鋪於黑色球釜內鍋底部（先讓雞皮較多面朝下貼鍋底，完全不墊烘焙紙、不加水）。蓋上鍋蓋保持手把留在解鎖不鎖定位置，按左側「烘烤」調為 130°C、40 分鐘啟動。',
         potAction: {
           side: 'left',
-          modeName: '無壓烘烤',
+          modeName: '烘烤',
           lid: 'closed_unlocked',
           durationText: '40 分鐘',
           temperature: '130°C',
@@ -991,12 +991,12 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
       },
       {
         stepNumber: 5,
-        title: '開蓋切換「收汁 / 醬燒」收濃滑順金黃醬',
+        title: '開蓋切換「收汁／醬燒」收濃滑順金黃醬',
         instruction:
-          '爆炒結束後切換左側「收汁 / 醬燒」，全程開蓋以木匙沿鍋緣輕推 2–5 分鐘；待醬汁收成飽和薑黃金黃色濃稠滑順狀態、微泛細油泡且不結塊，試味補鹽即按取消盛盤。',
+          '爆炒結束後切換左側「收汁／醬燒」，全程開蓋以木匙沿鍋緣輕推 2–5 分鐘；待醬汁收成飽和薑黃金黃色濃稠滑順狀態、微泛細油泡且不結塊，試味補鹽即按取消盛盤。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '2–5 分鐘',
           shortAction: '輕推收濃金黃醬',
@@ -1102,10 +1102,10 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
         stepNumber: 3,
         title: '鎖蓋高壓燉煮 45 分鐘',
         instruction:
-          '蓋上鍋蓋將上蓋手把順時鐘轉到底鎖定，按右側「牛 / 羊肉」設 45 分鐘啟動，靠鮮呼吸動態變壓釋放肉鮮，免加味精與高湯塊。',
+          '蓋上鍋蓋將上蓋手把順時鐘轉到底鎖定，按右側「牛／羊」設 45 分鐘啟動，靠鮮呼吸動態變壓釋放肉鮮，免加味精與高湯塊。',
         potAction: {
           side: 'right',
-          modeName: '牛 / 羊肉',
+          modeName: '牛／羊',
           lid: 'locked',
           durationText: '45 分鐘',
           releaseMode: 'natural_auto',
@@ -1135,10 +1135,10 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
         stepNumber: 7,
         title: '開蓋煮滾，分兩段下耐煮蔬菜與青江菜',
         instruction:
-          '按取消退出保溫，改選左側「收汁 / 醬燒」（或「爆炒煎烤」）開蓋不時輕攪防黏底直至濃醬滾沸；倒入斜切片茄子與長豇豆段續煮 5 分鐘，最後放入青江菜在無壓狀態下輕蓋鍋蓋（切勿鎖壓）悶煮 3 分鐘即按取消停火。',
+          '按取消退出保溫，改選左側「收汁／醬燒」（或「爆炒煎烤」）開蓋不時輕攪防黏底直至濃醬滾沸；倒入斜切片茄子與長豇豆段續煮 5 分鐘，最後放入青江菜在無壓狀態下輕蓋鍋蓋（切勿鎖壓）悶煮 3 分鐘即按取消停火。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'closed_unlocked',
           durationText: '約 8 分鐘',
           shortAction: '濃花生醬煨鮮蔬',
@@ -1233,10 +1233,10 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
         stepNumber: 2,
         title: '鎖蓋高壓燉煮 15 分鐘',
         instruction:
-          '蓋上鍋蓋將上蓋手把順時鐘轉到底鎖定，確認限壓閥潔淨無阻礙，按右側「雞 / 鴨 / 豬」設 15 分鐘啟動。',
+          '蓋上鍋蓋將上蓋手把順時鐘轉到底鎖定，確認限壓閥潔淨無阻礙，按右側「雞／鴨／豬」設 15 分鐘啟動。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
           durationText: '15 分鐘',
           releaseMode: 'natural_auto',
@@ -1341,10 +1341,10 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
         stepNumber: 1,
         title: '高溫猛火快滾汆燙 8 分鐘去血水',
         instruction:
-          '將整塊帶骨豬肋排入鍋加水剛好淹過肉面，順時鐘鎖緊上蓋，按右側「蒸 / 一鍋兩菜」設 8 分鐘逼出血水與浮沫（想省一次洩壓亦可改開蓋「爆炒煎烤」大滾 5 分鐘）；完成倒除濁水並將排骨與內鍋徹底沖洗乾淨。',
+          '將整塊帶骨豬肋排入鍋加水剛好淹過肉面，順時鐘鎖緊上蓋，按右側「蒸／一鍋兩菜」設 8 分鐘逼出血水與浮沫（想省一次洩壓亦可改開蓋「爆炒煎烤」大滾 5 分鐘）；完成倒除濁水並將排骨與內鍋徹底沖洗乾淨。',
         potAction: {
           side: 'right',
-          modeName: '蒸 / 一鍋兩菜',
+          modeName: '蒸／一鍋兩菜',
           lid: 'locked',
           durationText: '8 分鐘',
           releaseMode: 'quick_manual',
@@ -1355,10 +1355,10 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
         stepNumber: 2,
         title: '帶骨加紫洋蔥薑片高壓燉 30 分鐘',
         instruction:
-          '洗淨排骨重新放入乾淨內鍋，注入剛好淹過肉面的新鮮清水，放入紫洋蔥塊與厚切薑片；蓋蓋順時鐘鎖定，按右側「雞 / 鴨 / 豬」手動調為 30 分鐘啟動。',
+          '洗淨排骨重新放入乾淨內鍋，注入剛好淹過肉面的新鮮清水，放入紫洋蔥塊與厚切薑片；蓋蓋順時鐘鎖定，按右側「牛／羊」（預設 30 分鐘）啟動。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '牛／羊',
           lid: 'locked',
           durationText: '30 分鐘',
           releaseMode: 'natural_auto',
@@ -1389,10 +1389,10 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
         stepNumber: 5,
         title: '排骨回鍋炒蝦醬，無壓輕蓋燜煮裹汁',
         instruction:
-          '將切段排骨放回翻拌，加少許砂糖、約 1 大匙深紫褐色發酵蝦醬與適量濾清豬骨高湯拌開（蝦醬極鹹先別放鹽）。維持無壓切「收汁 / 醬燒」輕蓋鍋蓋（切勿鎖壓）燜煮 2–3 分鐘至裹滿油亮紅褐蝦醬番茄釉汁，按取消盛盤配白飯。',
+          '將切段排骨放回翻拌，加少許砂糖、約 1 大匙深紫褐色發酵蝦醬與適量濾清豬骨高湯拌開（蝦醬極鹹先別放鹽）。維持無壓切「收汁／醬燒」輕蓋鍋蓋（切勿鎖壓）燜煮 2–3 分鐘至裹滿油亮紅褐蝦醬番茄釉汁，按取消盛盤配白飯。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'closed_unlocked',
           durationText: '2–3 分鐘',
           shortAction: '無壓燜收蝦醬汁',
@@ -1488,10 +1488,10 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
         stepNumber: 2,
         title: '鎖蓋高壓燉煮 40–45 分鐘',
         instruction:
-          '蓋上鍋蓋順時鐘轉到底鎖定，按右側「煮 / 燉湯品」（或「雞 / 鴨 / 豬」）設定 40–45 分鐘按下開始，全程免顧火就能取代傳統 3 小時慢熬。',
+          '蓋上鍋蓋順時鐘轉到底鎖定，按右側「煮／燉湯品」（或「牛／羊」）設定 40–45 分鐘按下開始，全程免顧火就能取代傳統 3 小時慢熬。',
         potAction: {
           side: 'right',
-          modeName: '煮 / 燉湯品',
+          modeName: '煮／燉湯品',
           lid: 'locked',
           durationText: '40–45 分鐘',
           releaseMode: 'natural_auto',
@@ -1604,10 +1604,10 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
         stepNumber: 3,
         title: '回鍋加辛香料與三色醬汁鎖蓋加壓 25 分鐘',
         instruction:
-          '將洗淨雞爪放回內鍋，投入南薑、香茅、瘋柑葉、蒜頭、香菜根與黑醬油、薄醬油、魚露、鹽糖，倒入約 500–800ml 高湯或清水淹過食材（低於最高水位線）。順時鐘鎖緊上蓋，按右側「豆類 / 蹄筋」（或「雞 / 鴨 / 豬」）設 25 分鐘啟動。',
+          '將洗淨雞爪放回內鍋，投入南薑、香茅、瘋柑葉、蒜頭、香菜根與黑醬油、薄醬油、魚露、鹽糖，倒入約 500–800ml 高湯或清水淹過食材（低於最高水位線）。順時鐘鎖緊上蓋，按右側「雞／鴨／豬」設 25 分鐘（按「壓力調節」調高至 60–70 千帕更易脫骨；或改選「牛／羊」設 30 分鐘）啟動。',
         potAction: {
           side: 'right',
-          modeName: '豆類 / 蹄筋',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
           durationText: '25 分鐘',
           releaseMode: 'natural_auto',
@@ -1690,10 +1690,10 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
         stepNumber: 2,
         title: '鎖蓋啟動壓力煲湯 20–25 分鐘',
         instruction:
-          '蓋上鍋蓋順時鐘轉到底鎖定，按右側「煮 / 燉湯品」（或「雞 / 鴨 / 豬」）設定 20–25 分鐘按下開始，免顧火也不必擔心滾溢或燒乾。',
+          '蓋上鍋蓋順時鐘轉到底鎖定，按右側「煮／燉湯品」（或「雞／鴨／豬」）設定 20–25 分鐘按下開始，免顧火也不必擔心滾溢或燒乾。',
         potAction: {
           side: 'right',
-          modeName: '煮 / 燉湯品',
+          modeName: '煮／燉湯品',
           lid: 'locked',
           durationText: '20–25 分鐘',
           releaseMode: 'natural_auto',
@@ -1718,7 +1718,7 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
   {
     id: 'spec-vietnam-01-bo-kho',
     title: '越式椰子水紅燒牛腩',
-    subtitle: '新鮮椰子水免炒壓 25–30 分，開蓋再勾薄芡濃香滑亮，沾法棍絕配',
+    subtitle: '新鮮椰子水免炒壓 30 分，開蓋再勾薄芡濃香滑亮，沾法棍絕配',
     category: 'braise',
     cuisine: '南洋',
     settingMinutes: 30,
@@ -1800,14 +1800,14 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
       },
       {
         stepNumber: 2,
-        title: '鎖蓋高壓燉煮 25–30 分鐘',
+        title: '鎖蓋高壓燉煮 30 分鐘',
         instruction:
-          '蓋上鍋蓋順時鐘轉到底鎖定，按右側「牛 / 羊肉」設 25 分鐘啟動（若使用較硬牛腱心或偏好極致軟爛可延長至 30–35 分鐘）。',
+          '蓋上鍋蓋順時鐘轉到底鎖定，按右側「牛／羊」設 30 分鐘啟動（若使用較硬牛腱心或偏好極致軟爛可延長至 35 分鐘）。',
         potAction: {
           side: 'right',
-          modeName: '牛 / 羊肉',
+          modeName: '牛／羊',
           lid: 'locked',
-          durationText: '25–30 分鐘',
+          durationText: '30 分鐘',
           releaseMode: 'natural_auto',
           shortAction: '椰汁高壓燉紅燒牛',
         },
@@ -1823,10 +1823,10 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
         stepNumber: 4,
         title: '開蓋淋入 20g:20ml 樹薯粉水勾薄芡',
         instruction:
-          '按取消鍵後切換左側「收汁 / 醬燒」（開蓋）讓湯微滾 2–3 分鐘；將 20 克樹薯粉加 20ml 清水調成乳白粉水倒入滾湯，立刻以矽膠匙快速攪勻至滑順油亮微稠掛匙即按取消停火。',
+          '按取消鍵後切換左側「收汁／醬燒」（開蓋）讓湯微滾 2–3 分鐘；將 20 克樹薯粉加 20ml 清水調成乳白粉水倒入滾湯，立刻以矽膠匙快速攪勻至滑順油亮微稠掛匙即按取消停火。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '2–3 分鐘',
           shortAction: '開蓋勾芡滑亮濃湯',
@@ -1906,10 +1906,10 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
         stepNumber: 3,
         title: '鎖蓋高壓燉煮 18–20 分鐘',
         instruction:
-          '蓋上鍋蓋順時鐘轉到底鎖定，按右側「雞 / 鴨 / 豬」設 18–20 分鐘啟動，厚切五花設足 18–20 分最軟嫩化口。',
+          '蓋上鍋蓋順時鐘轉到底鎖定，按右側「雞／鴨／豬」設 18–20 分鐘啟動，厚切五花設足 18–20 分最軟嫩化口。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
           durationText: '18–20 分鐘',
           releaseMode: 'natural_auto',
@@ -1921,10 +1921,10 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
         stepNumber: 4,
         title: '自然洩壓開蓋檢視油亮焦糖色、選配微收',
         instruction:
-          '自動洩壓完畢後朝外傾斜開蓋，此時豬皮呈透亮焦糖紅褐色、三層成型入口軟嫩、鍋底僅留薄層濃滷汁可直接盛盤；若該次加水偏多，可開蓋按左側「收汁 / 醬燒」微收 2–3 分鐘即成。',
+          '自動洩壓完畢後朝外傾斜開蓋，此時豬皮呈透亮焦糖紅褐色、三層成型入口軟嫩、鍋底僅留薄層濃滷汁可直接盛盤；若該次加水偏多，可開蓋按左側「收汁／醬燒」微收 2–3 分鐘即成。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '2–3 分鐘',
           shortAction: '選配收濃油亮滷汁',
@@ -2008,10 +2008,10 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
         stepNumber: 3,
         title: '鎖蓋高壓煲湯 20–25 分鐘',
         instruction:
-          '蓋上鍋蓋順時鐘轉到底鎖定，按右側「煮 / 燉湯品」（或「雞 / 鴨 / 豬」）設定 20–25 分鐘按下開始，即可免顧火安心忙其他事。',
+          '蓋上鍋蓋順時鐘轉到底鎖定，按右側「煮／燉湯品」（或「雞／鴨／豬」）設定 20–25 分鐘按下開始，即可免顧火安心忙其他事。',
         potAction: {
           side: 'right',
-          modeName: '煮 / 燉湯品',
+          modeName: '煮／燉湯品',
           lid: 'locked',
           durationText: '20–25 分鐘',
           releaseMode: 'natural_auto',
@@ -2039,7 +2039,7 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
     innerPot: '球釜不沾內鍋',
     releaseSummary: '兩段皆採自然自動洩壓（下米段多悶 10 分防噴漿）',
     stoveDifference:
-      '先壓透略微偏鹹的羊肉肉底，再把淘淨瀝乾的長秈米平鋪頂部「絕不攪拌」，改用白米／快煮米飯壓 12–15 分加悶 10 分，避免久壓把米悶糊。',
+      '先壓透略微偏鹹的羊肉肉底，再把淘淨瀝乾的長秈米平鋪頂部「絕不攪拌」，改用「快煮米飯」（固定 14 分）加悶 10 分，避免久壓把米悶糊。',
     avoidPitfall:
       '鋪米後嚴禁攪拌到底部以免米澱粉焦底，且下米段務必自然洩壓切勿手動排氣。',
     youtubeQuery: 'Tefal Plov 中亞羊肉抓飯 烏茲別克手抓飯 萬用鍋',
@@ -2150,14 +2150,14 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
       },
       {
         stepNumber: 6,
-        title: '鎖蓋壓煮羊肉肉底 25–30 分鐘，同時淘洗瀝乾長米',
+        title: '鎖蓋壓煮羊肉肉底 30 分鐘，同時淘洗瀝乾長米',
         instruction:
-          '蓋上鍋蓋順時鐘鎖定，按右側「牛 / 羊肉」設 25–30 分鐘壓煮肉底並等待自然自動洩壓；趁壓煮空檔將 300g 長秈米置流水下徹底淘清，放金屬細網濾杓完全瀝乾。',
+          '蓋上鍋蓋順時鐘鎖定，按右側「牛／羊」設 30 分鐘壓煮肉底並等待自然自動洩壓；趁壓煮空檔將 300g 長秈米置流水下徹底淘清，放金屬細網濾杓完全瀝乾。',
         potAction: {
           side: 'right',
-          modeName: '牛 / 羊肉',
+          modeName: '牛／羊',
           lid: 'locked',
-          durationText: '25–30 分鐘',
+          durationText: '30 分鐘',
           releaseMode: 'natural_auto',
           shortAction: '高壓燉香羊肉底',
         },
@@ -2170,14 +2170,14 @@ export const SPEC_KOREA_SEA_RECIPES: Recipe[] = [
       },
       {
         stepNumber: 8,
-        title: '二次鎖蓋改米飯行程悶煮成抓飯',
+        title: '二次鎖蓋按「快煮米飯」悶煮成抓飯',
         instruction:
-          '再次順時鐘鎖緊上蓋，按右側「白米 / 快煮米飯」壓煮 12–15 分鐘，結束後務必等待自然自動洩壓並再多悶 10 分鐘（切勿手動快洩，防噴漿並讓米粒回吸乾爽）。',
+          '再次順時鐘鎖緊上蓋，按右側「快煮米飯」（固定 14 分鐘），結束後務必等待自然自動洩壓並再多悶 10 分鐘（切勿手動快洩，防噴漿並讓米粒回吸乾爽）。',
         potAction: {
           side: 'right',
-          modeName: '白米 / 快煮米飯',
+          modeName: '快煮米飯',
           lid: 'locked',
-          durationText: '12–15 分鐘',
+          durationText: '14 分鐘',
           releaseMode: 'natural_auto',
           shortAction: '悶煮金黃粒粒飯',
         },

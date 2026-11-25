@@ -57,7 +57,7 @@ export function PotSequenceStrip({ recipe }: PotSequenceStripProps) {
                 </span>}
                 {action.durationText && <span className="pot-stage-detail-item">
                   <ClockIcon size={19} />
-                  {action.durationText}
+                  {formatMeasurements(action.durationText)}
                 </span>}
                 {action.description && action.description !== action.modeName && <span>{formatMeasurements(action.description)}</span>}
                 {action.temperature && (
@@ -69,7 +69,7 @@ export function PotSequenceStrip({ recipe }: PotSequenceStripProps) {
 
               {(action.shortAction || releaseText) && (
                 <div className="pot-stage-note">
-                  {action.shortAction}
+                  {action.shortAction && formatMeasurements(action.shortAction)}
                   {action.shortAction && releaseText ? '・' : ''}
                   {releaseText && (
                     <span className="pot-stage-release">

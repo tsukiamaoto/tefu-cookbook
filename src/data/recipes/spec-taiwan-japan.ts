@@ -63,10 +63,10 @@ export const SPEC_TAIWAN_JAPAN_RECIPES: Recipe[] = [
         stepNumber: 4,
         title: '鮮呼吸鎖蓋加壓 20 分鐘',
         instruction:
-          '蓋上鍋蓋並將手把順時鐘轉到底鎖定，按右側「雞/鴨/豬」將時間調為 20 分鐘啟動，靜待行程結束與自然自動洩壓。',
+          '蓋上鍋蓋並將手把順時鐘轉到底鎖定，按右側「雞／鴨／豬」將時間調為 20 分鐘啟動，靜待行程結束與自然自動洩壓。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
           durationText: '20 分鐘',
           releaseMode: 'natural_auto',
@@ -78,10 +78,10 @@ export const SPEC_TAIWAN_JAPAN_RECIPES: Recipe[] = [
         stepNumber: 5,
         title: '開蓋撒胡椒並收濃醬汁',
         instruction:
-          '洩壓開蓋後即見洋蔥融化釋出滿滿湯汁；撒入適量胡椒粉輕輕翻拌，保持開蓋切左側「收汁/醬燒」設 8 分鐘，收至湯汁呈深琥珀微濃發亮，撒上蔥花即可盛盤。',
+          '洩壓開蓋後即見洋蔥融化釋出滿滿湯汁；撒入適量胡椒粉輕輕翻拌，保持開蓋切左側「收汁／醬燒」設 8 分鐘，收至湯汁呈深琥珀微濃發亮，撒上蔥花即可盛盤。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '8 分鐘',
           shortAction: '收亮琥珀醬汁撒蔥花',
@@ -96,7 +96,7 @@ export const SPEC_TAIWAN_JAPAN_RECIPES: Recipe[] = [
     subtitle: '調降最低壓力 20 千帕 鮮燉，整片厚鮭魚完整不碎、後拌大醬鮮甜無腥',
     category: 'soup',
     cuisine: '台式',
-    settingMinutes: 25,
+    settingMinutes: 20,
     realTotalMinutes: 45,
     baseServings: 3,
     innerPot: '球釜不沾內鍋',
@@ -130,18 +130,18 @@ export const SPEC_TAIWAN_JAPAN_RECIPES: Recipe[] = [
       },
       {
         stepNumber: 2,
-        title: '鎖蓋設定煮／燉湯品並降壓至 20 千帕',
+        title: '鎖蓋設定「煮／燉湯品」並降壓至 20 千帕',
         instruction:
-          '雙手壓緊上蓋並順時鐘轉緊鎖定，按右側「煮/燉湯品」設 15 分鐘，接著按「壓力調節」搭配減鍵由 40 千帕 一路調降至最低 20 千帕（防魚肉煮爛），按下左側「中途加料」鍵後啟動。',
+          '雙手壓緊上蓋並順時鐘轉緊鎖定，按右側「煮／燉湯品」（預設 20 分鐘），接著按「壓力調節」搭配減鍵由預設 30 千帕 調降至最低 20 千帕（防魚肉煮爛），按下左側「中途加料」鍵後啟動。',
         potAction: {
           side: 'right',
-          modeName: '煮 / 燉湯品',
+          modeName: '煮／燉湯品',
           lid: 'locked',
-          durationText: '15 分鐘',
+          durationText: '20 分鐘（中途加料）',
           releaseMode: 'natural_auto',
           shortAction: '20 千帕 低壓燉鮮魚湯',
         },
-        tip: '若想省下二次升壓 10 多分鐘，也可不按中途加料，直接燉畢洩壓開蓋後以湯頭餘溫或「收汁/醬燒」微滾 1–2 分鐘拌化大醬！',
+        tip: '若想省下二次升壓 10 多分鐘，也可不按中途加料，直接改按「雞／鴨／豬」設 15 分鐘並調壓至 20 千帕，燉畢洩壓開蓋後以湯頭餘溫或「收汁／醬燒」微滾 1–2 分鐘拌化大醬！',
       },
       {
         stepNumber: 3,
@@ -162,9 +162,9 @@ export const SPEC_TAIWAN_JAPAN_RECIPES: Recipe[] = [
           '若採中途加料行程，再次壓緊鎖定上蓋，待面板顯示剩餘 10 分鐘即會自動續煮完畢並排壓轉保溫。',
         potAction: {
           side: 'right',
-          modeName: '煮 / 燉湯品',
+          modeName: '煮／燉湯品',
           lid: 'locked',
-          durationText: '10 分鐘',
+          durationText: '續煮剩餘 10 分鐘（中途加料）',
           releaseMode: 'natural_auto',
           shortAction: '續煮融合大醬鮮味',
         },
@@ -246,10 +246,10 @@ export const SPEC_TAIWAN_JAPAN_RECIPES: Recipe[] = [
         stepNumber: 5,
         title: '鮮呼吸鎖蓋燉湯 20 分鐘',
         instruction:
-          '蓋上鍋蓋並將手把順時鐘轉至鎖定位置，按右側「煮/燉湯品」設定 20 分鐘啟動，靜待升壓、燉煮與自動洩壓完成。',
+          '蓋上鍋蓋並將手把順時鐘轉至鎖定位置，按右側「煮／燉湯品」設定 20 分鐘啟動，靜待升壓、燉煮與自動洩壓完成。',
         potAction: {
           side: 'right',
-          modeName: '煮 / 燉湯品',
+          modeName: '煮／燉湯品',
           lid: 'locked',
           durationText: '20 分鐘',
           releaseMode: 'natural_auto',
@@ -309,10 +309,10 @@ export const SPEC_TAIWAN_JAPAN_RECIPES: Recipe[] = [
         stepNumber: 3,
         title: '鎖蓋加壓燉煮 20–25 分鐘',
         instruction:
-          '蓋上鍋蓋並順時鐘鎖緊，按右側「煮/燉湯品」（或「雞/鴨/豬」）設定 20–25 分鐘啟動免顧火燉煮。',
+          '蓋上鍋蓋並順時鐘鎖緊，按右側「煮／燉湯品」（或「雞／鴨／豬」）設定 20–25 分鐘啟動免顧火燉煮。',
         potAction: {
           side: 'right',
-          modeName: '煮 / 燉湯品',
+          modeName: '煮／燉湯品',
           lid: 'locked',
           durationText: '20–25 分鐘',
           releaseMode: 'natural_auto',
@@ -367,10 +367,10 @@ export const SPEC_TAIWAN_JAPAN_RECIPES: Recipe[] = [
         stepNumber: 2,
         title: '鎖蓋加壓燉煮 20 分鐘',
         instruction:
-          '蓋上鍋蓋並順時鐘鎖緊，選右側「煮/燉湯品」（或「雞/鴨/豬」）設定 20 分鐘啟動。',
+          '蓋上鍋蓋並順時鐘鎖緊，選右側「煮／燉湯品」（或「雞／鴨／豬」）設定 20 分鐘啟動。',
         potAction: {
           side: 'right',
-          modeName: '煮 / 燉湯品',
+          modeName: '煮／燉湯品',
           lid: 'locked',
           durationText: '20 分鐘',
           releaseMode: 'natural_auto',
@@ -394,7 +394,7 @@ export const SPEC_TAIWAN_JAPAN_RECIPES: Recipe[] = [
   {
     id: 'spec-taiwan-06-black-bean-pork-trotter-soup',
     title: '黑豆豬腳湯',
-    subtitle: '乾黑豆免泡水直下，豆類模式壓 30 分釋放滿滿膠質與花青素深黑濃湯',
+    subtitle: '乾黑豆免泡水直下，牛／羊模式壓 30 分釋放滿滿膠質與花青素深黑濃湯',
     category: 'soup',
     cuisine: '台式',
     settingMinutes: 30,
@@ -403,7 +403,7 @@ export const SPEC_TAIWAN_JAPAN_RECIPES: Recipe[] = [
     innerPot: '304不鏽鋼內鍋優先',
     releaseSummary: '自然自動洩壓（嚴禁手動快洩防豆沫噴溢）',
     stoveDifference:
-      '瓦斯爐燉豬腳配乾黑豆得顧火 2–3 小時，萬用鍋豆類蹄筋高壓 30 分鐘就能同步軟化皮筋與黑豆；偏愛 Q 彈設 25–30 分，喜入口即化設 35 分。',
+      '瓦斯爐燉豬腳配乾黑豆得顧火 2–3 小時，萬用鍋「牛／羊」60 千帕高壓 30 分鐘就能同步軟化皮筋與黑豆；喜入口即化設 35 分，偏愛 Q 彈嚼勁可改選「雞／鴨／豬」設 25–29 分。',
     avoidPitfall:
       '黑豆加熱易起泡，食材加湯水切勿超過內鍋 2/3 滿（水約 1500–1700ml），結束嚴禁手動快洩以防泡沫噴濺塞閥。',
     youtubeQuery: '特福鮮呼吸萬用鍋 黑豆豬腳湯 養生湯',
@@ -430,10 +430,10 @@ export const SPEC_TAIWAN_JAPAN_RECIPES: Recipe[] = [
         stepNumber: 2,
         title: '鎖蓋高壓燉煮 30–35 分鐘',
         instruction:
-          '蓋上鍋蓋並順時鐘鎖緊，按右側「豆類/蹄筋」（或「牛/羊肉」、「煮/燉湯品」）依喜好口感設 30–35 分鐘啟動（愛 Q 彈嚼勁設 25–30 分，愛軟糯入口即化可設 35–40 分）。',
+          '蓋上鍋蓋並順時鐘鎖緊，按右側「牛／羊」（預設 60 千帕，亦可改選「煮／燉湯品」）依喜好口感設 30–35 分鐘啟動（愛軟糯入口即化可設 35–40 分；愛 Q 彈嚼勁改選「雞／鴨／豬」設 25–29 分）。',
         potAction: {
           side: 'right',
-          modeName: '豆類 / 蹄筋',
+          modeName: '牛／羊',
           lid: 'locked',
           durationText: '30–35 分鐘',
           releaseMode: 'natural_auto',
@@ -499,10 +499,10 @@ export const SPEC_TAIWAN_JAPAN_RECIPES: Recipe[] = [
         stepNumber: 3,
         title: '鎖蓋加壓煲湯 25–30 分鐘',
         instruction:
-          '蓋上鍋蓋並順時鐘鎖緊，按右側「煮/燉湯品」設定 25–30 分鐘啟動（想吃鬆粉綿密蓮藕設 30 分，偏愛略帶爽脆感設 20–25 分）。',
+          '蓋上鍋蓋並順時鐘鎖緊，按右側「煮／燉湯品」設定 25–30 分鐘啟動（想吃鬆粉綿密蓮藕設 30 分，偏愛略帶爽脆感設 20–25 分）。',
         potAction: {
           side: 'right',
-          modeName: '煮 / 燉湯品',
+          modeName: '煮／燉湯品',
           lid: 'locked',
           durationText: '25–30 分鐘',
           releaseMode: 'natural_auto',
@@ -571,16 +571,16 @@ export const SPEC_TAIWAN_JAPAN_RECIPES: Recipe[] = [
         stepNumber: 3,
         title: '鎖蓋鮮呼吸燉煮 20 分鐘',
         instruction:
-          '蓋上鍋蓋並順時鐘轉到底鎖定，選右側「煮/燉湯品」設定 20 分鐘啟動，以鮮呼吸動態變壓把花膠膠質與海陸鮮味快速逼出。',
+          '蓋上鍋蓋並順時鐘轉到底鎖定，選右側「煮／燉湯品」設定 20 分鐘啟動，以鮮呼吸動態變壓把花膠膠質與海陸鮮味快速逼出。',
         potAction: {
           side: 'right',
-          modeName: '煮 / 燉湯品',
+          modeName: '煮／燉湯品',
           lid: 'locked',
           durationText: '20 分鐘',
           releaseMode: 'natural_auto',
           shortAction: '鮮呼吸逼出花膠膠質',
         },
-        tip: '偏好活鮑魚更 Q 脆彈牙者，可先不放鮑魚，待壓完開蓋後再放入以「收汁/醬燒」開蓋微滾 3–5 分鐘收尾。',
+        tip: '偏好活鮑魚更 Q 脆彈牙者，可先不放鮑魚，待壓完開蓋後再放入以「收汁／醬燒」開蓋微滾 3–5 分鐘收尾。',
       },
       {
         stepNumber: 4,
@@ -652,10 +652,10 @@ export const SPEC_TAIWAN_JAPAN_RECIPES: Recipe[] = [
         stepNumber: 3,
         title: '鎖蓋鮮呼吸壓力燉煮 20 分鐘',
         instruction:
-          '蓋上鍋蓋並順時鐘鎖定，選右側「煮/燉湯品」設定 20 分鐘啟動，完成後靜待自動排氣洩壓。',
+          '蓋上鍋蓋並順時鐘鎖定，選右側「煮／燉湯品」設定 20 分鐘啟動，完成後靜待自動排氣洩壓。',
         potAction: {
           side: 'right',
-          modeName: '煮 / 燉湯品',
+          modeName: '煮／燉湯品',
           lid: 'locked',
           durationText: '20 分鐘',
           releaseMode: 'natural_auto',
@@ -666,10 +666,10 @@ export const SPEC_TAIWAN_JAPAN_RECIPES: Recipe[] = [
         stepNumber: 4,
         title: '開蓋下炊粉與翠綠提香配料',
         instruction:
-          '排氣洩壓開蓋後，投入預先泡軟瀝乾的 130 克炊粉、蒜苗斜片、芹菜與油蔥酥，切左側「收汁/醬燒」開蓋微滾 2–3 分鐘至米粉絲絲分明飽含海味湯汁，以矽膠大湯勺連魚帶粉盛入砂鍋上桌。',
+          '排氣洩壓開蓋後，投入預先泡軟瀝乾的 130 克炊粉、蒜苗斜片、芹菜與油蔥酥，切左側「收汁／醬燒」開蓋微滾 2–3 分鐘至米粉絲絲分明飽含海味湯汁，以矽膠大湯勺連魚帶粉盛入砂鍋上桌。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '2–3 分鐘',
           shortAction: '滾熟炊粉拌油蔥提香',
@@ -970,16 +970,16 @@ export const SPEC_TAIWAN_JAPAN_RECIPES: Recipe[] = [
   {
     id: 'spec-japan-06-hokkaido-spice-soup-curry',
     title: '札幌風香料雞腿湯咖哩',
-    subtitle: '零麵粉零咖哩塊！壓 10 分煮出番茄雞湯底，開蓋拌五味香料搭酥煎烤蔬',
+    subtitle: '零麵粉零咖哩塊！壓 12 分煮出番茄雞湯底，開蓋拌五味香料搭酥煎烤蔬',
     category: 'soup',
     cuisine: '日式',
-    settingMinutes: 12,
-    realTotalMinutes: 35,
+    settingMinutes: 14,
+    realTotalMinutes: 38,
     baseServings: 2,
     innerPot: '球釜不沾內鍋',
     releaseSummary: '自然自動洩壓（開蓋再拌五味香料粉）',
     stoveDifference:
-      '不用含麵粉與油脂的市售咖哩塊，純靠番茄罐頭、洋蔥與雞翅腿壓 10 分鐘就能煮出橘紅透亮湯底，開蓋才下五味原香料香氣最奔放；趁壓鍋空檔另鍋半煎炸南瓜蓮藕剛好開飯。',
+      '不用含麵粉與油脂的市售咖哩塊，純靠番茄罐頭、洋蔥與雞翅腿壓 12 分鐘就能煮出橘紅透亮湯底，開蓋才下五味原香料香氣最奔放；趁壓鍋空檔另鍋半煎炸南瓜蓮藕剛好開飯。',
     avoidPitfall:
       '香料粉（或若改用市售咖哩塊）務必洩壓開蓋後再放，切勿連同加壓以防沉底焦化與香氣散失；煮完記得幫膠條除薑黃味。',
     youtubeQuery: '特福鮮呼吸萬用鍋 北海道 湯咖哩 香料雞腿',
@@ -1013,14 +1013,14 @@ export const SPEC_TAIWAN_JAPAN_RECIPES: Recipe[] = [
       },
       {
         stepNumber: 2,
-        title: '鎖蓋加壓 10 分鐘',
+        title: '鎖蓋加壓 12 分鐘',
         instruction:
-          '蓋上鍋蓋並順時鐘鎖緊，按右側「雞/鴨/豬」調整時間為 10 分鐘啟動，靜待行程完成與自動洩壓。',
+          '蓋上鍋蓋並順時鐘鎖緊，按右側「雞／鴨／豬」調整時間為 12 分鐘啟動，靜待行程完成與自動洩壓。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
-          durationText: '10 分鐘',
+          durationText: '12 分鐘',
           releaseMode: 'natural_auto',
           shortAction: '壓出清爽番茄雞湯底',
         },
@@ -1029,10 +1029,10 @@ export const SPEC_TAIWAN_JAPAN_RECIPES: Recipe[] = [
         stepNumber: 3,
         title: '開蓋拌入五味香料粉並微滾喚香',
         instruction:
-          '洩壓開蓋後，依序加入孜然粉、芫荽籽粉、薑黃粉（各 1 小匙）以及葛拉姆馬薩拉、辣椒粉（各 1/2 小匙）攪拌均勻，開蓋切左側「收汁/醬燒」小滾 1–2 分鐘喚醒香料鮮香並試味微調鹹辣。',
+          '洩壓開蓋後，依序加入孜然粉、芫荽籽粉、薑黃粉（各 1 小匙）以及葛拉姆馬薩拉、辣椒粉（各 1/2 小匙）攪拌均勻，開蓋切左側「收汁／醬燒」小滾 1–2 分鐘喚醒香料鮮香並試味微調鹹辣。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '1–2 分鐘',
           shortAction: '喚醒五味香料香氣',
@@ -1056,16 +1056,16 @@ export const SPEC_TAIWAN_JAPAN_RECIPES: Recipe[] = [
   {
     id: 'spec-japan-07-tomato-stewed-hamburg',
     title: '鮮菇番茄燉漢堡排',
-    subtitle: '免起油鍋先煎排！洋蔥微波免炒、生肉夾菇分層入鍋，10 分燉出多汁厚排',
+    subtitle: '免起油鍋先煎排！洋蔥微波免炒、生肉夾菇分層入鍋，12 分燉出多汁厚排',
     category: 'braise',
     cuisine: '日式',
-    settingMinutes: 10,
-    realTotalMinutes: 35,
+    settingMinutes: 12,
+    realTotalMinutes: 37,
     baseServings: 2,
     innerPot: '球釜不沾內鍋',
     releaseSummary: '自然自動洩壓（免開蓋翻動防肉排破散）',
     stoveDifference:
-      '零油煙快手神招：洋蔥末加油微波 3 分鐘免炒、絞肉先加鹽揉出黏性再混蛋奶麵包粉，直接生肉捏圓排進萬用鍋壓 10 分鐘完全不散，肉汁牢牢鎖在濃厚番茄醬裡。',
+      '零油煙快手神招：洋蔥末加油微波 3 分鐘免炒、絞肉先加鹽揉出黏性再混蛋奶麵包粉，直接生肉捏圓排進萬用鍋壓 12 分鐘完全不散，肉汁牢牢鎖在濃厚番茄醬裡。',
     avoidPitfall:
       '番茄罐頭、高湯粉與糖只淋鋪最上層絕不可攪到底，5L 寬底內鍋務必沿鍋邊補 50–100ml 水防焦底報錯。',
     youtubeQuery: '特福鮮呼吸萬用鍋 番茄燉漢堡排 免煎',
@@ -1106,14 +1106,14 @@ export const SPEC_TAIWAN_JAPAN_RECIPES: Recipe[] = [
       },
       {
         stepNumber: 4,
-        title: '鎖蓋加壓 10 分鐘免煎燉透',
+        title: '鎖蓋加壓 12 分鐘免煎燉透',
         instruction:
-          '蓋上鍋蓋並順時鐘鎖緊，按右側「雞/鴨/豬」調整時間為 10 分鐘啟動，靜待自動洩壓；趁這段免顧火空檔可同步準備副菜或湯品。',
+          '蓋上鍋蓋並順時鐘鎖緊，按右側「雞／鴨／豬」調整時間為 12 分鐘啟動，靜待自動洩壓；趁這段免顧火空檔可同步準備副菜或湯品。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
-          durationText: '10 分鐘',
+          durationText: '12 分鐘',
           releaseMode: 'natural_auto',
           shortAction: '免煎鎖汁燉透漢堡排',
         },
@@ -1124,7 +1124,7 @@ export const SPEC_TAIWAN_JAPAN_RECIPES: Recipe[] = [
         title: '開蓋溫柔舀起盛碗享用',
         instruction:
           '洩壓開蓋後漢堡排飽滿完整不碎散、與濃郁深紅番茄肉汁緊密融合，用寬口不沾湯勺溫柔從底部連同醬汁盛入深碗配熱白飯享用。',
-        tip: '若因補水覺醬汁略稀，可先輕輕夾出漢堡排擺盤，留原鍋醬汁開蓋按「收汁/醬燒」滾 3–5 分鐘濃縮再淋回肉排上。',
+        tip: '若因補水覺醬汁略稀，可先輕輕夾出漢堡排擺盤，留原鍋醬汁開蓋按「收汁／醬燒」滾 3–5 分鐘濃縮再淋回肉排上。',
       },
     ],
   },

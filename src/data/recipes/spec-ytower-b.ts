@@ -261,7 +261,7 @@ export const SPEC_YTOWER_B_RECIPES: Recipe[] = [
           temperature: '150°C',
           shortAction: '逼油乾煸炒雙醬',
         },
-        tip: '若想從生五花開始備料，可先用右側「雞 / 鴨 / 豬」加水蓋過五花肉與蔥薑米酒加壓 12–15 分鐘，放涼切片即可銜接。',
+        tip: '若想從生五花開始備料，可先用右側「雞／鴨／豬」加水蓋過五花肉與蔥薑米酒加壓 12–15 分鐘，放涼切片即可銜接。',
       },
       {
         stepNumber: 2,
@@ -348,64 +348,6 @@ export const SPEC_YTOWER_B_RECIPES: Recipe[] = [
     ],
   },
   {
-    id: 'spec-ytower-tefal-25-green-pepper-shredded-pork',
-    title: '台式青椒炒肉絲',
-    subtitle: '善用球釜寬口推邊分區爆香免起鍋，5 分鐘快炒翠綠爽脆黑胡椒風',
-    category: 'braise',
-    cuisine: '台式',
-    settingMinutes: 8,
-    realTotalMinutes: 13,
-    baseServings: 2,
-    innerPot: '球釜不沾內鍋',
-    releaseSummary: '全程無壓（免洩壓）',
-    stoveDifference:
-      '不必把肉絲先盛出多洗一個盤子，5L 球釜寬口直接把肉絲推到高側壁保溫、空出熱鍋底爆香洋蔥蒜片，一鍋快炒青椒不變黃。',
-    avoidPitfall: '全程維持開蓋不可蓋鍋，青椒下鍋翻炒 1 分鐘轉亮綠立刻關機盛盤免被餘溫悶黃。',
-    youtubeQuery: '特福鮮呼吸萬用鍋 青椒炒肉絲',
-    sourceUrl: 'https://www.youtube.com/watch?v=mar8xL9X4z8',
-    sourceTag: '楊桃美食網 楊桃文化 特福官方',
-    ingredients: [
-      { name: '豬肉絲（薄醃 10 分）', amount: 200, unit: '克', note: '梅花或里肌肉絲', group: 'main' },
-      { name: '青椒（去籽切粗絲）', amount: 200, unit: '克', note: '與肉絲等寬易熟', group: 'main' },
-      { name: '洋蔥（逆紋切細絲）', amount: 40, unit: '克', group: 'main' },
-      { name: '蒜片', amount: 15, unit: '克', group: 'main' },
-      { name: '紅辣椒（斜切片）', amount: 10, unit: '克', group: 'main' },
-      { name: '食用油', amount: 2, unit: '大匙', group: 'seasoning' },
-      { name: '米酒', amount: 1, unit: '大匙', group: 'seasoning' },
-      { name: '鹽', amount: 0.25, unit: '茶匙', note: '依口味微調', group: 'seasoning' },
-      { name: '粗粒黑胡椒粉', amount: null, unit: '少許', note: '現磨最提香', group: 'seasoning' },
-    ],
-    steps: [
-      {
-        stepNumber: 1,
-        title: '啟動爆炒模式、快炒醃肉絲至表面略白',
-        instruction:
-          '肉絲下鍋前 10 分鐘以米酒 1 茶匙、醬油 1 茶匙（或鹽 1/4 茶匙）、太白粉 1 茶匙與少許油薄醃抓勻；青椒去白膜籽囊切約 0.4–0.5 公分寬長絲。保持開蓋，按左側「爆炒煎烤」（150°C）設 6–8 分鐘啟動，倒 2 大匙油熱鍋，下肉絲以耐熱矽膠杓快速撥散翻炒 1–1.5 分鐘至表面略白（約七八分熟）。',
-        potAction: {
-          side: 'left',
-          modeName: '爆炒煎烤',
-          lid: 'open',
-          durationText: '6–8 分鐘',
-          temperature: '150°C',
-          shortAction: '分區爆香快炒',
-        },
-      },
-      {
-        stepNumber: 2,
-        title: '球釜推邊分區，免起鍋爆香洋蔥、蒜片與辣椒',
-        instruction:
-          '不必將肉絲盛盤起鍋，直接用矽膠杓將已轉白的肉絲集中撥推到球釜一側弧壁，騰出另一側帶餘油的鍋底，投入洋蔥絲、蒜片與辣椒片翻炒爆香約 30 秒，至洋蔥微軟半透明、飄出蒜椒甜香後再將兩側食材撥回融合。',
-      },
-      {
-        stepNumber: 3,
-        title: '投入青椒絲快炒並下米酒、鹽、現磨黑胡椒起鍋',
-        instruction:
-          '倒入青椒絲鋪於肉絲與洋蔥上，熗入米酒、撒少許鹽並現磨粗粒黑胡椒粉，全程開蓋快拌約 45–60 秒至青椒絲剛轉油亮鮮翠、仍保微脆挺度，立刻按「取消」盛盤上桌。',
-        tip: '也可用紅黃甜椒替換三分之一青椒絲，色澤與甜度更豐富。',
-      },
-    ],
-  },
-  {
     id: 'spec-ytower-tefal-26-ginger-duck',
     title: '冬補老薑麻油薑母鴨',
     subtitle: '拍裂老薑麻油煸香，鎖蓋加壓 25–30 分軟嫩出湯，拌麵線煮火鍋一鍋三吃',
@@ -471,10 +413,10 @@ export const SPEC_YTOWER_B_RECIPES: Recipe[] = [
         stepNumber: 4,
         title: '鮮呼吸鎖蓋加壓燉煮',
         instruction:
-          '蓋上鍋蓋並將頂部手把順時鐘轉到底鎖定，按右側「雞 / 鴨 / 豬」手動調至 25–29 分鐘（若為肉質較有嚼勁的紅面番鴨，可升壓至 50–60 kPa 或改選「牛 / 羊肉」30 分鐘更軟嫩），按下開始並靜待行程結束與自然自動洩壓。',
+          '蓋上鍋蓋並將頂部手把順時鐘轉到底鎖定，按右側「雞／鴨／豬」手動調至 25–29 分鐘（若為肉質較有嚼勁的紅面番鴨，可升壓至 50–60 kPa 或改選「牛／羊」30 分鐘更軟嫩），按下開始並靜待行程結束與自然自動洩壓。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
           durationText: '25–29 分鐘',
           releaseMode: 'natural_auto',
@@ -485,7 +427,7 @@ export const SPEC_YTOWER_B_RECIPES: Recipe[] = [
         stepNumber: 5,
         title: '開蓋加鹽調味與一鍋三吃',
         instruction:
-          '自動洩壓完畢後朝遠離身體方向傾斜掀蓋，加入 1 茶匙鹽輕拌均勻即完成，可直接盛碗享用或澆淋燙熟麵線。剩餘半鍋投入手撕高麗菜、鴻喜菇、杏鮑菇與炸豆皮，蓋蓋不鎖定按「自訂行程」加熱 10 分鐘（或開蓋切「收汁 / 醬燒」滾 5–8 分鐘）即成澎湃薑母鴨火鍋。',
+          '自動洩壓完畢後朝遠離身體方向傾斜掀蓋，加入 1 茶匙鹽輕拌均勻即完成，可直接盛碗享用或澆淋燙熟麵線。剩餘半鍋投入手撕高麗菜、鴻喜菇、杏鮑菇與炸豆皮，蓋蓋不鎖定按「自訂行程」加熱 10 分鐘（或開蓋切「收汁／醬燒」滾 5–8 分鐘）即成澎湃薑母鴨火鍋。',
         potAction: {
           side: 'left',
           modeName: '自訂行程',
@@ -611,18 +553,18 @@ export const SPEC_YTOWER_B_RECIPES: Recipe[] = [
       },
       {
         stepNumber: 2,
-        title: '鎖蓋啟動「雞 / 鴨 / 豬」＋「中途加料」',
+        title: '鎖蓋啟動「雞／鴨／豬」＋「中途加料」',
         instruction:
-          '蓋上鍋蓋並將上蓋手把順時鐘轉到底鎖定，按右側「雞 / 鴨 / 豬」（預設 40 kPa／15 分鐘），並同時按下左下角「中途加料」鍵亮燈啟用，按下開始啟動鮮呼吸燜燒行程。',
+          '蓋上鍋蓋並將上蓋手把順時鐘轉到底鎖定，按右側「雞／鴨／豬」（預設 40 kPa／15 分鐘），並同時按下左下角「中途加料」鍵亮燈啟用，按下開始啟動鮮呼吸燜燒行程。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
           durationText: '15 分鐘',
           releaseMode: 'natural_auto',
           shortAction: '花雕高壓燜雞',
         },
-        tip: '想省下二次升壓時間，也可不按中途加料，壓完洩壓開蓋後拌入芹菜蒜苗並切左側「收汁 / 醬燒」滾拌 2 分鐘。',
+        tip: '想省下二次升壓時間，也可不按中途加料，壓完洩壓開蓋後拌入芹菜蒜苗並切左側「收汁／醬燒」滾拌 2 分鐘。',
       },
       {
         stepNumber: 3,
@@ -631,7 +573,7 @@ export const SPEC_YTOWER_B_RECIPES: Recipe[] = [
           '行程後段響起中途加料提示音並自動安全洩壓後，解鎖掀蓋放入預留的蒜苗斜片與芹菜段迅速拌勻，隨即蓋回鎖定讓最後行程結束並自動洩壓，開蓋盛盤即成，濃香花雕醬汁拌飯或拌粄條都極對味。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
           durationText: '中途續煮收尾',
           releaseMode: 'natural_auto',
@@ -652,7 +594,7 @@ export const SPEC_YTOWER_B_RECIPES: Recipe[] = [
     innerPot: '304不鏽鋼內鍋優先',
     releaseSummary: '全程無壓（中段蓋蓋不鎖定）',
     stoveDifference:
-      '改用 110°C「收汁 / 醬燒」取代高溫猛炒，黑麻油與 4 大匙濃醬油膏都不會焦苦；前 6 分鐘虛蓋燜熟雞塊，後段開蓋自然收成焦糖亮衣。',
+      '改用 110°C「收汁／醬燒」取代高溫猛炒，黑麻油與 4 大匙濃醬油膏都不會焦苦；前 6 分鐘虛蓋燜熟雞塊，後段開蓋自然收成焦糖亮衣。',
     avoidPitfall: '中段蓋蓋燜 6 分鐘務必保持解鎖不鎖蓋，若雞塊切較大未收乾可補按 5 分鐘。',
     youtubeQuery: '特福鮮呼吸萬用鍋 三杯雞 收汁醬燒',
     sourceUrl: 'https://www.youtube.com/watch?v=fbo9hjxJwRM',
@@ -671,12 +613,12 @@ export const SPEC_YTOWER_B_RECIPES: Recipe[] = [
     steps: [
       {
         stepNumber: 1,
-        title: '啟動「收汁 / 醬燒」15 分鐘並溫火煸薑蒜',
+        title: '啟動「收汁／醬燒」15 分鐘並溫火煸薑蒜',
         instruction:
-          '帶骨雞塊洗淨以廚房紙巾略壓乾水分。放入 304 不鏽鋼內鍋，保持開蓋，按左側「收汁 / 醬燒」（110°C）按 `+` 調整至上限 15 分鐘啟動；倒入 4 大匙黑麻油先將老薑片煸至邊緣微捲，再放入整瓣蒜頭與辣椒段煸炒至蒜瓣表面轉微金黃、飄出溫潤麻油蒜香。',
+          '帶骨雞塊洗淨以廚房紙巾略壓乾水分。放入 304 不鏽鋼內鍋，保持開蓋，按左側「收汁／醬燒」（110°C）按「＋」調整至上限 15 分鐘啟動；倒入 4 大匙黑麻油先將老薑片煸至邊緣微捲，再放入整瓣蒜頭與辣椒段煸炒至蒜瓣表面轉微金黃、飄出溫潤麻油蒜香。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '15 分鐘',
           temperature: '110°C',
@@ -690,7 +632,7 @@ export const SPEC_YTOWER_B_RECIPES: Recipe[] = [
           '倒入雞肉塊翻炒至肉表轉白微緊縮，依序加入醬油膏 4 大匙、糖 1 大匙與米酒 4 大匙徹底拌勻上色；蓋上鍋蓋（請勿鎖定壓力鎖）無壓燜煮約 6 分鐘，讓雞塊在酒香蒸氣中徹底熟透吃進醬味。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'closed_unlocked',
           durationText: '6 分鐘',
           temperature: '110°C',
@@ -704,13 +646,13 @@ export const SPEC_YTOWER_B_RECIPES: Recipe[] = [
           '6 分鐘後掀開鍋蓋，利用剩餘時間保持開蓋收汁，適時翻拌讓醬汁濃縮成焦糖琥珀色緊密裹住雞肉；起鍋前倒入一大把九層塔快速翻勻逼出撲鼻塔香，微軟轉亮即刻盛盤。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '約 5 分鐘',
           temperature: '110°C',
           shortAction: '開蓋收亮拌塔香',
         },
-        tip: '若雞塊較厚 15 分鐘未收乾可補按「收汁 / 醬燒」5 分鐘；不鏽鋼鍋收汁後趁溫熱泡熱水 10 分鐘即輕鬆洗淨。',
+        tip: '若雞塊較厚 15 分鐘未收乾可補按「收汁／醬燒」5 分鐘；不鏽鋼鍋收汁後趁溫熱泡熱水 10 分鐘即輕鬆洗淨。',
       },
     ],
   },
@@ -755,12 +697,12 @@ export const SPEC_YTOWER_B_RECIPES: Recipe[] = [
       },
       {
         stepNumber: 3,
-        title: '鎖蓋啟動「蒸 / 一鍋兩菜」模式',
+        title: '鎖蓋啟動「蒸／一鍋兩菜」模式',
         instruction:
-          '蓋上鍋蓋並順時鐘轉到底鎖定，按右側「蒸 / 一鍋兩菜」（預設 10 kPa／8 分鐘）按下開始；行程結束完成自動洩壓後立刻開蓋，以防燙取盤夾小心提起瓷盤上桌。',
+          '蓋上鍋蓋並順時鐘轉到底鎖定，按右側「蒸／一鍋兩菜」（預設 10 kPa／8 分鐘）按下開始；行程結束完成自動洩壓後立刻開蓋，以防燙取盤夾小心提起瓷盤上桌。',
         potAction: {
           side: 'right',
-          modeName: '蒸 / 一鍋兩菜',
+          modeName: '蒸／一鍋兩菜',
           lid: 'locked',
           durationText: '8 分鐘',
           releaseMode: 'natural_auto',
@@ -864,12 +806,12 @@ export const SPEC_YTOWER_B_RECIPES: Recipe[] = [
       },
       {
         stepNumber: 2,
-        title: '鎖蓋啟動「煮 / 燉湯品」行程',
+        title: '鎖蓋啟動「煮／燉湯品」行程',
         instruction:
-          '蓋上鍋蓋並將上蓋手把順時鐘轉到底鎖定，按右側「煮 / 燉湯品」（預設 30 kPa／20 分鐘），按下開始並靜待行程與自然自動洩壓完成。',
+          '蓋上鍋蓋並將上蓋手把順時鐘轉到底鎖定，按右側「煮／燉湯品」（預設 30 kPa／20 分鐘），按下開始並靜待行程與自然自動洩壓完成。',
         potAction: {
           side: 'right',
-          modeName: '煮 / 燉湯品',
+          modeName: '煮／燉湯品',
           lid: 'locked',
           durationText: '20 分鐘',
           releaseMode: 'natural_auto',
@@ -937,12 +879,12 @@ export const SPEC_YTOWER_B_RECIPES: Recipe[] = [
       },
       {
         stepNumber: 3,
-        title: '鎖蓋啟動「牛 / 羊肉」＋「中途加料」先燉牛腩',
+        title: '鎖蓋啟動「牛／羊」＋「中途加料」先燉牛腩',
         instruction:
-          '蓋上鍋蓋並將上蓋手把順時鐘轉到底鎖定，按右側「牛 / 羊肉」（預設 60 kPa／30 分鐘），同步按下左側「中途加料」鍵亮燈啟用，按下開始先將牛腩筋膜高壓燉軟。',
+          '蓋上鍋蓋並將上蓋手把順時鐘轉到底鎖定，按右側「牛／羊」（預設 60 kPa／30 分鐘），同步按下左側「中途加料」鍵亮燈啟用，按下開始先將牛腩筋膜高壓燉軟。',
         potAction: {
           side: 'right',
-          modeName: '牛 / 羊肉',
+          modeName: '牛／羊',
           lid: 'locked',
           durationText: '30 分鐘',
           releaseMode: 'natural_auto',
@@ -956,13 +898,13 @@ export const SPEC_YTOWER_B_RECIPES: Recipe[] = [
           '行程進行至最後約 10 分鐘響起提示音並完成自動洩壓後，掀開鍋蓋迅速放入白蘿蔔、紅蘿蔔與 1 大匙糖略拌（使蘿蔔半浸於紅亮豆瓣湯中、水位在 2/3 線以下），重新蓋回鎖緊跑完最後 10 分鐘並自動洩壓即完成。',
         potAction: {
           side: 'right',
-          modeName: '牛 / 羊肉',
+          modeName: '牛／羊',
           lid: 'locked',
-          durationText: '最後 10 分鐘',
+          durationText: '續壓剩餘 10 分鐘（中途加料）',
           releaseMode: 'natural_auto',
           shortAction: '補蘿蔔續壓入味',
         },
-        tip: '開蓋後若希望醬汁更濃稠扒肉，可切左側「收汁 / 醬燒」開蓋滾收 3–5 分鐘再撒蔥花或香菜。',
+        tip: '開蓋後若希望醬汁更濃稠扒肉，可切左側「收汁／醬燒」開蓋滾收 3–5 分鐘再撒蔥花或香菜。',
       },
     ],
   },
@@ -1012,12 +954,12 @@ export const SPEC_YTOWER_B_RECIPES: Recipe[] = [
       },
       {
         stepNumber: 3,
-        title: '鎖蓋啟動「牛 / 羊肉」並手動調壓至 70 kPa',
+        title: '鎖蓋啟動「牛／羊」並手動調壓至 70 kPa',
         instruction:
-          '蓋上鍋蓋並順時鐘轉到底鎖定，按右側「牛 / 羊肉」（預設 60 kPa／30 分鐘），接著務必按面板下方「壓力調節」鍵將壓力拉高至滿載 70 kPa 後按下開始，交由鮮呼吸動態變壓徹底軟化牛筋並靜待自動安全洩壓。',
+          '蓋上鍋蓋並順時鐘轉到底鎖定，按右側「牛／羊」（預設 60 kPa／30 分鐘），接著務必按面板下方「壓力調節」鍵將壓力拉高至滿載 70 kPa 後按下開始，交由鮮呼吸動態變壓徹底軟化牛筋並靜待自動安全洩壓。',
         potAction: {
           side: 'right',
-          modeName: '牛 / 羊肉',
+          modeName: '牛／羊',
           lid: 'locked',
           durationText: '30 分鐘',
           releaseMode: 'natural_auto',

@@ -291,10 +291,10 @@ export const SPEC_OFFICIAL_TW_RECIPES: Recipe[] = [
         stepNumber: 6,
         title: '牛羊高壓模式燉煮 30 分鐘',
         instruction:
-          '選擇右側「牛 / 羊肉」模式，將時間設定為 30 分鐘並按下「開始」，待行程完成並完全排氣洩壓。',
+          '選擇右側「牛／羊」模式，將時間設定為 30 分鐘並按下「開始」，待行程完成並完全排氣洩壓。',
         potAction: {
           side: 'right',
-          modeName: '牛 / 羊肉',
+          modeName: '牛／羊',
           lid: 'locked',
           durationText: '30 分鐘',
           releaseMode: 'natural_auto',
@@ -305,10 +305,10 @@ export const SPEC_OFFICIAL_TW_RECIPES: Recipe[] = [
         stepNumber: 7,
         title: '開蓋收汁醬燒 10 分鐘',
         instruction:
-          '排氣洩壓完畢後打開上蓋，選擇左側「收汁 / 醬燒」模式並設定時間 10 分鐘，期間以矽膠或木鏟適時翻拌讓醬汁裹附肋排。',
+          '排氣洩壓完畢後打開上蓋，選擇左側「收汁／醬燒」模式並設定時間 10 分鐘，期間以矽膠或木鏟適時翻拌讓醬汁裹附肋排。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '10 分鐘',
           temperature: '110°C',
@@ -376,10 +376,10 @@ export const SPEC_OFFICIAL_TW_RECIPES: Recipe[] = [
         stepNumber: 5,
         title: '牛羊模式高壓清燉 45 分鐘',
         instruction:
-          '選擇右側「牛 / 羊肉」模式，將時間調整為 45 分鐘，按下「開始」。',
+          '選擇右側「牛／羊」模式，將時間調整為 45 分鐘，按下「開始」。',
         potAction: {
           side: 'right',
-          modeName: '牛 / 羊肉',
+          modeName: '牛／羊',
           lid: 'locked',
           durationText: '45 分鐘',
           releaseMode: 'natural_auto',
@@ -472,10 +472,10 @@ export const SPEC_OFFICIAL_TW_RECIPES: Recipe[] = [
         stepNumber: 6,
         title: '牛羊高壓模式燉煮 30 分鐘',
         instruction:
-          '選擇右側「牛 / 羊肉」模式，將時間設定為 30 分鐘，按下「開始」。',
+          '選擇右側「牛／羊」模式，將時間設定為 30 分鐘，按下「開始」。',
         potAction: {
           side: 'right',
-          modeName: '牛 / 羊肉',
+          modeName: '牛／羊',
           lid: 'locked',
           durationText: '30 分鐘',
           releaseMode: 'natural_auto',
@@ -556,10 +556,10 @@ export const SPEC_OFFICIAL_TW_RECIPES: Recipe[] = [
         stepNumber: 7,
         title: '牛羊高壓模式燉煮 30 分鐘',
         instruction:
-          '選擇右側「牛 / 羊肉」模式，將時間設定為 30 分鐘，按下「開始」。',
+          '選擇右側「牛／羊」模式，將時間設定為 30 分鐘，按下「開始」。',
         potAction: {
           side: 'right',
-          modeName: '牛 / 羊肉',
+          modeName: '牛／羊',
           lid: 'locked',
           durationText: '30 分鐘',
           releaseMode: 'natural_auto',
@@ -576,10 +576,10 @@ export const SPEC_OFFICIAL_TW_RECIPES: Recipe[] = [
         stepNumber: 9,
         title: '開蓋收汁至濃稠紅亮',
         instruction:
-          '開蓋選擇左側「收汁 / 醬燒」功能，適時舀湯汁淋在豬皮表面，待醬汁變得濃稠發亮即可手動停止起鍋。',
+          '開蓋選擇左側「收汁／醬燒」功能，適時舀湯汁淋在豬皮表面，待醬汁變得濃稠發亮即可手動停止起鍋。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '約 8–10 分鐘',
           temperature: '110°C',
@@ -661,10 +661,10 @@ export const SPEC_OFFICIAL_TW_RECIPES: Recipe[] = [
         stepNumber: 5,
         title: '鎖蓋啟動牛羊模式 30 分鐘',
         instruction:
-          '蓋上上蓋並順時鐘鎖緊，選擇右側「牛 / 羊肉」模式，將時間設定為 30 分鐘，按下「開始」。',
+          '蓋上上蓋並順時鐘鎖緊，選擇右側「牛／羊」模式，將時間設定為 30 分鐘，按下「開始」。',
         potAction: {
           side: 'right',
-          modeName: '牛 / 羊肉',
+          modeName: '牛／羊',
           lid: 'locked',
           durationText: '30 分鐘',
           releaseMode: 'natural_auto',
@@ -675,10 +675,10 @@ export const SPEC_OFFICIAL_TW_RECIPES: Recipe[] = [
         stepNumber: 6,
         title: '洩壓開蓋視濃度收汁上桌',
         instruction:
-          '行程完成並完全排氣洩壓後打開上蓋檢查醬汁濃度；若希望醬汁更濃稠，先按「取消」再於開蓋狀態選擇左側「收汁 / 醬燒」收濃即完成。',
+          '行程完成並完全排氣洩壓後打開上蓋檢查醬汁濃度；若希望醬汁更濃稠，先按「取消」再於開蓋狀態選擇左側「收汁／醬燒」收濃即完成。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '約 5 分鐘',
           temperature: '110°C',
@@ -690,16 +690,16 @@ export const SPEC_OFFICIAL_TW_RECIPES: Recipe[] = [
   {
     id: 'spec-official-tw-15-cantonese-buddha-jumps-over-the-wall',
     title: '粵式佛跳牆',
-    subtitle: '乾鮑花膠海參干貝全入鍋，一鍵壓 30 分出濃醇養生高湯',
+    subtitle: '乾鮑花膠海參干貝全入鍋，一鍵壓 29 分出濃醇養生高湯',
     category: 'soup',
     cuisine: '台式',
-    settingMinutes: 30,
+    settingMinutes: 29,
     realTotalMinutes: 55,
     baseServings: 4,
     innerPot: '雙內鍋皆可',
     releaseSummary: '自然自動洩壓（保留清甜山珍海味膠質）',
     stoveDifference:
-      '不用抱著甕罐文火慢煨半天，海味提前一晚泡發洗淨，全料入鍋用 40 kPa 壓 30 分就湯醇料軟、膠質滿滿。',
+      '不用抱著甕罐文火慢煨半天，海味提前一晚泡發洗淨，全料入鍋用 40 kPa 壓 29 分就湯醇料軟、膠質滿滿。',
     avoidPitfall:
       '海味與湯水量多，加水切勿超過內鍋最高水位線防溢閥；用完趁溫水清洗密封圈免殘留海味。',
     youtubeQuery: '特福鮮呼吸萬用鍋 粵式佛跳牆 CY625870',
@@ -742,14 +742,14 @@ export const SPEC_OFFICIAL_TW_RECIPES: Recipe[] = [
       },
       {
         stepNumber: 4,
-        title: '鎖蓋啟動雞鴨豬模式 30 分鐘',
+        title: '鎖蓋啟動「雞／鴨／豬」29 分鐘',
         instruction:
-          '蓋上上蓋並順時鐘鎖緊，選擇右側「雞 / 鴨 / 豬」功能，設定時間 30 分鐘，按下「開始」。',
+          '蓋上上蓋並順時鐘鎖緊，選擇右側「雞／鴨／豬」功能，將時間調至上限 29 分鐘，按下「開始」（若想壓滿 30 分鐘可改選「煮／燉湯品」設 30 分鐘並按「壓力調節」調至 40 千帕）。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
-          durationText: '30 分鐘',
+          durationText: '29 分鐘',
           releaseMode: 'natural_auto',
           shortAction: '40kPa煲出膠質',
         },
@@ -835,12 +835,12 @@ export const SPEC_OFFICIAL_TW_RECIPES: Recipe[] = [
       },
       {
         stepNumber: 6,
-        title: '雞鴨豬模式中壓燉煮 25 分鐘',
+        title: '「雞／鴨／豬」模式中壓燉煮 25 分鐘',
         instruction:
-          '選擇右側「雞 / 鴨 / 豬」功能，將時間設定為 25 分鐘，按下「開始」。',
+          '選擇右側「雞／鴨／豬」功能，將時間設定為 25 分鐘，按下「開始」。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
           durationText: '25 分鐘',
           releaseMode: 'natural_auto',
@@ -851,10 +851,10 @@ export const SPEC_OFFICIAL_TW_RECIPES: Recipe[] = [
         stepNumber: 7,
         title: '洩壓開蓋收汁至醬紅濃稠',
         instruction:
-          '行程完成並排氣洩壓後，按下「取消」打開上蓋；於開蓋狀態選擇左側「收汁 / 醬燒」，勤拌煮至醬汁濃稠即可停止。',
+          '行程完成並排氣洩壓後，按下「取消」打開上蓋；於開蓋狀態選擇左側「收汁／醬燒」，勤拌煮至醬汁濃稠即可停止。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '約 5 分鐘',
           temperature: '110°C',
@@ -921,12 +921,12 @@ export const SPEC_OFFICIAL_TW_RECIPES: Recipe[] = [
       },
       {
         stepNumber: 4,
-        title: '雞鴨豬模式中壓 20 分鐘',
+        title: '「雞／鴨／豬」模式中壓 20 分鐘',
         instruction:
-          '選擇右側「雞 / 鴨 / 豬」功能，將時間設定為 20 分鐘，按下「開始」。',
+          '選擇右側「雞／鴨／豬」功能，將時間設定為 20 分鐘，按下「開始」。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
           durationText: '20 分鐘',
           releaseMode: 'natural_auto',
@@ -937,10 +937,10 @@ export const SPEC_OFFICIAL_TW_RECIPES: Recipe[] = [
         stepNumber: 5,
         title: '洩壓開蓋收汁至濃稠',
         instruction:
-          '行程完成並排氣洩壓後，按「取消」打開上蓋；於開蓋狀態選擇左側「收汁 / 醬燒」，以矽膠鏟輕柔翻動將醬汁煮至濃稠即可停止。',
+          '行程完成並排氣洩壓後，按「取消」打開上蓋；於開蓋狀態選擇左側「收汁／醬燒」，以矽膠鏟輕柔翻動將醬汁煮至濃稠即可停止。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '約 5 分鐘',
           temperature: '110°C',
@@ -1026,16 +1026,16 @@ export const SPEC_OFFICIAL_TW_RECIPES: Recipe[] = [
         title: '放回鴨肉芋頭，按取消並鎖緊上蓋',
         instruction:
           '放回鴨肉與芋頭，按下「取消」停止爆炒模式，蓋上上蓋並順時鐘鎖緊。',
-        tip: '喜歡較硬芋頭口感者，此步可先不放芋頭，待鴨肉壓好開蓋再放入，改選「蒸 / 一鍋兩菜」加壓 10 分鐘。',
+        tip: '喜歡較硬芋頭口感者，此步可先不放芋頭，待鴨肉壓好開蓋再放入，改選「蒸／一鍋兩菜」加壓 10 分鐘。',
       },
       {
         stepNumber: 6,
-        title: '雞鴨豬模式中壓燉煮 19 分鐘',
+        title: '「雞／鴨／豬」模式中壓燉煮 19 分鐘',
         instruction:
-          '選擇右側「雞 / 鴨 / 豬」功能，將時間設定為 19 分鐘，按下「開始」。',
+          '選擇右側「雞／鴨／豬」功能，將時間設定為 19 分鐘，按下「開始」。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
           durationText: '19 分鐘',
           releaseMode: 'natural_auto',
@@ -1052,10 +1052,10 @@ export const SPEC_OFFICIAL_TW_RECIPES: Recipe[] = [
         stepNumber: 8,
         title: '視濃度開蓋收汁 5 分鐘（選用）',
         instruction:
-          '若希望醬汁變得更濃稠，開蓋選擇左側「收汁 / 醬燒」功能，讓醬汁開蓋蒸發約 5 分鐘至理想濃稠度。',
+          '若希望醬汁變得更濃稠，開蓋選擇左側「收汁／醬燒」功能，讓醬汁開蓋蒸發約 5 分鐘至理想濃稠度。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '5 分鐘',
           temperature: '110°C',
@@ -1104,10 +1104,10 @@ export const SPEC_OFFICIAL_TW_RECIPES: Recipe[] = [
         stepNumber: 2,
         title: '鎖蓋啟動蒸煮模式 10 分鐘',
         instruction:
-          '蓋上上蓋並順時鐘鎖緊，選擇右側「蒸 / 一鍋兩菜」模式，將時間調整為 10 分鐘並按下「開始」，達壓就緒後自動開始倒數。',
+          '蓋上上蓋並順時鐘鎖緊，選擇右側「蒸／一鍋兩菜」模式，將時間調整為 10 分鐘並按下「開始」，達壓就緒後自動開始倒數。',
         potAction: {
           side: 'right',
-          modeName: '蒸 / 一鍋兩菜',
+          modeName: '蒸／一鍋兩菜',
           lid: 'locked',
           durationText: '10 分鐘',
           releaseMode: 'natural_auto',
@@ -1186,10 +1186,10 @@ export const SPEC_OFFICIAL_TW_RECIPES: Recipe[] = [
         stepNumber: 5,
         title: '蒸煮模式微壓 12 分鐘',
         instruction:
-          '選擇右側「蒸 / 一鍋兩菜」模式，將時間調整為 12 分鐘，按下「開始」。',
+          '選擇右側「蒸／一鍋兩菜」模式，將時間調整為 12 分鐘，按下「開始」。',
         potAction: {
           side: 'right',
-          modeName: '蒸 / 一鍋兩菜',
+          modeName: '蒸／一鍋兩菜',
           lid: 'locked',
           durationText: '12 分鐘',
           releaseMode: 'natural_auto',
@@ -1313,10 +1313,10 @@ export const SPEC_OFFICIAL_TW_RECIPES: Recipe[] = [
         stepNumber: 9,
         title: '洩壓取出鮑魚，蠔油勾芡佐蘆筍上桌',
         instruction:
-          '行程完成並完全排氣洩壓後開蓋取出鮑魚；在餘下高湯中加入蠔油，若欲勾芡可開蓋選擇左側「收汁 / 醬燒」，緩緩拌入玉米粉水輕攪至濃稠，淋在鮑魚上並佐蘆筍享用。',
+          '行程完成並完全排氣洩壓後開蓋取出鮑魚；在餘下高湯中加入蠔油，若欲勾芡可開蓋選擇左側「收汁／醬燒」，緩緩拌入玉米粉水輕攪至濃稠，淋在鮑魚上並佐蘆筍享用。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '約 3 分鐘',
           temperature: '110°C',
@@ -1559,10 +1559,10 @@ export const SPEC_OFFICIAL_TW_RECIPES: Recipe[] = [
         stepNumber: 7,
         title: '鎖蓋啟動牛羊模式 30 分鐘',
         instruction:
-          '蓋上上蓋並順時鐘鎖緊，選擇右側「牛 / 羊肉」模式，將時間設定為 30 分鐘，按下「開始」。',
+          '蓋上上蓋並順時鐘鎖緊，選擇右側「牛／羊」模式，將時間設定為 30 分鐘，按下「開始」。',
         potAction: {
           side: 'right',
-          modeName: '牛 / 羊肉',
+          modeName: '牛／羊',
           lid: 'locked',
           durationText: '30 分鐘',
           releaseMode: 'natural_auto',
@@ -1578,10 +1578,10 @@ export const SPEC_OFFICIAL_TW_RECIPES: Recipe[] = [
         stepNumber: 9,
         title: '下番茄與馬鈴薯，微壓蒸煮 10 分鐘',
         instruction:
-          '加入番茄與馬鈴薯塊，再次蓋上上蓋並順時鐘鎖緊，選擇右側「蒸 / 一鍋兩菜」模式，將時間調為 10 分鐘並按下「開始」。',
+          '加入番茄與馬鈴薯塊，再次蓋上上蓋並順時鐘鎖緊，選擇右側「蒸／一鍋兩菜」模式，將時間調為 10 分鐘並按下「開始」。',
         potAction: {
           side: 'right',
-          modeName: '蒸 / 一鍋兩菜',
+          modeName: '蒸／一鍋兩菜',
           lid: 'locked',
           durationText: '10 分鐘',
           releaseMode: 'natural_auto',
@@ -1603,7 +1603,7 @@ export const SPEC_OFFICIAL_TW_RECIPES: Recipe[] = [
   {
     id: 'spec-official-tw-25-apple-yogurt-cake',
     title: '蘋果優格蛋糕',
-    subtitle: '先開爆炒預熱內鍋再轉無壓烘烤 59 分，蓬鬆濕潤果香清新',
+    subtitle: '先開爆炒預熱內鍋再轉烘烤 59 分，蓬鬆濕潤果香清新',
     category: 'bake',
     cuisine: '日式',
     settingMinutes: 67,
@@ -1612,10 +1612,10 @@ export const SPEC_OFFICIAL_TW_RECIPES: Recipe[] = [
     innerPot: '球釜不沾內鍋',
     releaseSummary: '全程無壓（免洩壓，時間到立即開蓋）',
     stoveDifference:
-      '免大型烤箱也能烤戚風系甜點，趁打發蛋白時先以爆炒模式空鍋預熱，再切無壓烘烤 59 分，底部上色均勻不回縮。',
+      '免大型烤箱也能烤戚風系甜點，趁打發蛋白時先以「爆炒煎烤」空鍋預熱，再切「烘烤」59 分，底部上色均勻不回縮。',
     avoidPitfall:
       '預熱後內鍋極燙，鋪烘焙紙與倒麵糊切記防燙；切換烘烤前若預熱未停記得先按「取消」，且上蓋勿鎖。',
-    youtubeQuery: '特福鮮呼吸萬用鍋 蘋果優格蛋糕 無壓烘烤 CY625870',
+    youtubeQuery: '特福鮮呼吸萬用鍋 蘋果優格蛋糕 烘烤 CY625870',
     sourceUrl: OFFICIAL_TW_SOURCE_URL,
     sourceTag: OFFICIAL_TW_SOURCE_TAG,
     ingredients: [
@@ -1697,12 +1697,12 @@ export const SPEC_OFFICIAL_TW_RECIPES: Recipe[] = [
       },
       {
         stepNumber: 11,
-        title: '無壓烘烤 59 分鐘',
+        title: '啟動「烘烤」59 分鐘',
         instruction:
-          '選擇左側「無壓烘烤」模式，將時間設定為 59 分鐘，按下「開始」，待升溫就緒後開始倒數。',
+          '選擇左側「烘烤」模式，將時間設定為 59 分鐘，按下「開始」，待升溫就緒後開始倒數。',
         potAction: {
           side: 'left',
-          modeName: '無壓烘烤',
+          modeName: '烘烤',
           lid: 'closed_unlocked',
           durationText: '59 分鐘',
           temperature: '120–150°C',
@@ -1801,12 +1801,12 @@ export const SPEC_OFFICIAL_TW_RECIPES: Recipe[] = [
       },
       {
         stepNumber: 6,
-        title: '雞鴨豬模式中壓燉煮 19 分鐘',
+        title: '「雞／鴨／豬」模式中壓燉煮 19 分鐘',
         instruction:
-          '選擇右側「雞 / 鴨 / 豬」功能，將時間設定為 19 分鐘，按下「開始」。',
+          '選擇右側「雞／鴨／豬」功能，將時間設定為 19 分鐘，按下「開始」。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
           durationText: '19 分鐘',
           releaseMode: 'natural_auto',
@@ -1817,10 +1817,10 @@ export const SPEC_OFFICIAL_TW_RECIPES: Recipe[] = [
         stepNumber: 7,
         title: '洩壓開蓋下南瓜，微壓 10 分鐘',
         instruction:
-          '行程完成並排氣洩壓後解鎖開蓋，放入南瓜塊再次蓋緊鎖上上蓋，選擇右側「蒸 / 一鍋兩菜」功能設定 10 分鐘並按下「開始」。',
+          '行程完成並排氣洩壓後解鎖開蓋，放入南瓜塊再次蓋緊鎖上上蓋，選擇右側「蒸／一鍋兩菜」功能設定 10 分鐘並按下「開始」。',
         potAction: {
           side: 'right',
-          modeName: '蒸 / 一鍋兩菜',
+          modeName: '蒸／一鍋兩菜',
           lid: 'locked',
           durationText: '10 分鐘',
           releaseMode: 'natural_auto',
@@ -1831,10 +1831,10 @@ export const SPEC_OFFICIAL_TW_RECIPES: Recipe[] = [
         stepNumber: 8,
         title: '洩壓開蓋視濃度收汁 5 分鐘（選用）',
         instruction:
-          '行程完成並排氣洩壓後打開上蓋檢查濃稠度；若希望醬汁更濃稠，開蓋選擇左側「收汁 / 醬燒」蒸發約 5 分鐘至理想稠度。',
+          '行程完成並排氣洩壓後打開上蓋檢查濃稠度；若希望醬汁更濃稠，開蓋選擇左側「收汁／醬燒」蒸發約 5 分鐘至理想稠度。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '5 分鐘',
           temperature: '110°C',
@@ -2027,10 +2027,10 @@ export const SPEC_OFFICIAL_TW_RECIPES: Recipe[] = [
         stepNumber: 7,
         title: '牛羊高壓模式燉煮 30 分鐘',
         instruction:
-          '選擇右側「牛 / 羊肉」模式，將時間設定為 30 分鐘，按下「開始」。',
+          '選擇右側「牛／羊」模式，將時間設定為 30 分鐘，按下「開始」。',
         potAction: {
           side: 'right',
-          modeName: '牛 / 羊肉',
+          modeName: '牛／羊',
           lid: 'locked',
           durationText: '30 分鐘',
           releaseMode: 'natural_auto',
@@ -2041,10 +2041,10 @@ export const SPEC_OFFICIAL_TW_RECIPES: Recipe[] = [
         stepNumber: 8,
         title: '洩壓開蓋視濃度收汁 5–8 分鐘（選用）',
         instruction:
-          '行程完成並排氣洩壓後打開上蓋檢查濃度；若希望醬汁更濃稠，開蓋選擇左側「收汁 / 醬燒」蒸發 5–8 分鐘並輕拌防黏底（醬汁放涼後會更稠，切忌收得過乾）。',
+          '行程完成並排氣洩壓後打開上蓋檢查濃度；若希望醬汁更濃稠，開蓋選擇左側「收汁／醬燒」蒸發 5–8 分鐘並輕拌防黏底（醬汁放涼後會更稠，切忌收得過乾）。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '5–8 分鐘',
           temperature: '110°C',

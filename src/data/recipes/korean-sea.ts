@@ -30,10 +30,10 @@ export const KOREAN_SEA_RECIPES: Recipe[] = [
         stepNumber: 1,
         title: '塞好糯米紅棗全部入鍋，鎖蓋壓 25–30 分',
         instruction:
-          '春雞腹內塞入洗淨糯米、一半蒜頭與紅棗（牙籤稍微封口），連同人蔘、剩餘蒜頭與溫水入鍋。順時鐘鎖緊上蓋，按右側「湯品」或「雞/鴨/豬」設 25–30 分鐘（雞腿版設 15–20 分），靜待自然自動洩壓後加鹽、白胡椒與蔥花。',
+          '春雞腹內塞入洗淨糯米、一半蒜頭與紅棗（牙籤稍微封口），連同人蔘、剩餘蒜頭與溫水入鍋。順時鐘鎖緊上蓋，按右側「煮／燉湯品」設 25–30 分鐘（棒棒腿版改選「雞／鴨／豬」設 15–20 分），靜待自然自動洩壓後加鹽、白胡椒與蔥花。',
         potAction: {
           side: 'right',
-          modeName: '湯品 / 雞鴨豬',
+          modeName: '煮／燉湯品',
           lid: 'locked',
           durationText: '25–30 分鐘',
           releaseMode: 'natural_auto',
@@ -54,7 +54,7 @@ export const KOREAN_SEA_RECIPES: Recipe[] = [
     innerPot: '304不鏽鋼內鍋優先',
     releaseSummary: '自然自動洩壓',
     stoveDifference:
-      '韓國年糕與紅棗容易糊化或黏底，千萬別跟牛肉一起加壓 30 分鐘！等牛小排壓爛、開蓋切「收汁/醬燒」時再丟年糕滾 5 分鐘最 Q 彈。',
+      '韓國年糕與紅棗容易糊化或黏底，千萬別跟牛肉一起加壓 30 分鐘！等牛小排壓爛、開蓋切「收汁／醬燒」時再丟年糕滾 5 分鐘最 Q 彈。',
     youtubeQuery: '特福鮮呼吸萬用鍋 韓式燉牛小排 갈비찜',
     ingredients: [
       { name: '帶骨牛小排或牛肋排（先汆燙洗淨）', amount: 800, unit: '克', group: 'main' },
@@ -72,10 +72,10 @@ export const KOREAN_SEA_RECIPES: Recipe[] = [
         stepNumber: 1,
         title: '牛肋排與梨泥醬汁鎖蓋壓 30–35 分',
         instruction:
-          '汆燙好的牛小排、紅白蘿蔔、水梨洋蔥泥、蒜末、醬油、米酒、糖、香油與溫水拌勻入鍋。順時鐘鎖緊上蓋，按右側「牛/羊肉」設 30–35 分鐘，等自然自動洩壓。',
+          '汆燙好的牛小排、紅白蘿蔔、水梨洋蔥泥、蒜末、醬油、米酒、糖、香油與溫水拌勻入鍋。順時鐘鎖緊上蓋，按右側「牛／羊」設 30–35 分鐘，等自然自動洩壓。',
         potAction: {
           side: 'right',
-          modeName: '牛 / 羊肉',
+          modeName: '牛／羊',
           lid: 'locked',
           durationText: '30–35 分鐘',
           releaseMode: 'natural_auto',
@@ -86,10 +86,10 @@ export const KOREAN_SEA_RECIPES: Recipe[] = [
         stepNumber: 2,
         title: '開蓋放年糕紅棗收濃醬汁',
         instruction:
-          '開蓋投入韓國年糕條與紅棗，按左側「收汁/醬燒」滾 5 分鐘至年糕軟 Q、醬汁收亮即可撒白芝麻起鍋。',
+          '開蓋投入韓國年糕條與紅棗，按左側「收汁／醬燒」滾 5 分鐘至年糕軟 Q、醬汁收亮即可撒白芝麻起鍋。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '5 分鐘',
           shortAction: '下年糕收亮醬汁',
@@ -103,8 +103,8 @@ export const KOREAN_SEA_RECIPES: Recipe[] = [
     subtitle: '免分兩鍋！醃好雞腿排直接鋪在白米上，按快煮米飯一次出雞油香飯',
     category: 'rice',
     cuisine: '南洋',
-    settingMinutes: 12,
-    realTotalMinutes: 32,
+    settingMinutes: 14,
+    realTotalMinutes: 34,
     baseServings: 4,
     innerPot: '球釜不沾內鍋',
     releaseSummary: '自然自動洩壓（悶 5 分再拌鬆）',
@@ -123,12 +123,12 @@ export const KOREAN_SEA_RECIPES: Recipe[] = [
         stepNumber: 1,
         title: '白米拌醬、雞腿鋪最上方鎖蓋煮飯',
         instruction:
-          '洗淨白米加 1.5 杯水與海南雞飯醬拌勻，放上蔥段，再將醃好的去骨雞腿排（皮朝上）直接平鋪於米上。順時鐘鎖緊上蓋，按右側「快煮米飯」或「白米」設 10–12 分鐘，自動洩壓後取出雞腿切片、拌鬆雞油飯即可。',
+          '洗淨白米加 1.5 杯水與海南雞飯醬拌勻，放上蔥段，再將醃好的去骨雞腿排（皮朝上）直接平鋪於米上。順時鐘鎖緊上蓋，按右側「快煮米飯」（固定 14 分鐘），自動洩壓後取出雞腿切片、拌鬆雞油飯即可。',
         potAction: {
           side: 'right',
-          modeName: '快煮米飯 / 白米',
+          modeName: '快煮米飯',
           lid: 'locked',
-          durationText: '10–12 分鐘',
+          durationText: '14 分鐘',
           releaseMode: 'natural_auto',
           shortAction: '一鍵同熟雞腿香飯',
         },
@@ -163,10 +163,10 @@ export const KOREAN_SEA_RECIPES: Recipe[] = [
         stepNumber: 1,
         title: '排骨、整球蒜頭與藥包鎖蓋燉 25–30 分',
         instruction:
-          '汆燙好的排骨、肉骨茶藥包、整球帶皮蒜頭、老抽、生抽、白胡椒粒與溫熱水全數入鍋。順時鐘鎖緊上蓋，按右側「湯品」或「牛/羊肉」設 25–30 分鐘，等自然自動洩壓試味微調鹽巴即可。',
+          '汆燙好的排骨、肉骨茶藥包、整球帶皮蒜頭、老抽、生抽、白胡椒粒與溫熱水全數入鍋。順時鐘鎖緊上蓋，按右側「煮／燉湯品」設 25–30 分鐘（喜愛極軟嫩亦可改選「牛／羊」設 30 分鐘），等自然自動洩壓試味微調鹽巴即可。',
         potAction: {
           side: 'right',
-          modeName: '湯品 / 牛羊肉',
+          modeName: '煮／燉湯品',
           lid: 'locked',
           durationText: '25–30 分鐘',
           releaseMode: 'natural_auto',
@@ -187,7 +187,7 @@ export const KOREAN_SEA_RECIPES: Recipe[] = [
     innerPot: '球釜不沾內鍋',
     releaseSummary: '自然自動洩壓',
     stoveDifference:
-      '巴東牛肉最講究最後「收乾巴附在牛肉上」的濃郁感——先加壓把牛腩徹底軟化，最後一步開蓋切「收汁/醬燒」不停翻炒至椰奶轉深褐色出油即成！',
+      '巴東牛肉最講究最後「收乾巴附在牛肉上」的濃郁感——先加壓把牛腩徹底軟化，最後一步開蓋切「收汁／醬燒」不停翻炒至椰奶轉深褐色出油即成！',
     avoidPitfall: '最後開蓋收濃椰奶醬汁時較濃稠，務必用耐熱矽膠鏟持續翻炒防沾底。',
     youtubeQuery: 'Tefal Home Chef Smart Pro Beef Rendang CY625',
     ingredients: [
@@ -217,10 +217,10 @@ export const KOREAN_SEA_RECIPES: Recipe[] = [
         stepNumber: 2,
         title: '加椰奶與水鎖蓋壓軟 35–40 分',
         instruction:
-          '倒入椰奶、溫清水、檸檬葉、椰糖與鹽拌勻。順時鐘鎖緊上蓋，按右側「牛/羊肉」設 35–40 分鐘，等自然自動洩壓。',
+          '倒入椰奶、溫清水、檸檬葉、椰糖與鹽拌勻。順時鐘鎖緊上蓋，按右側「牛／羊」設 35–40 分鐘，等自然自動洩壓。',
         potAction: {
           side: 'right',
-          modeName: '牛 / 羊肉',
+          modeName: '牛／羊',
           lid: 'locked',
           durationText: '35–40 分鐘',
           releaseMode: 'natural_auto',
@@ -231,10 +231,10 @@ export const KOREAN_SEA_RECIPES: Recipe[] = [
         stepNumber: 3,
         title: '開蓋持續拌炒收乾焦糖化',
         instruction:
-          '開蓋按左側「收汁/醬燒」10 分鐘，不斷拌炒至湯汁收乾成深褐色濃郁香料裹住牛肉即完成。',
+          '開蓋按左側「收汁／醬燒」10 分鐘，不斷拌炒至湯汁收乾成深褐色濃郁香料裹住牛肉即完成。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '8–10 分鐘',
           shortAction: '收乾成深褐巴東醬',
@@ -245,7 +245,7 @@ export const KOREAN_SEA_RECIPES: Recipe[] = [
   {
     id: 'sea-thai-curry-chicken',
     title: '泰式椰香紅／黃咖哩雞',
-    subtitle: '先用濃椰漿炒香泰式咖哩醬逼紅油，鎖蓋 10–12 分就香濃配飯',
+    subtitle: '先用濃椰漿炒香泰式咖哩醬逼紅油，鎖蓋 12 分就香濃配飯',
     category: 'braise',
     cuisine: '南洋',
     settingMinutes: 15,
@@ -254,7 +254,7 @@ export const KOREAN_SEA_RECIPES: Recipe[] = [
     innerPot: '球釜不沾內鍋',
     releaseSummary: '行程完短等或即時洩壓（防馬鈴薯過爛）',
     stoveDifference:
-      '泰式「咖哩醬（膏）」不含麵粉勾芡，不像日式咖哩塊容易焦底，先拿 2 大匙濃椰漿爆香炒開後加高湯稀釋，就可以放心直接鎖蓋壓 10–12 分！',
+      '泰式「咖哩醬（膏）」不含麵粉勾芡，不像日式咖哩塊容易焦底，先拿 2 大匙濃椰漿爆香炒開後加高湯稀釋，就可以放心直接鎖蓋壓 12 分！',
     youtubeQuery: 'Tefal CY625 Thai curry chicken 特福萬用鍋 泰式咖哩雞',
     ingredients: [
       { name: '去骨雞腿塊', amount: 500, unit: '克', group: 'main' },
@@ -282,14 +282,14 @@ export const KOREAN_SEA_RECIPES: Recipe[] = [
       },
       {
         stepNumber: 2,
-        title: '加蔬菜、椰奶與高湯壓 10–12 分',
+        title: '加蔬菜、椰奶與高湯壓 12 分',
         instruction:
-          '放入馬鈴薯、紅蘿蔔、剩餘椰奶、溫高湯、魚露與糖拌勻。順時鐘鎖緊上蓋，按右側「雞/鴨/豬」設 10–12 分鐘，洩壓開蓋拌入九層塔即可（喜濃稠可開蓋微收 2 分）。',
+          '放入馬鈴薯、紅蘿蔔、剩餘椰奶、溫高湯、魚露與糖拌勻。順時鐘鎖緊上蓋，按右側「雞／鴨／豬」設 12 分鐘，洩壓開蓋拌入九層塔即可（喜濃稠可開蓋微收 2 分）。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
-          durationText: '10–12 分鐘',
+          durationText: '12 分鐘',
           releaseMode: 'quick_manual',
           shortAction: '快速燉透椰香咖哩',
         },
@@ -299,21 +299,21 @@ export const KOREAN_SEA_RECIPES: Recipe[] = [
   {
     id: 'sea-chicken-biryani',
     title: '印度香料雞肉飯',
-    subtitle: '雞肉鋪底、印度香米平鋪上方「切勿攪拌」，快壓 7 分滿屋異國香',
+    subtitle: '雞肉鋪底、印度香米平鋪上方「切勿攪拌」，快煮米飯 14 分滿屋異國香',
     category: 'rice',
     cuisine: '印度',
-    settingMinutes: 12,
-    realTotalMinutes: 35,
+    settingMinutes: 18,
+    realTotalMinutes: 40,
     baseServings: 4,
     innerPot: '球釜不沾內鍋',
     releaseSummary: '自然自動洩壓並靜置悶 10 分鐘',
     stoveDifference:
-      '防焦底秘訣：醃漬雞肉鋪鍋底，洗淨瀝乾的印度長米「平鋪在雞肉正上方、絕對不要攪到底部」，水米比約 1:1.1，壓完靜置悶 10 分鐘再開蓋輕輕翻鬆。',
+      '防焦底秘訣：醃漬雞肉鋪鍋底，洗淨瀝乾的印度長米（免久泡）「平鋪在雞肉正上方、絕對不要攪到底部」，水米比約 1:1.1，走「快煮米飯」固定 14 分鐘並靜置悶 10 分鐘再開蓋輕輕翻鬆。',
     avoidPitfall: '香米鋪上去後切勿攪拌，避免優格與米粒沉底焦化！',
     youtubeQuery: 'Tefal Home Chef Smart Chicken Biryani CY625',
     ingredients: [
       { name: '優格香料醃雞腿塊（原味優格3大匙＋印度香料粉＋薑蒜泥＋薑黃）', amount: 500, unit: '克', group: 'main' },
-      { name: '印度長香米（洗淨泡 15 分瀝乾）', amount: 2, unit: '米杯', group: 'main' },
+      { name: '印度長香米（淘洗乾淨瀝乾，免久泡）', amount: 2, unit: '米杯', group: 'main' },
       { name: '洋蔥（切細絲）', amount: 1, unit: '顆', group: 'main' },
       { name: '全香料（肉桂棒、豆蔻、丁香、月桂葉，可改咖哩粉）', amount: 1, unit: '份', group: 'main' },
       { name: '奶油或植物油', amount: 2, unit: '大匙', group: 'seasoning' },
@@ -337,14 +337,14 @@ export const KOREAN_SEA_RECIPES: Recipe[] = [
       },
       {
         stepNumber: 2,
-        title: '底層放雞、上層鋪米不攪拌，快煮 7 分',
+        title: '底層放雞、上層鋪米不攪拌，快煮米飯 14 分',
         instruction:
-          '將醃漬雞肉平鋪於鍋底，上方均勻鋪上瀝乾香米（切勿攪拌！），從鍋邊緩緩倒入加鹽的 2.2 杯高湯。順時鐘鎖緊上蓋，按右側「快煮米飯」設 6–8 分鐘，結束自然靜置悶 10 分再開蓋輕輕翻鬆。',
+          '將醃漬雞肉平鋪於鍋底，上方均勻鋪上瀝乾香米（切勿攪拌！），從鍋邊緩緩倒入加鹽的 2.2 杯高湯。順時鐘鎖緊上蓋，按右側「快煮米飯」（固定 14 分鐘），結束自然靜置悶 10 分再開蓋輕輕翻鬆。',
         potAction: {
           side: 'right',
           modeName: '快煮米飯',
           lid: 'locked',
-          durationText: '6–8 分鐘',
+          durationText: '14 分鐘',
           releaseMode: 'natural_auto',
           shortAction: '分層壓出粒粒香飯',
         },
@@ -378,10 +378,10 @@ export const KOREAN_SEA_RECIPES: Recipe[] = [
         stepNumber: 1,
         title: '牛腩、番茄洋蔥先鎖蓋壓軟 30–35 分',
         instruction:
-          '牛腩、番茄、洋蔥、魚露與溫水入鍋（勿超 最高水位線）。順時鐘鎖緊上蓋，按右側「牛/羊肉」設 30–35 分鐘，自然自動洩壓。',
+          '牛腩、番茄、洋蔥、魚露與溫水入鍋（勿超 最高水位線）。順時鐘鎖緊上蓋，按右側「牛／羊」設 30–35 分鐘，自然自動洩壓。',
         potAction: {
           side: 'right',
-          modeName: '牛 / 羊肉',
+          modeName: '牛／羊',
           lid: 'locked',
           durationText: '30–35 分鐘',
           releaseMode: 'natural_auto',
@@ -447,10 +447,10 @@ export const KOREAN_SEA_RECIPES: Recipe[] = [
         stepNumber: 2,
         title: '鎖蓋壓 40 分軟糯入味',
         instruction:
-          '放入香菇、蒜頭、八角、醬油、黑糖、米酒與溫水。順時鐘鎖緊上蓋，按右側「豆類/蹄筋」設 40 分鐘，等自然自動洩壓。',
+          '放入香菇、蒜頭、八角、醬油、黑糖、米酒與溫水。順時鐘鎖緊上蓋，按右側「牛／羊」設 40 分鐘，等自然自動洩壓。',
         potAction: {
           side: 'right',
-          modeName: '豆類 / 蹄筋',
+          modeName: '牛／羊',
           lid: 'locked',
           durationText: '40 分鐘',
           releaseMode: 'natural_auto',
@@ -461,10 +461,10 @@ export const KOREAN_SEA_RECIPES: Recipe[] = [
         stepNumber: 3,
         title: '開蓋燙青江菜並勾薄芡淋汁',
         instruction:
-          '蹄膀先夾出擺盤，原鍋按左側「收汁/醬燒」燙熟青江菜圍邊，再淋入太白粉水拌勻收濃澆在蹄膀上。',
+          '蹄膀先夾出擺盤，原鍋按左側「收汁／醬燒」燙熟青江菜圍邊，再淋入太白粉水拌勻收濃澆在蹄膀上。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '4 分鐘',
           shortAction: '燙青菜並勾薄芡',
@@ -500,10 +500,10 @@ export const KOREAN_SEA_RECIPES: Recipe[] = [
         stepNumber: 1,
         title: '包緊烘焙紙上架，鎖蓋蒸 10–15 分',
         instruction:
-          '烘焙紙鋪蔬菜與魚片，淋油、檸檬汁（或台式薑絲米酒破布子）撒鹽胡椒後四周摺緊密封。內鍋倒 2 米杯溫水架蒸盤排入魚包，順時鐘鎖緊上蓋按右側「蒸/一鍋兩菜」設 10–15 分鐘，完成即時安全排氣起鍋。',
+          '烘焙紙鋪蔬菜與魚片，淋油、檸檬汁（或台式薑絲米酒破布子）撒鹽胡椒後四周摺緊密封。內鍋倒 2 米杯溫水架蒸盤排入魚包，順時鐘鎖緊上蓋按右側「蒸／一鍋兩菜」設 10–15 分鐘，完成即時安全排氣起鍋。',
         potAction: {
           side: 'right',
-          modeName: '蒸 / 一鍋兩菜',
+          modeName: '蒸／一鍋兩菜',
           lid: 'locked',
           durationText: '10–15 分鐘',
           releaseMode: 'quick_manual',
@@ -518,13 +518,13 @@ export const KOREAN_SEA_RECIPES: Recipe[] = [
     subtitle: '記住這組電子壓力鍋專用比例：白米 1:1～1.1、糙米 1:1.3，粒粒分明',
     category: 'rice',
     cuisine: '台式',
-    settingMinutes: 10,
-    realTotalMinutes: 30,
+    settingMinutes: 14,
+    realTotalMinutes: 34,
     baseServings: 4,
     innerPot: '球釜不沾內鍋',
     releaseSummary: '自然自動洩壓後多悶 10 分鐘再翻鬆',
     stoveDifference:
-      '壓力鍋完全密封不散水氣，比平常電鍋或大同電鍋「水要少一點」！白米 1 杯對水 1–1.1 杯就好；糙米或五穀米建議先泡水 30–60 分、水放 1.3–1.4 杯，煮完別急著掀蓋，多悶 10 分最鬆軟不黏底。',
+      '壓力鍋完全密封不散水氣，比平常電鍋或大同電鍋「水要少一點」！白米 1 杯對水 1–1.1 杯按「快煮米飯」（固定 14 分鐘）就好；糙米或五穀米建議先泡水 30–60 分、水放 1.3–1.4 杯，同樣按「快煮米飯」並用「壓力調節」調高至 50 千帕（或改選「煮粥／煲仔飯」設 20 分鐘），煮完多悶 10 分最鬆軟不黏底。',
     youtubeQuery: '特福鮮呼吸萬用鍋 煮白飯 糙米飯',
     ingredients: [
       { name: '白米（或改糙米／五穀米先泡 30–60 分）', amount: 2, unit: '米杯', group: 'main' },
@@ -533,14 +533,14 @@ export const KOREAN_SEA_RECIPES: Recipe[] = [
     steps: [
       {
         stepNumber: 1,
-        title: '量好水米比，選對應米飯行程鎖蓋煮',
+        title: '量好水米比，按「快煮米飯」鎖蓋煮',
         instruction:
-          '白米洗淨瀝乾，加入 1 : 1～1.1 清水入球釜內鍋。順時鐘鎖緊上蓋，按右側「快煮米飯」或「白米」（糙米請選「糙米」行程）。結束等自然自動洩壓，再多悶 10 分鐘開蓋翻鬆即可。',
+          '白米洗淨瀝乾，加入 1 : 1～1.1 清水入球釜內鍋。順時鐘鎖緊上蓋，按右側「快煮米飯」（固定 14 分鐘）；若煮糙米或五穀米，泡水 30–60 分後同樣按「快煮米飯」並按「壓力調節」調高至 50 千帕（或改選「煮粥／煲仔飯」設 20 分鐘）。結束等自然自動洩壓，再多悶 10 分鐘開蓋翻鬆即可。',
         potAction: {
           side: 'right',
-          modeName: '快煮米飯 / 白米 / 糙米',
+          modeName: '快煮米飯',
           lid: 'locked',
-          durationText: '約 10–15 分鐘',
+          durationText: '14 分鐘',
           releaseMode: 'natural_auto',
           shortAction: '自動壓力煮 Q 彈飯',
         },

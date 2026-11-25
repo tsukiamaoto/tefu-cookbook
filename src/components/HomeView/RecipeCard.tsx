@@ -1,5 +1,6 @@
 import { getRecipePotSequence, type CatalogRecipe } from '../../data/recipes';
 import {
+  formatMeasurements,
   formatMinutesText,
   getLidShortLabel,
   getSideShortLabel,
@@ -43,7 +44,7 @@ export function RecipeCard({ recipe, onSelect, starred, onToggleStar }: RecipeCa
           </svg>
         </button>
       </div>
-      <p className="recipe-card-subtitle">{recipe.subtitle}</p>
+      <p className="recipe-card-subtitle">{formatMeasurements(recipe.subtitle)}</p>
 
       {sequence.length > 0 && <div className="card-pot-chain" aria-label="CY625870 面板按鍵順序">
         {sequence.map((item, idx) => (
@@ -60,7 +61,7 @@ export function RecipeCard({ recipe, onSelect, starred, onToggleStar }: RecipeCa
               {item.action.lid && <LidIcon state={item.action.lid} size={16} />}
               <span>
                 {item.action.side && getSideShortLabel(item.action.side) + '・'}{item.action.modeName}{' '}
-                {item.action.durationText}{item.action.lid && '（' + getLidShortLabel(item.action.lid) + '）'}
+                {item.action.durationText && formatMeasurements(item.action.durationText)}{item.action.lid && '（' + getLidShortLabel(item.action.lid) + '）'}
               </span>
             </span>
           </span>

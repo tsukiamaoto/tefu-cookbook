@@ -40,10 +40,10 @@ export const SPEC_YTOWER_A_RECIPES: Recipe[] = [
         stepNumber: 2,
         title: '鎖蓋啟動高壓逼油行程',
         instruction:
-          '蓋上鍋蓋並將上蓋手把順時鐘轉到底鎖定，選右側「雞/鴨/豬」將時間調至 20–25 分鐘並把壓力調高至 60 kPa 啟動（油丁較大或滿量 1800g 亦可直接按「牛/羊肉」預設 30 分鐘／60 kPa）。全程免顧火，時間到自動關火。',
+          '蓋上鍋蓋並將上蓋手把順時鐘轉到底鎖定，選右側「雞／鴨／豬」將時間調至 20–25 分鐘並把壓力調高至 60 kPa 啟動（油丁較大或滿量 1800g 亦可直接按「牛／羊」預設 30 分鐘／60 kPa）。全程免顧火，時間到自動關火。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
           durationText: '20–25 分鐘（60 kPa）',
           releaseMode: 'natural_auto',
@@ -147,82 +147,6 @@ export const SPEC_YTOWER_A_RECIPES: Recipe[] = [
         title: '拆線切片擺盤上桌',
         instruction:
           '食用前取出冰涼入味的醉雞捲，剪開並抽除棉線，以利刀切約 1cm 圓片排盤，淋上少許盒中酒香滷汁並點綴紅潤枸杞即可享用。',
-      },
-    ],
-  },
-  {
-    id: 'spec-ytower-tefal-05-thick-preserved-radish-omelette',
-    title: '超厚蔥花菜脯烘蛋',
-    subtitle: '蛋液打發起泡免翻面，120°C 蓋蓋燜烘出 4 公分厚金黃虎皮蛋',
-    category: 'bake',
-    cuisine: '台式',
-    settingMinutes: 25,
-    realTotalMinutes: 30,
-    baseServings: 4,
-    innerPot: '球釜不沾內鍋',
-    releaseSummary: '全程無壓（蓋上鍋蓋不鎖定，免洩壓）',
-    stoveDifference:
-      '瓦斯爐煎 8 顆蛋厚烘蛋極易焦底又翻面碎裂；球釜弧底配 120°C 自訂行程蓋蓋燜烘，免翻鍋就能外皮金黃酥香、內裡像蛋糕般蓬鬆。',
-    avoidPitfall:
-      '嚴禁使用 304 不鏽鋼內鍋防沾底難脫模；120°C 自訂行程蓋蓋時務必保持手把解鎖不鎖定，且菜脯務必試鹹擠乾。',
-    youtubeQuery: '特福鮮呼吸萬用鍋 超厚菜脯烘蛋 自訂行程',
-    sourceUrl: 'https://www.youtube.com/watch?v=LlInUxIXTK0',
-    sourceTag: '楊桃美食網 楊桃文化 特福官方',
-    ingredients: [
-      { name: '雞蛋', amount: 8, unit: '顆', note: '烘出 3–4cm 厚度', group: 'main' },
-      { name: '蔥花（洗淨擦乾切細）', amount: 120, unit: '克', group: 'main' },
-      { name: '菜脯碎（試鹹洗去多餘鹽並擰乾）', amount: 100, unit: '克', group: 'main' },
-      { name: '沙拉油', amount: 2, unit: '大匙', note: '均勻潤鍋防沾', group: 'seasoning' },
-    ],
-    steps: [
-      {
-        stepNumber: 1,
-        title: '高速攪打蛋液至蓬鬆起微泡',
-        instruction:
-          '將 8 顆蛋打入深攪拌碗，用電動攪拌棒或打蛋器高速攪打至蛋液略淺黃、表面覆蓋一層細緻蓬鬆微泡（將空氣打入蛋液，免泡打粉也能超厚蓬鬆）。',
-      },
-      {
-        stepNumber: 2,
-        title: '拌入擰乾的菜脯碎與蔥花',
-        instruction:
-          '將試過鹹度並徹底擰乾水分的菜脯碎 100g 與擦乾切細的蔥花 120g 倒入打發蛋液中，輕輕拌勻讓配料分散（避免過度猛攪消泡）。',
-        tip: '仰賴菜脯鹹香故免另加鹽；若買到甜味無鹽菜脯可自行酌補 1/4 茶匙鹽。',
-      },
-      {
-        stepNumber: 3,
-        title: '啟動自訂行程 120°C／25 分鐘並開蓋預熱 5 分鐘',
-        instruction:
-          '乾燥球釜內鍋倒入 2 大匙沙拉油轉勻潤鍋壁，保持開蓋按左側「自訂行程」設 120°C、25 分鐘啟動（按開始即倒數），先開蓋預熱約 5 分鐘至螢幕倒數剩約 20 分鐘讓油溫升到位。',
-        potAction: {
-          side: 'left',
-          modeName: '自訂行程',
-          lid: 'open',
-          durationText: '前 5 分鐘（總設 25 分）',
-          temperature: '120°C',
-          shortAction: '開蓋熱油預熱',
-        },
-        tip: '想更濃油香，可在預熱最後 1 分鐘先把菜脯碎丟進熱油略煸，再淋蔥花蛋液。',
-      },
-      {
-        stepNumber: 4,
-        title: '倒入蛋液、蓋蓋不鎖定一鍵烘熟',
-        instruction:
-          '預熱滿約 5 分鐘後，將蔥花菜脯蛋液一次緩緩倒入熱油鍋中，立刻蓋上鍋蓋並保持手把朝前「解鎖」狀態（切勿鎖緊），靜待剩餘約 20 分鐘運轉結束自動停止加熱。',
-        potAction: {
-          side: 'left',
-          modeName: '自訂行程',
-          lid: 'closed_unlocked',
-          durationText: '後 20 分鐘',
-          temperature: '120°C',
-          shortAction: '不鎖蓋免翻面烘熟',
-        },
-        tip: '減半做 4–5 顆蛋時，預熱後蓋蓋烘烤改為 12–15 分鐘即可。',
-      },
-      {
-        stepNumber: 5,
-        title: '開蓋檢視熟度並反扣脫模',
-        instruction:
-          '行程結束開蓋（可用竹籤插中心確認不沾生蛋液；若微濕再補烘 3–5 分鐘），蛋緣微離鍋壁後用大圓平盤倒扣鍋口迅速翻轉脫模，即可見底面金黃焦香、厚達 3–4cm 的蓬鬆厚烘蛋。',
       },
     ],
   },
@@ -397,10 +321,10 @@ export const SPEC_YTOWER_A_RECIPES: Recipe[] = [
         stepNumber: 7,
         title: '架蒸架加 1 杯水高壓蒸 12 分鐘',
         instruction:
-          '換上 304 不鏽鋼內鍋放金屬小蒸架（或乾淨球釜內鍋改放原廠耐熱塑膠蒸盤），鍋底倒 1 杯水並整齊疊放粽子（單鍋約放 6–8 顆，多餘可分批）。鎖緊上蓋選右側「蒸/一鍋兩菜」按＋調至 12 分鐘啟動，洩壓開蓋即可享用。',
+          '換上 304 不鏽鋼內鍋放金屬小蒸架（或乾淨球釜內鍋改放原廠耐熱塑膠蒸盤），鍋底倒 1 杯水並整齊疊放粽子（單鍋約放 6–8 顆，多餘可分批）。鎖緊上蓋選右側「蒸／一鍋兩菜」按＋調至 12 分鐘啟動，洩壓開蓋即可享用。',
         potAction: {
           side: 'right',
-          modeName: '蒸 / 一鍋兩菜',
+          modeName: '蒸／一鍋兩菜',
           lid: 'locked',
           durationText: '12 分鐘',
           releaseMode: 'natural_auto',
@@ -790,10 +714,10 @@ export const SPEC_YTOWER_A_RECIPES: Recipe[] = [
         stepNumber: 3,
         title: '鎖蓋啟動煮粥／煲仔飯自動結鍋巴',
         instruction:
-          '蓋上鍋蓋並順時鐘鎖緊，按右側「煮粥/煲仔飯」（預設 30 kPa、20 分鐘）啟動，全程免顧火靜待烹調與自然自動洩壓完成。',
+          '蓋上鍋蓋並順時鐘鎖緊，按右側「煮粥／煲仔飯」（預設 30 kPa、20 分鐘）啟動，全程免顧火靜待烹調與自然自動洩壓完成。',
         potAction: {
           side: 'right',
-          modeName: '煮粥 / 煲仔飯',
+          modeName: '煮粥／煲仔飯',
           lid: 'locked',
           durationText: '20 分鐘',
           releaseMode: 'natural_auto',
@@ -869,162 +793,6 @@ export const SPEC_YTOWER_A_RECIPES: Recipe[] = [
         title: '加鹽、黑胡椒粉與蔥花快拌起鍋',
         instruction:
           '炒到飯粒乾香鬆散後，加入鹽 1/2 茶匙、黑胡椒粉 1/2 茶匙拌勻，最後倒入鮮綠蔥花快速翻炒約 20–30 秒炒出蔥香，立即按「取消」盛碗享用。',
-      },
-    ],
-  },
-  {
-    id: 'spec-ytower-tefal-16-tomato-scrambled-eggs',
-    title: '少油煙番茄炒蛋',
-    subtitle: '先炒半熟滑蛋取出，原鍋無壓蓋蓋燜出濃茄汁再勾芡合炒',
-    category: 'braise',
-    cuisine: '台式',
-    settingMinutes: 12,
-    realTotalMinutes: 15,
-    baseServings: 3,
-    innerPot: '球釜不沾內鍋',
-    releaseSummary: '全程無壓（中途蓋蓋不鎖定，免洩壓）',
-    stoveDifference:
-      '萬用鍋恆溫 150°C 炒蛋不沾不冒嗆煙，炒番茄加水後無壓蓋蓋聚熱 3 分鐘，免大火顧鍋就能把果膠與酸甜茄汁燜得濃郁入味。',
-    avoidPitfall:
-      '燜番茄時鍋蓋僅覆蓋勿鎖緊手把；太白粉水務必在開蓋狀態下先拌勻再淋入，並立刻輕推防結塊沾底。',
-    youtubeQuery: '特福鮮呼吸萬用鍋 番茄炒蛋 少油煙',
-    sourceUrl: 'https://www.youtube.com/watch?v=j5wKYc07Vp8',
-    sourceTag: '楊桃美食網 楊桃文化 特福官方',
-    ingredients: [
-      { name: '雞蛋（打散，不加鹽防出水）', amount: 5, unit: '顆', group: 'main' },
-      { name: '牛番茄（帶皮切 2.5–3cm 塊）', amount: 350, unit: '克', group: 'main' },
-      { name: '蔥粒（洗淨瀝乾）', amount: 50, unit: '克', group: 'main' },
-      { name: '食用油', amount: 1.5, unit: '大匙', note: '分炒蛋與炒番茄', group: 'seasoning' },
-      { name: '番茄醬', amount: 2, unit: '大匙', note: '愛濃汁可加量', group: 'seasoning' },
-      { name: '細砂糖', amount: 1, unit: '茶匙', group: 'seasoning' },
-      { name: '開水', amount: 100, unit: 'ml', group: 'seasoning' },
-      { name: '太白粉水（粉水 1:2 調勻）', amount: 2, unit: '大匙', group: 'seasoning' },
-    ],
-    steps: [
-      {
-        stepNumber: 1,
-        title: '啟動爆炒模式並快炒半熟嫩蛋取出',
-        instruction:
-          '保持開蓋，按左側「爆炒煎烤」（150°C）設 12 分鐘啟動，球釜內鍋倒入 1 大匙油熱鍋，倒入打散的 5 顆蛋液以木勺輕推炒至澎軟金黃、七至八分熟半凝固滑嫩狀態，立即先盛入碗中備用。',
-        potAction: {
-          side: 'left',
-          modeName: '爆炒煎烤',
-          lid: 'open',
-          durationText: '總設 12 分鐘（約 3 分炒蛋）',
-          temperature: '150°C',
-          shortAction: '開蓋滑炒半熟嫩蛋',
-        },
-      },
-      {
-        stepNumber: 2,
-        title: '原鍋炒番茄與茄汁基底',
-        instruction:
-          '原鍋免洗補少許油（約半大匙），倒入帶皮切塊牛番茄拌炒，接著加入番茄醬 2 大匙與細砂糖 1 茶匙持續翻炒，讓每塊番茄均勻裹上紅亮茄汁、微軟釋出果香。',
-      },
-      {
-        stepNumber: 3,
-        title: '加水並無壓蓋蓋燜軟番茄 3 分鐘',
-        instruction:
-          '倒入 100ml 開水略拌，直接蓋上鍋蓋但保持手把「解鎖」不鎖定，利用無壓密閉熱循環燜煮約 3 分鐘至番茄軟透、茄湯紅亮融合。',
-        potAction: {
-          side: 'left',
-          modeName: '爆炒煎烤',
-          lid: 'closed_unlocked',
-          durationText: '3 分鐘',
-          temperature: '150°C',
-          shortAction: '不鎖蓋燜透茄汁',
-        },
-        tip: '4 人以上拌飯濃汁派可增量為 6 顆蛋、番茄 400g、番茄醬 4 大匙與水 150ml。',
-      },
-      {
-        stepNumber: 4,
-        title: '開蓋勾芡、回鍋滑蛋與蔥粒起鍋',
-        instruction:
-          '掀開鍋蓋，邊用木勺輕推邊淋入再次攪勻的太白粉水 2 大匙，煮至番茄汁濃稠亮澤微掛勺；倒回半熟嫩蛋與 50g 蔥粒快速輕柔翻拌 10–15 秒裹勻茄汁，立即按「取消」盛盤。',
-        potAction: {
-          side: 'left',
-          modeName: '爆炒煎烤',
-          lid: 'open',
-          durationText: '約 1–2 分鐘',
-          temperature: '150°C',
-          shortAction: '開蓋勾芡合炒起鍋',
-        },
-      },
-    ],
-  },
-  {
-    id: 'spec-ytower-tefal-17-stir-fried-water-spinach',
-    title: '蒜炒翠綠空心菜',
-    subtitle: '先不鎖蓋聚香爆蒜 2 分，再開蓋快炒 1 分半翠綠爽脆不發黑',
-    category: 'braise',
-    cuisine: '台式',
-    settingMinutes: 6,
-    realTotalMinutes: 10,
-    baseServings: 4,
-    innerPot: '球釜不沾內鍋',
-    releaseSummary: '全程無壓（爆香蓋蓋不鎖定，免洩壓）',
-    stoveDifference:
-      '利用 150°C 恆溫先蓋蓋爆蒜 2 分鐘，既不怕大火炸焦蒜末發苦，又完全阻絕油噴與嗆鼻油煙；開蓋下菜快炒起鍋才放鹽，照樣鮮綠脆口。',
-    avoidPitfall:
-      '空心菜下鍋後絕不可再蓋蓋悶炒，單次菜量上限 500g，炒好立刻按取消夾出防球釜餘溫把葉片悶黃變黑。',
-    youtubeQuery: '特福鮮呼吸萬用鍋 炒空心菜 少油煙',
-    sourceUrl: 'https://www.youtube.com/watch?v=6gkBLHQBnF0',
-    sourceTag: '楊桃美食網 楊桃文化 特福官方',
-    ingredients: [
-      { name: '空心菜（去老根洗淨切 5–6cm 段）', amount: 500, unit: '克', note: '充分瀝乾水分', group: 'main' },
-      { name: '蒜末（切細碎）', amount: 20, unit: '克', group: 'main' },
-      { name: '紅辣椒（斜切薄片）', amount: 10, unit: '克', note: '怕辣可去籽', group: 'main' },
-      { name: '食用油', amount: 1, unit: '大匙', group: 'seasoning' },
-      { name: '鹽', amount: 0.25, unit: '茶匙', note: '可微調至半茶匙', group: 'seasoning' },
-    ],
-    steps: [
-      {
-        stepNumber: 1,
-        title: '啟動爆炒模式預熱內鍋',
-        instruction:
-          '球釜內鍋保持開蓋，按左側「爆炒煎烤」（150°C）將時間調至 5–6 分鐘啟動，先預熱約 1 分鐘至鍋底微熱。',
-        potAction: {
-          side: 'left',
-          modeName: '爆炒煎烤',
-          lid: 'open',
-          durationText: '總設 5–6 分鐘（預熱 1 分）',
-          temperature: '150°C',
-          shortAction: '開蓋預熱內鍋',
-        },
-      },
-      {
-        stepNumber: 2,
-        title: '無壓蓋蓋聚香爆蒜 2 分鐘',
-        instruction:
-          '內鍋倒入 1 大匙食用油，立刻投入細蒜末 20g 與紅辣椒片 10g，直接蓋上鍋蓋並保持手把「解鎖」不鎖定，無壓爆香 2 分鐘充分逼出蒜香且零油噴。',
-        potAction: {
-          side: 'left',
-          modeName: '爆炒煎烤',
-          lid: 'closed_unlocked',
-          durationText: '2 分鐘',
-          temperature: '150°C',
-          shortAction: '不鎖蓋無煙爆蒜',
-        },
-      },
-      {
-        stepNumber: 3,
-        title: '開蓋投入空心菜快速翻炒',
-        instruction:
-          '掀開鍋蓋倒入切段瀝乾的 500g 空心菜（若覺得鍋口滿可先下粗菜梗炒 30 秒再下菜葉），全程保持開蓋由球釜底往上快速翻炒約 1–1.5 分鐘至消風轉油亮翠綠。',
-        potAction: {
-          side: 'left',
-          modeName: '爆炒煎烤',
-          lid: 'open',
-          durationText: '約 1–1.5 分鐘',
-          temperature: '150°C',
-          shortAction: '開蓋快炒保翠綠',
-        },
-      },
-      {
-        stepNumber: 4,
-        title: '撒鹽調味立即停火起鍋',
-        instruction:
-          '趁菜葉剛轉亮綠尚未出過多菜汁仍爽脆時，撒入鹽 1/4 茶匙（可滴數滴米酒增香）迅速拌勻 10–15 秒，馬上按「取消」夾出盛盤，避免餘溫悶黃。',
       },
     ],
   },

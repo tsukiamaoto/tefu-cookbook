@@ -13,7 +13,7 @@ export const JAPANESE_RECIPES: Recipe[] = [
     innerPot: '球釜不沾內鍋',
     releaseSummary: '自然自動洩壓',
     stoveDifference:
-      '最大鐵則：市售「咖哩塊」含大量澱粉油脂，千萬不能加壓前就丟進去（必焦底！）——先無水壓 10–12 分讓洋蔥番茄自己出水燉透雞肉，開蓋後再放咖哩塊拌勻即可。（若改用咖哩粉 2 大匙則可直接同壓。）',
+      '最大鐵則：市售「咖哩塊」含大量澱粉油脂，千萬不能加壓前就丟進去（必焦底！）——先無水壓 12 分讓洋蔥番茄自己出水燉透雞肉，開蓋後再放咖哩塊拌勻即可。（若改用咖哩粉 2 大匙則可直接同壓。）',
     avoidPitfall: '鋪料順序不可顛倒：洋蔥、番茄放最底層出水，紅蘿蔔馬鈴薯放中層，雞肉放最上層！',
     youtubeQuery: '特福鮮呼吸萬用鍋 無水咖哩 雞肉咖哩',
     ingredients: [
@@ -29,12 +29,12 @@ export const JAPANESE_RECIPES: Recipe[] = [
         stepNumber: 1,
         title: '洋蔥番茄鋪底、不加水鎖蓋壓 12 分',
         instruction:
-          '依序放入洋蔥（最底）➔ 番茄 ➔ 紅蘿蔔與馬鈴薯 ➔ 雞腿塊（最上），完全不加水、也不放咖哩塊。順時鐘鎖緊上蓋，按右側「雞/鴨/豬」設 10–12 分鐘，等自動洩壓。',
+          '依序放入洋蔥（最底）➔ 番茄 ➔ 紅蘿蔔與馬鈴薯 ➔ 雞腿塊（最上），完全不加水、也不放咖哩塊。順時鐘鎖緊上蓋，按右側「雞／鴨／豬」設 12 分鐘，等自動洩壓。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
-          durationText: '10–12 分鐘',
+          durationText: '12 分鐘',
           releaseMode: 'natural_auto',
           shortAction: '無水釋出蔬果濃汁',
         },
@@ -43,10 +43,10 @@ export const JAPANESE_RECIPES: Recipe[] = [
         stepNumber: 2,
         title: '開蓋投入咖哩塊拌勻微滾',
         instruction:
-          '開蓋即見滿滿蔬果原汁，投入咖哩塊攪拌至完全融化；按左側「收汁/醬燒」開蓋微滾 2–3 分鐘（邊拌防沾底）即可起鍋。',
+          '開蓋即見滿滿蔬果原汁，投入咖哩塊攪拌至完全融化；按左側「收汁／醬燒」開蓋微滾 2–3 分鐘（邊拌防沾底）即可起鍋。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '2–3 分鐘',
           shortAction: '融化咖哩塊微滾',
@@ -57,7 +57,7 @@ export const JAPANESE_RECIPES: Recipe[] = [
   {
     id: 'jp-waterless-mille-feuille-nabe',
     title: '無水千層白菜豬肉鍋',
-    subtitle: '白菜與五花肉片直立排滿球釜內鍋，不加水壓 10 分滿鍋鮮甜湯',
+    subtitle: '白菜與五花肉片直立排滿球釜內鍋，不加水壓 12 分滿鍋鮮甜湯',
     category: 'soup',
     cuisine: '日式',
     settingMinutes: 12,
@@ -79,18 +79,18 @@ export const JAPANESE_RECIPES: Recipe[] = [
     steps: [
       {
         stepNumber: 1,
-        title: '白菜豬肉疊層塞滿內鍋，鎖蓋壓 10–12 分',
+        title: '白菜豬肉疊層塞滿內鍋，鎖蓋壓 12 分',
         instruction:
-          '大白菜葉與五花肉片層層疊起切段，緊密直立排滿球釜內鍋，均勻淋上醬油、味醂與米酒（不加水）。順時鐘鎖緊上蓋，按右側「雞/鴨/豬」設 10–12 分鐘，自動洩壓即可整鍋端上桌。',
+          '大白菜葉與五花肉片層層疊起切段，緊密直立排滿球釜內鍋，均勻淋上醬油、味醂與米酒（不加水）。順時鐘鎖緊上蓋，按右側「雞／鴨／豬」設 12 分鐘，自動洩壓即可整鍋端上桌。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
-          durationText: '10–12 分鐘',
+          durationText: '12 分鐘',
           releaseMode: 'natural_auto',
           shortAction: '鎖住原汁逼出甜湯',
         },
-        tip: '也可用左側「高溫慢燉」（蓋上不鎖）煮 20 分鐘，白菜口感更保脆。',
+        tip: '也可用左側「自訂行程」90°C（蓋上不鎖定）煮 20 分鐘，或改按右側「蒸／一鍋兩菜」10 分鐘，白菜口感更保脆。',
       },
     ],
   },
@@ -122,12 +122,12 @@ export const JAPANESE_RECIPES: Recipe[] = [
     steps: [
       {
         stepNumber: 1,
-        title: '（可選）先炒洋蔥肉片再壓 8–10 分',
+        title: '（可選）先炒洋蔥肉片再短壓 8–10 分',
         instruction:
-          '可先開蓋「爆炒煎烤」略炒洋蔥與肉片 2 分（或直接全部拌勻入鍋更省事）。加入馬鈴薯、紅蘿蔔與全部醬汁高湯，順時鐘鎖緊上蓋按右側「雞/鴨/豬」設 8–10 分鐘。',
+          '可先開蓋「爆炒煎烤」略炒洋蔥與肉片 2 分（或直接全部拌勻入鍋更省事）。加入馬鈴薯、紅蘿蔔與全部醬汁高湯，順時鐘鎖緊上蓋按右側「蒸／一鍋兩菜」設 8–10 分鐘（喜愛更鬆綿可改選「雞／鴨／豬」設 12 分鐘）。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '蒸／一鍋兩菜',
           lid: 'locked',
           durationText: '8–10 分鐘',
           releaseMode: 'quick_manual',
@@ -138,10 +138,10 @@ export const JAPANESE_RECIPES: Recipe[] = [
         stepNumber: 2,
         title: '開蓋收汁裹亮醬色',
         instruction:
-          '洩壓開蓋後若湯汁較多，按左側「收汁/醬燒」開蓋收 3–5 分鐘，輕輕翻動防弄碎馬鈴薯即起鍋。',
+          '洩壓開蓋後若湯汁較多，按左側「收汁／醬燒」開蓋收 3–5 分鐘，輕輕翻動防弄碎馬鈴薯即起鍋。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '3–5 分鐘',
           shortAction: '開蓋微收亮醬汁',
@@ -192,10 +192,10 @@ export const JAPANESE_RECIPES: Recipe[] = [
         stepNumber: 2,
         title: '鎖蓋壓 20 分並自然洩壓靜置浸味',
         instruction:
-          '加入青蔥段、薑片、醬油、糖、清酒與清水。順時鐘鎖緊上蓋，按右側「雞/鴨/豬」設 20 分鐘，行程結束務必等自然自動洩壓，可多靜置保溫 10 分鐘再盛盤（水煮蛋於開蓋後泡入）。',
+          '加入青蔥段、薑片、醬油、糖、清酒與清水。順時鐘鎖緊上蓋，按右側「雞／鴨／豬」設 20 分鐘，行程結束務必等自然自動洩壓，可多靜置保溫 10 分鐘再盛盤（水煮蛋於開蓋後泡入）。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
           durationText: '20 分鐘',
           releaseMode: 'natural_auto',
@@ -216,7 +216,7 @@ export const JAPANESE_RECIPES: Recipe[] = [
     innerPot: '球釜不沾內鍋',
     releaseSummary: '自然自動洩壓',
     stoveDifference:
-      '想切出漂亮拉麵叉燒片，起鍋後「一定要放涼或略冷藏」再切才不會散開；原鍋滷汁開蓋按「收汁/醬燒」收濃當淋醬超讚（加一點可樂上色更漂亮）。',
+      '想切出漂亮拉麵叉燒片，起鍋後「一定要放涼或略冷藏」再切才不會散開；原鍋滷汁開蓋按「收汁／醬燒」收濃當淋醬超讚（加一點可樂上色更漂亮）。',
     youtubeQuery: '特福鮮呼吸萬用鍋 日式叉燒 蜜汁叉燒',
     ingredients: [
       { name: '整條豬梅花肉或五花捲（綁棉繩）', amount: 700, unit: '克', group: 'main' },
@@ -246,10 +246,10 @@ export const JAPANESE_RECIPES: Recipe[] = [
         stepNumber: 2,
         title: '鎖蓋壓 20–25 分燉透',
         instruction:
-          '放入蔥薑、八角、醬油、清酒、味醂與水。順時鐘鎖緊上蓋，按右側「雞/鴨/豬」設 20–25 分鐘，結束自然自動洩壓後取出肉條放涼切片。',
+          '放入蔥薑、八角、醬油、清酒、味醂與水。順時鐘鎖緊上蓋，按右側「雞／鴨／豬」設 20–25 分鐘，結束自然自動洩壓後取出肉條放涼切片。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
           durationText: '20–25 分鐘',
           releaseMode: 'natural_auto',
@@ -260,10 +260,10 @@ export const JAPANESE_RECIPES: Recipe[] = [
         stepNumber: 3,
         title: '原鍋滷汁收濃淋在叉燒上',
         instruction:
-          '開蓋把原鍋滷汁按左側「收汁/醬燒」收 4–5 分鐘至微稠光亮，淋在切好的叉燒片上即可。',
+          '開蓋把原鍋滷汁按左側「收汁／醬燒」收 4–5 分鐘至微稠光亮，淋在切好的叉燒片上即可。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '4–5 分鐘',
           shortAction: '收濃成蜜汁淋醬',
@@ -298,16 +298,16 @@ export const JAPANESE_RECIPES: Recipe[] = [
     steps: [
       {
         stepNumber: 1,
-        title: '全部拌勻鎖蓋只壓 5 分鐘',
+        title: '全部拌勻鎖蓋只壓 5–8 分鐘',
         instruction:
-          '將雞腿塊、所有根莖蔬菜、蒟蒻、香菇與調味料、柴魚高湯全部拌勻入鍋。順時鐘鎖緊上蓋，按右側「雞/鴨/豬」設 5 分鐘。',
+          '將雞腿塊、所有根莖蔬菜、蒟蒻、香菇與調味料、柴魚高湯全部拌勻入鍋。順時鐘鎖緊上蓋，按右側「蒸／一鍋兩菜」設 5–8 分鐘。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '蒸／一鍋兩菜',
           lid: 'locked',
-          durationText: '5 分鐘',
+          durationText: '5–8 分鐘',
           releaseMode: 'quick_manual',
-          shortAction: '5分鐘快壓透根莖',
+          shortAction: '短壓快煮透根莖',
         },
         tip: '行程結束安全排氣即時開蓋，撒上燙熟荷蘭豆或蔥花點綴，冷吃熱吃都好吃。',
       },
@@ -355,7 +355,7 @@ export const JAPANESE_RECIPES: Recipe[] = [
   {
     id: 'jp-buri-daikon',
     title: '紅燒鰤魚白蘿蔔',
-    subtitle: '白蘿蔔免先汆燙久煮，10–15 分鐘就吸飽魚鮮與甘醇醬汁',
+    subtitle: '白蘿蔔免先汆燙久煮，12–15 分鐘就吸飽魚鮮與甘醇醬汁',
     category: 'braise',
     cuisine: '日式',
     settingMinutes: 16,
@@ -378,14 +378,14 @@ export const JAPANESE_RECIPES: Recipe[] = [
     steps: [
       {
         stepNumber: 1,
-        title: '白蘿蔔墊底、魚塊放上鎖蓋壓 12 分',
+        title: '白蘿蔔墊底、魚塊放上鎖蓋壓 12–15 分',
         instruction:
-          '白蘿蔔鋪內鍋底，放上燙過的魚塊與薑片，淋入清水、清酒、糖與醬油。順時鐘鎖緊上蓋，按右側「雞/鴨/豬」設 10–15 分鐘，等自動洩壓。',
+          '白蘿蔔鋪內鍋底，放上燙過的魚塊與薑片，淋入清水、清酒、糖與醬油。順時鐘鎖緊上蓋，按右側「雞／鴨／豬」設 12–15 分鐘，等自動洩壓。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
-          durationText: '10–15 分鐘',
+          durationText: '12–15 分鐘',
           releaseMode: 'natural_auto',
           shortAction: '蘿蔔魚肉雙雙入味',
         },
@@ -394,10 +394,10 @@ export const JAPANESE_RECIPES: Recipe[] = [
         stepNumber: 2,
         title: '開蓋微收亮汁即可盛盤',
         instruction:
-          '開蓋按左側「收汁/醬燒」滾 3–4 分鐘，輕輕舀湯汁澆淋在魚塊上收出光澤即完成。',
+          '開蓋按左側「收汁／醬燒」滾 3–4 分鐘，輕輕舀湯汁澆淋在魚塊上收出光澤即完成。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '3–4 分鐘',
           shortAction: '舀汁澆淋收光澤',
@@ -417,7 +417,7 @@ export const JAPANESE_RECIPES: Recipe[] = [
     innerPot: '304不鏽鋼內鍋優先',
     releaseSummary: '自然自動洩壓',
     stoveDifference:
-      '帶尖銳骨頭的豬肋排若有 304 不鏽鋼鍋優先用；壓完一定要接「收汁/醬燒」把蜂蜜紅酒汁收濃，才會呈現亮晶晶的蜜汁光澤。',
+      '帶尖銳骨頭的豬肋排若有 304 不鏽鋼鍋優先用；壓完一定要接「收汁／醬燒」把蜂蜜紅酒汁收濃，才會呈現亮晶晶的蜜汁光澤。',
     youtubeQuery: 'ティファール ラクラクッカー スペアリブ',
     ingredients: [
       { name: '豬肋排（切根抹少許鹽胡椒）', amount: 1000, unit: '克', group: 'main' },
@@ -433,10 +433,10 @@ export const JAPANESE_RECIPES: Recipe[] = [
         stepNumber: 1,
         title: '肋排與醃醬全入鍋鎖蓋壓 15–20 分',
         instruction:
-          '將豬肋排、洋蔥泥、蒜泥、醬油、紅酒、味醂與蜂蜜全部拌勻入鍋。順時鐘鎖緊上蓋，按右側「雞/鴨/豬」設 15–20 分鐘，結束等自然自動洩壓。',
+          '將豬肋排、洋蔥泥、蒜泥、醬油、紅酒、味醂與蜂蜜全部拌勻入鍋。順時鐘鎖緊上蓋，按右側「雞／鴨／豬」設 15–20 分鐘，結束等自然自動洩壓。',
         potAction: {
           side: 'right',
-          modeName: '雞 / 鴨 / 豬',
+          modeName: '雞／鴨／豬',
           lid: 'locked',
           durationText: '15–20 分鐘',
           releaseMode: 'natural_auto',
@@ -447,10 +447,10 @@ export const JAPANESE_RECIPES: Recipe[] = [
         stepNumber: 2,
         title: '開蓋收濃蜂蜜焦糖醬汁',
         instruction:
-          '開蓋按左側「收汁/醬燒」5 分鐘，邊翻動讓蜂蜜紅酒醬汁收濃發亮、均勻巴附肋排即起鍋。',
+          '開蓋按左側「收汁／醬燒」5 分鐘，邊翻動讓蜂蜜紅酒醬汁收濃發亮、均勻巴附肋排即起鍋。',
         potAction: {
           side: 'left',
-          modeName: '收汁 / 醬燒',
+          modeName: '收汁／醬燒',
           lid: 'open',
           durationText: '5 分鐘',
           shortAction: '收出焦糖蜜汁光澤',
@@ -485,10 +485,10 @@ export const JAPANESE_RECIPES: Recipe[] = [
         stepNumber: 1,
         title: '除味噌外全數入鍋，短壓 5–8 分鐘',
         instruction:
-          '內鍋放入豬五花、白蘿蔔、紅蘿蔔、牛蒡、蒟蒻、蔥白與高湯（味噌先留著不放）。順時鐘鎖緊上蓋，按右側「湯品」設 5–8 分鐘，洩壓開蓋。',
+          '內鍋放入豬五花、白蘿蔔、紅蘿蔔、牛蒡、蒟蒻、蔥白與高湯（味噌先留著不放）。順時鐘鎖緊上蓋，按右側「蒸／一鍋兩菜」設 5–8 分鐘（喜愛根莖更軟爛可改選「雞／鴨／豬」設 12 分鐘），洩壓開蓋。',
         potAction: {
           side: 'right',
-          modeName: '湯品 / 煲湯',
+          modeName: '蒸／一鍋兩菜',
           lid: 'locked',
           durationText: '5–8 分鐘',
           releaseMode: 'natural_auto',
@@ -666,10 +666,10 @@ export const JAPANESE_RECIPES: Recipe[] = [
         stepNumber: 1,
         title: '蛋奶過篩入杯封鋁箔，壓力只蒸 1 分鐘',
         instruction:
-          '常溫蛋、糖、牛奶輕輕拌勻（別打出大泡）過篩 2 次，分裝 4 個耐熱小杯並各別用鋁箔紙蓋緊杯口。內鍋倒 300ml 溫水架蒸盤排入布丁杯，順時鐘鎖緊上蓋，按右側「蒸/一鍋兩菜」設 1 分鐘。',
+          '常溫蛋、糖、牛奶輕輕拌勻（別打出大泡）過篩 2 次，分裝 4 個耐熱小杯並各別用鋁箔紙蓋緊杯口。內鍋倒 300ml 溫水架蒸盤排入布丁杯，順時鐘鎖緊上蓋，按右側「蒸／一鍋兩菜」設 1 分鐘。',
         potAction: {
           side: 'right',
-          modeName: '蒸 / 一鍋兩菜',
+          modeName: '蒸／一鍋兩菜',
           lid: 'locked',
           durationText: '1 分鐘',
           releaseMode: 'natural_auto',
