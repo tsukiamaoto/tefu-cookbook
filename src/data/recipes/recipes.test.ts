@@ -27,8 +27,8 @@ describe('CY625870 recipe dataset integrity', () => {
       'spec-official-tw-22-waterless-roast-chicken',
       'tw-thirteen-spice-roast-chicken',
       'spec-taiwan-home-01-mung-bean-soup',
-      'spec-ytower-tefal-15-egg-and-shrimp-fried-rice',
-      'tw-minced-pork-sauce',
+      'spec-taiwan-home-02-red-bean-soup',
+      'spec-taiwan-home-03-mung-bean-jobs-tears-soup',
     ]);
   });
 
@@ -163,6 +163,11 @@ describe('CY625870 recipe dataset integrity', () => {
         .map((r) => r.id)
     ).toEqual(expect.arrayContaining([
       'spec-taiwan-home-01-mung-bean-soup',
+      'spec-taiwan-home-02-red-bean-soup',
+      'spec-taiwan-home-03-mung-bean-jobs-tears-soup',
+      'spec-taiwan-home-04-peanut-soup',
+      'spec-taiwan-home-05-tremella-lotus-seed-soup',
+      'spec-taiwan-home-06-brown-sugar-sweet-potato-ginger-soup',
       'tw-redbean-purple-rice',
     ]));
 
