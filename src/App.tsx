@@ -4,6 +4,7 @@ import { RecipeSheetView } from './components/RecipeSheetView/RecipeSheetView';
 import { DocumentSheet } from './components/RecipeSheetView/DocumentSheet';
 import { RECIPE_ALIASES } from './data/recipes/duplicates';
 import { ALL_RECIPES } from './data/recipes';
+import { useHomeScrollMemory } from './hooks/useHomeScrollMemory';
 import type { CuisineType, RecipeCategory } from './types/recipe';
 
 const STAR_STORAGE_KEY = 'tefu-cookbook.starred-recipes';
@@ -47,11 +48,15 @@ export function App() {
   const [cuisine, setCuisine] = useState<CuisineType | '全部'>('全部');
 
   useEffect(() => {
-    const onHashChange = () => {
+    const syncFromHash = () => {
       setSelectedId(readRecipeIdFromHash());
     };
-    window.addEventListener('hashchange', onHashChange);
-    return () => window.removeEventListener('hashchange', onHashChange);
+    window.addEventListener('hashchange', syncFromHash);
+    window.addEventListener('popstate', syncFromHash);
+    return () => {
+      window.removeEventListener('hashchange', syncFromHash);
+      window.removeEventListener('popstate', syncFromHash);
+    };
   }, []);
 
   const selectedRecipe = useMemo(
@@ -59,10 +64,13 @@ export function App() {
     [selectedId]
   );
 
+  const { captureHomeScroll } = useHomeScrollMemory(!selectedRecipe);
+
   const handleSelectRecipe = useCallback((recipeId: string) => {
+    captureHomeScroll();
     setSelectedId(recipeId);
     window.location.hash = `#recipe/${encodeURIComponent(recipeId)}`;
-  }, []);
+  }, [captureHomeScroll]);
 
   const handleBackHome = useCallback(() => {
     setSelectedId(null);
